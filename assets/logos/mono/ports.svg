@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480" height="320" version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="a" x1="81.598" x2="81.598" y2="84.667" gradientTransform="matrix(3.7795 0 0 3.7795 -.00025177 0)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#e6e6e6" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect x="-.00025177" y="9.1553e-8" width="480" height="320" ry="16" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" style="paint-order:stroke fill markers"/>
+ <rect x="64.699" y="134.7" width="34.515" height="34.515" fill="#ed5353" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" style="paint-order:stroke markers fill"/>
+ <g transform="matrix(3.7795 0 0 3.7795 .0006998 -2.5447e-7)" fill="#1a1a1a" stroke-width=".50882" aria-label="PORTS">
+  <path d="m20.76 43.351v-2.0353h-2.0353v-4.0705h2.0353v2.0353h2.0353v-2.0353h2.0353v4.0705h-2.0353v2.0353zm-10.176-10.176v18.317h6.1058v-4.0705h10.176v-2.0353h4.0705v-10.176h-2.0353v-2.0353z"/>
+  <path d="m35.006 33.175v2.0353h-2.0353v14.247h2.0353v2.0353h16.282v-16.282h-2.0353v-2.0353zm6.1058 12.212v-2.0353h-2.0353v-4.0705h2.0353v2.0353h2.0353v-2.0353h2.0353v4.0705h-2.0353v2.0353z"/>
+  <path d="m63.5 43.351v-2.0353h-2.0353v-4.0705h2.0353v2.0353h2.0353v-2.0353h2.0353v4.0705h-2.0353v2.0353zm-10.176-10.176v18.317h6.1058v-4.0705h2.0353v2.0353h4.0705v2.0353h8.141v-4.0705h-6.1058v-2.0353h6.1058v-10.176h-2.0353v-2.0353z"/>
+  <path d="m77.747 33.175v2.0353h-2.0353v6.1058h6.1058v10.176h8.141v-10.176h6.1058v-8.141z"/>
+  <path d="m100.13 33.175v2.0353h-2.0353v10.176h12.212v2.0353h-12.212v4.0705h16.282v-2.0353h2.0353v-6.1058h-12.212v-2.0353h12.212v-8.141z"/>
+ </g>
+ <style type="text/css">.st0{fill:#FC0C18;}
+	.st1{fill:#FC0C18;}</style>
+</svg>

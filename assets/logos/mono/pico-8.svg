@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480" height="320" version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="a" x1="81.598" x2="81.598" y2="84.667" gradientTransform="matrix(3.7795 0 0 3.7795 -.00025177 0)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#e6e6e6" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect x="-.00025177" y="9.1553e-8" width="480" height="320" ry="16" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" style="paint-order:stroke fill markers"/>
+ <path d="m201 126.67-14.246 14.24 0.28706 52.342h52.6v-13.145h-26.116v-40.252h26.394v-13.186zm186 0v14.281l-13.181 13.154v39.144l66.187-0.10062v-66.482zm-280.45 0.0414-52.721 3e-3 -13.82 13.776 0.0325 52.845h26.432l0.10654-26.734 40.123 0.0147zm161.13 3e-3 -13.991 13.965-0.19828 52.392h52.354l14.124-14.098v-52.259zm-147.39 0.0178-0.15091 12.607 13.574-0.0208 0.0208 40.887h-13.453v13.071h52.868v-13.308h-13.012v-40.259h13.05v-12.974zm-53.624 13.21h14.036v13.728h-14.036zm213.63 0.0117h13.287v39.855h-13.287zm119.93 0.0592h27.077v13.373h-27.077zm-66.569 13.166v13.328h26.548v-13.328zm66.618 13.367h27.077v13.373h-27.077z" fill="#1a1a1a" stroke-width="1.5151"/>
+ <style type="text/css">.st0{fill:#FC0C18;}
+	.st1{fill:#FC0C18;}</style>
+</svg>

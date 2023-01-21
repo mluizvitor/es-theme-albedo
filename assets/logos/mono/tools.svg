@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480" height="320" version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="a" x1="81.598" x2="81.598" y2="84.667" gradientTransform="matrix(3.7795 0 0 3.7795 -.00025177 0)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#e6e6e6" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect x="-.00025177" y="9.1553e-8" width="480" height="320" ry="16" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" style="paint-order:stroke fill markers"/>
+ <g transform="matrix(8.0001 0 0 8.0001 144 63.998)" fill="#1a1a1a">
+  <g fill="#1a1a1a">
+   <g fill="#1a1a1a">
+    <path d="m21.67 18.17-5.3-5.3h-0.99l-2.54 2.54v0.99l5.3 5.3c0.39 0.39 1.02 0.39 1.41 0l2.12-2.12c0.39-0.38 0.39-1.02 0-1.41zm-2.83 1.42-4.24-4.24 0.71-0.71 4.24 4.24z"/>
+    <path d="m17.34 10.19 1.41-1.41 2.12 2.12c1.17-1.17 1.17-3.07 0-4.24l-3.54-3.54-1.41 1.41v-2.82l-0.7-0.71-3.54 3.54 0.71 0.71h2.83l-1.41 1.41 1.06 1.06-2.89 2.89-4.13-4.13v-1.42l-3.02-3.02-2.83 2.83 3.03 3.03h1.41l4.13 4.13-0.85 0.85h-2.12l-5.3 5.3c-0.39 0.39-0.39 1.02 0 1.41l2.12 2.12c0.39 0.39 1.02 0.39 1.41 0l5.3-5.3v-2.12l5.15-5.15zm-7.98 5.15-4.24 4.24-0.71-0.71 4.24-4.24z"/>
+   </g>
+  </g>
+ </g>
+ <style type="text/css">.st0{fill:#FC0C18;}
+	.st1{fill:#FC0C18;}</style>
+</svg>
