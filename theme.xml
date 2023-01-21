@@ -7,14 +7,15 @@
   <formatVersion>7</formatVersion>
 
   <variables>
-    <fontRegular>./assets/fonts/Inter/Inter-Regular.otf</fontRegular>
-    <fontBold>./assets/fonts/Inter/Inter-Bold.otf</fontBold>
-    <fontLight>./assets/fonts/Inter/Inter-Light.otf</fontLight>
-    <fontHelper>./assets/fonts/RobotoCondensed/RobotoCondensed-Light.ttf</fontHelper>
+    <fontLight>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Regular.ttf</fontLight>
+    <fontRegular>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Medium.ttf</fontRegular>
+    <fontBold>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Bold.ttf</fontBold>
+
+    <fontMonoRegular>./assets/fonts/FiraCode/FiraCode-Regular.ttf</fontMonoRegular>
+    <fontMonoBold>./assets/fonts/FiraCode/FiraCode-Bold.ttf</fontMonoBold>
 
     <subset.themesettings>Main Color</subset.themesettings>
-    <subset.variantSet>Variant</subset.variantSet>
-    <subset.ratiosettings>Device / Screen</subset.ratiosettings>
+    <subset.variantSet>Monocolor Everywhere</subset.variantSet>
   </variables>
 
   <subset name="Flavor" displayName="${subset.themesettings}">
@@ -30,22 +31,14 @@
     <include name="slate" displayName="slate">./settings/colors/slate.xml</include>
   </subset>
 
-  <subset name="Topping" displayName="${subset.variantSet}">
-    <include name="dark" displayName="Dark">./settings/colors/commom-dark.xml</include>
-    <include name="light" displayName="Light">./settings/colors/commom-light.xml</include>
-    <include name="hybrid" displayName="Hybrid">./settings/colors/commom-hybrid.xml</include>
+  <subset name="SystemLogoMono" displayName="${subset.variantSet}">
+    <include name="monoNo" displayName="No"/>
+    <include name="monoYes" displayName="Yes"/>
   </subset>
 
-  <subset name="Ratio" displayName="${subset.ratiosettings}">
-    <include name="ratio32" displayName="RG351P/M | 480x320">./settings/display/ratio32.xml</include>
-    <include name="ratio43" displayName="RG351V/MP | 640x480">./settings/display/ratio43.xml</include>
-    <include name="ratio53" displayName="RG552 | 1920x1152">./settings/display/ratio53.xml</include>
-  </subset>
+  <include>./settings/colors/commom-dark.xml</include>
 
-  <subset name="custom_background" displayName="Enable Custom Background?">
-    <include name="no" displayName="No"/>
-    <include name="yes" displayName="Yes">./settings/display/customBg.xml</include>
-  </subset>
+  <include>./settings/display/ratio32.xml</include>
 
   <include>./settings/display/commom.xml</include>
   <include>./settings/display/grid.xml</include>
