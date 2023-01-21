@@ -4,12 +4,12 @@
 <svg
    width="480"
    height="320"
-   viewBox="0 0 127 84.666667"
+   viewBox="0 0 480 320"
    version="1.1"
    id="svg1543"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="zzz-generic.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -18,8 +18,8 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview1545"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
+     pagecolor="#ffffff"
+     bordercolor="#808080"
      borderopacity="1"
      inkscape:pageshadow="0"
      inkscape:pageopacity="0"
@@ -31,15 +31,19 @@
      inkscape:snap-page="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="1.4039016"
-     inkscape:cx="116.46115"
-     inkscape:cy="146.73393"
+     inkscape:zoom="1.6617009"
+     inkscape:cx="255.46113"
+     inkscape:cy="164.28949"
      inkscape:window-width="1920"
-     inkscape:window-height="1019"
+     inkscape:window-height="955"
      inkscape:window-x="0"
-     inkscape:window-y="30"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="true"
+     inkscape:deskcolor="#ffffff"
+     shape-rendering="auto"
+     borderlayer="true">
     <sodipodi:guide
        position="10.583333,71.4375"
        orientation="-1,0"
@@ -91,7 +95,8 @@
        y1="71.4375"
        x2="10.583333"
        y2="13.229167"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(3.7795276)" />
     <clipPath
        id="clip1">
       <path
@@ -126,11 +131,11 @@
        orient="auto">
       <!-- REF_ARROW_STRAIGHT (-2) -->
       <g
-         transform="scale(0.0092592592)"
+         transform="scale(0.00925926)"
          id="g8989">
         <!-- 1/108 -->
         <path
-           d="M -9 54 L -9 -54 L 117 0 z"
+           d="M -9,54 V -54 L 117,0 Z"
            id="path8987" />
       </g>
     </marker>
@@ -144,10 +149,10 @@
        orient="auto">
       <!-- REF_ARROW_ANGLED -->
       <g
-         transform="scale(0.0092592592)"
+         transform="scale(0.00925926)"
          id="g8994">
         <path
-           d="M -27 54 L -9 0 L -27 -54 L 135 0 z"
+           d="M -27,54 -9,0 -27,-54 135,0 Z"
            id="path8992" />
       </g>
     </marker>
@@ -161,10 +166,10 @@
        orient="auto">
       <!-- REF_ARROW_ROUNDED -->
       <g
-         transform="scale(0.0092592592)"
+         transform="scale(0.00925926)"
          id="g8999">
         <path
-           d="M -9,0 L -9,-45 C -9,-51.708 2.808,-56.580 9,-54 L 117,-9 C 120.916,-7.369 126.000,-4.242 126,0 C 126,4.242 120.916,7.369 117,9 L 9,54 C 2.808,56.580 -9,51.708 -9,45 z"
+           d="m -9,0 v -45 c 0,-6.708 11.808,-11.58 18,-9 l 108,45 c 3.916,1.631 9,4.758 9,9 0,4.242 -5.084,7.369 -9,9 L 9,54 C 2.808,56.58 -9,51.708 -9,45 Z"
            id="path8997" />
       </g>
     </marker>
@@ -178,10 +183,10 @@
        orient="auto">
       <!-- REF_ARROW_SPOT -->
       <g
-         transform="scale(0.0092592592)"
+         transform="scale(0.00925926)"
          id="g9004">
         <path
-           d="M -54, 0 C -54,29.807 -29.807,54 0,54 C 29.807,54 54,29.807 54,0 C 54,-29.807 29.807,-54 0,-54 C -29.807,-54 -54,-29.807 -54,0 z"
+           d="M -54,0 C -54,29.807 -29.807,54 0,54 29.807,54 54,29.807 54,0 54,-29.807 29.807,-54 0,-54 -29.807,-54 -54,-29.807 -54,0 Z"
            id="path9002" />
       </g>
     </marker>
@@ -195,10 +200,10 @@
        orient="auto">
       <!-- REF_ARROW_DIAMOND -->
       <g
-         transform="scale(0.0092592592)"
+         transform="scale(0.00925926)"
          id="g9009">
         <path
-           d="M -63,0 L 0,63 L 63,0 L 0,-63 z"
+           d="M -63,0 0,63 63,0 0,-63 Z"
            id="path9007" />
       </g>
     </marker>
@@ -212,10 +217,10 @@
        orient="auto">
       <!-- REF_ARROW_FEATHER -->
       <g
-         transform="scale(0.0092592592)"
+         transform="scale(0.00925926)"
          id="g9014">
         <path
-           d="M 18,-54 L 108,-54 L 63,0 L 108,54 L 18, 54 L -36,0 z"
+           d="m 18,-54 h 90 L 63,0 108,54 H 18 L -36,0 Z"
            id="path9012" />
       </g>
     </marker>
@@ -229,10 +234,10 @@
        orient="auto">
       <!-- REF_ARROW_FEATHER2 -->
       <g
-         transform="scale(0.0092592592)"
+         transform="scale(0.00925926)"
          id="g9019">
         <path
-           d="M -36,0 L 18,-54 L 54,-54 L 18,-18 L 27,-18 L 63,-54 L 99,-54 L 63,-18 L 72,-18 L 108,-54 L 144,-54 L 90,0 L 144,54 L 108,54 L 72,18 L 63,18 L 99,54 L 63,54 L 27,18 L 18,18 L 54,54 L 18,54 z"
+           d="m -36,0 54,-54 h 36 l -36,36 h 9 l 36,-36 h 36 l -36,36 h 9 l 36,-36 h 36 L 90,0 144,54 H 108 L 72,18 H 63 L 99,54 H 63 L 27,18 H 18 L 54,54 H 18 Z"
            id="path9017" />
       </g>
     </marker>
@@ -246,10 +251,10 @@
        orient="auto">
       <!-- REF_ARROW_HOLLOWDIAMOND -->
       <g
-         transform="scale(0.0092592592)"
+         transform="scale(0.00925926)"
          id="g9024">
         <path
-           d="M 0,45 L -45,0 L 0, -45 L 45, 0 z M 0, 63 L-63, 0 L 0, -63 L 63, 0 z"
+           d="M 0,45 -45,0 0,-45 45,0 Z M 0,63 -63,0 0,-63 63,0 Z"
            id="path9022" />
       </g>
     </marker>
@@ -353,17 +358,17 @@
     </filter>
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 526.18109 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="744.09448 : 526.18109 : 1"
-       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_x="0 : 1988.7159 : 1"
+       inkscape:vp_y="0 : 3779.5275 : 0"
+       inkscape:vp_z="2812.3256 : 1988.7159 : 1"
+       inkscape:persp3d-origin="1406.1628 : 1325.8106 : 1"
        id="perspective10" />
     <inkscape:perspective
        id="perspective2824"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:persp3d-origin="1.8897638 : 1.2598425 : 1"
+       inkscape:vp_z="3.7795276 : 1.8897638 : 1"
+       inkscape:vp_y="0 : 3779.5275 : 0"
+       inkscape:vp_x="0 : 1.8897638 : 1"
        sodipodi:type="inkscape:persp3d" />
   </defs>
   <g
@@ -371,13 +376,13 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="opacity:1;fill:url(#linearGradient2858);fill-opacity:1;stroke-width:0.529167;stroke-linecap:square;stroke-linejoin:round;paint-order:stroke fill markers"
+       style="opacity:1;fill:url(#linearGradient2858);fill-opacity:1;stroke-width:1.99999;stroke-linecap:square;stroke-linejoin:round;paint-order:stroke fill markers"
        id="rect1569"
-       width="127"
-       height="84.666664"
+       width="480"
+       height="320"
        x="0"
        y="0"
-       ry="4.2333331"
+       ry="16"
        inkscape:export-filename="/home/vitor/Dev/es-theme-material-tv-3-2/assets/logo/fbn.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />

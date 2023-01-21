@@ -1,12 +1,13 @@
-<svg width="480" height="320" version="1.1" viewBox="0 0 127 84.667" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480" height="320" version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <linearGradient id="a" x1="81.805" x2="56.404" y1="-9.2879" y2="92.614" gradientUnits="userSpaceOnUse">
+  <linearGradient id="a" x1="81.805" x2="56.404" y1="-9.2879" y2="92.614" gradientTransform="scale(3.7795)" gradientUnits="userSpaceOnUse">
    <stop stop-color="#28bca3" offset="0"/>
    <stop stop-color="#007367" offset="1"/>
   </linearGradient>
  </defs>
- <rect width="127" height="84.667" ry="4.2333" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width=".52917" style="paint-order:stroke fill markers"/>
- <g transform="matrix(2.1167 0 0 2.1167 38.1 16.933)">
+ <rect width="480" height="320" ry="16" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" style="paint-order:stroke fill markers"/>
+ <g transform="matrix(8.0001 0 0 8.0001 144 63.998)">
   <path d="m0 0h24v24h-24z" fill="none"/>
   <path d="m13 3c-4.97 0-9 4.03-9 9h-3l3.89 3.89 0.07 0.14 4.04-4.03h-3c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-0.79-4.94-2.06l-1.42 1.42c1.63 1.63 3.87 2.64 6.36 2.64 4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.25 2.52 0.77-1.28-3.52-2.09v-4.15z" fill="#fff"/>
  </g>

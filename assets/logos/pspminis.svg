@@ -1,13 +1,14 @@
-<svg width="480" height="320" version="1.1" viewBox="0 0 127 84.667" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480" height="320" version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <linearGradient id="a" x1="-13.026" x2="88.843" y1="-31.105" y2="105.24" gradientUnits="userSpaceOnUse">
+  <linearGradient id="a" x1="-13.026" x2="88.843" y1="-31.105" y2="105.24" gradientTransform="scale(3.7795)" gradientUnits="userSpaceOnUse">
    <stop stop-color="#c6262e" offset="0"/>
    <stop stop-color="#7239b3" offset=".65095"/>
    <stop stop-color="#452981" offset="1"/>
   </linearGradient>
  </defs>
- <rect width="127" height="84.667" ry="4.2333" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width=".52917" style="paint-order:stroke fill markers"/>
- <g transform="translate(0 -8.5109)" fill="#fff">
+ <rect width="480" height="320" ry="16" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" style="paint-order:stroke fill markers"/>
+ <g transform="matrix(3.7795 0 0 3.7795 0 -32.167)" fill="#fff">
   <g transform="matrix(.14951 0 0 .14951 10.931 -38.254)">
    <path class="ps02" d="m-2.3223 490.73h220.54v65.4h-211.83v56.685h-8.7152v-65.4h211.83v-47.97h-211.83v-8.7151"/>
    <path class="ps02" d="m493.71 556.13v56.685h-8.7151v-65.4h211.83v-47.97h-211.83v-8.7151h220.54v65.4h-211.83"/>
