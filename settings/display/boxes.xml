@@ -17,14 +17,11 @@
     <imagegrid name="gamegrid">
       <scrollDirection>horizontal</scrollDirection>
       <autoLayout>2 2</autoLayout>
-      <autoLayout ifSubset="Ratio:ratio53">3 2</autoLayout>
       <scrollLoop>false</scrollLoop>
 
       <imageSource>image</imageSource>
 
-      <margin ifSubset="Ratio:ratio32">0.0333333 0.05</margin>      <!-- 480x320 / 16x 16y -->
-      <margin ifSubset="Ratio:ratio43">0.025 0.033333</margin>      <!-- 640x480 / 16x 16y -->
-      <margin ifSubset="Ratio:ratio43">0.025 0.041667</margin>      <!-- 1920x1152 / 48x 48y -->
+      <margin>0.0333333 0.05</margin>      <!-- 480x320 / 16x 16y -->
     </imagegrid>
 
     <gridtile name="default, selected">
@@ -42,13 +39,13 @@
       <imageColor>${sectionLightColor}</imageColor>
     </gridtile>
 
-    <image name="gridtile.image">
+    <!-- <image name="gridtile.image">
       <roundCorners>0.04</roundCorners>
-    </image>
+    </image> -->
 
-    <image name="gridtile.image:selected">
+    <!-- <image name="gridtile.image:selected">
       <roundCorners>0.03</roundCorners>
-    </image>
+    </image> -->
 
     <image name="gridtile.marquee">
       <color>FFFFFFFF</color>

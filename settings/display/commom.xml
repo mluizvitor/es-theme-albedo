@@ -17,9 +17,9 @@
   <view name="basic, detailed, grid">
     <text name="system_name" extra="true">
       <text>${system.fullName}</text>
-      <fontPath>${fontBold}</fontPath>
+      <fontPath>${fontMonoBold}</fontPath>
       <fontSize>${header2F}</fontSize>
-      <forceUppercase>0</forceUppercase>
+      <forceUppercase>1</forceUppercase>
       <alignment>left</alignment>
       <zIndex>40</zIndex>
     </text>
@@ -51,7 +51,7 @@
 
     <image name="cover_list" extra="true">
       <path>./assets/systems/${system.theme}.webp</path>
-      <opacity>0.3</opacity>
+      <opacity>0.4</opacity>
       <size>1 0</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
@@ -79,20 +79,24 @@
   <view name="system">
     <!-- Cards position -->
     <carousel name="systemcarousel">
-      <origin>0.5 0</origin>
-      <pos>0.5 0</pos>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
       <defaultTransition>fade</defaultTransition>
       <systemInfoDelay>300</systemInfoDelay>
+      <type>vertical</type>
     </carousel>
 
     <!-- System Name -->
     <text name="systemName" extra="true">
       <text>${system.fullName}</text>
       <origin>0 0</origin>
-      <fontPath>${fontBold}</fontPath>
-      <fontSize>${header1F}</fontSize>
+      <fontPath>${fontMonoBold}</fontPath>
+      <fontSize>${header2F}</fontSize>
       <lineSpacing>1</lineSpacing>
       <alignment>left</alignment>
+      <forceUppercase>1</forceUppercase>
+      <rotation>90</rotation>
+      <rotationOrigin>0 0.5</rotationOrigin>
       <zIndex>50</zIndex>
     </text>
 
@@ -102,15 +106,18 @@
       <origin>0 0</origin>
       <fontSize>${bodyF}</fontSize>
       <alignment>left</alignment>
-      <forceUppercase>0</forceUppercase>
-      <fontPath>${fontRegular}</fontPath>
+      <forceUppercase>1</forceUppercase>
+      <fontPath>${fontMonoRegular}</fontPath>
       <lineSpacing>1</lineSpacing>
+      <rotation>90</rotation>
+      <rotationOrigin>0 0.5</rotationOrigin>
       <zIndex>50</zIndex>
     </text>
 
     <!-- System Logo -->
     <image name="logo">
       <path>./assets/logos/${system.theme}.svg</path>
+      <path ifSubset="SystemLogoMono:monoYes">./assets/logos/mono/${system.theme}.svg</path>
     </image>
 
     <!-- Logo Fallback -->
@@ -142,7 +149,7 @@
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
-      <zIndex>100</zIndex>
+      <zIndex>27</zIndex>
     </image>
   </view>
 
@@ -173,7 +180,7 @@
     </menuText>
 
     <menuTextSmall name="menutextsmall">
-      <fontPath>${fontLight}</fontPath>
+      <fontPath>${fontRegular}</fontPath>
       <fontSize>${tinyF}</fontSize>
     </menuTextSmall>
 
@@ -201,8 +208,8 @@
     </menuIcons>
 
     <menuText name="menutitle">
-      <fontPath>${fontBold}</fontPath>
-      <fontSize>${header2F}</fontSize>
+      <fontPath>${fontMonoBold}</fontPath>
+      <fontSize>${header1F}</fontSize>
     </menuText>
 
     <menuBackground name="menubg">

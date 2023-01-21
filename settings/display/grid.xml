@@ -17,29 +17,16 @@
     <imagegrid name="gamegrid">
       <scrollDirection>horizontal</scrollDirection>
       <autoLayout>3 2</autoLayout>
-      <autoLayout ifSubset="Ratio:ratio53">4 2</autoLayout>
       <scrollLoop>false</scrollLoop>
 
       <imageSource ifSubset="GridImage:gridscreenshot">image</imageSource>
       <imageSource ifSubset="GridImage:gridthumbnail">thumbnail</imageSource>
 
       <!-- Tamanhos para ratio32 -->
-      <pos ifSubset="Ratio:ratio32">0 0.225</pos>      <!-- 480x320 / 0x 72y-->
-      <size ifSubset="Ratio:ratio32">1 0.7</size>      <!--480x320 / 480h 224v-->
-      <margin ifSubset="Ratio:ratio32">0.033333 0.025</margin>      <!-- 480x320 / 16x 8y -->
-      <padding ifSubset="Ratio:ratio32">0.05 0</padding>      <!-- 480x320 / 24x 0y -->
-
-      <!-- Tamanhos para ratio43 -->
-      <pos ifSubset="Ratio:ratio43">0 0.2</pos>      <!-- 640x480 / 0x 96y -->
-      <size ifSubset="Ratio:ratio43">1 0.716666</size>      <!-- 640x4800 / 640x 344y-->
-      <margin ifSubset="Ratio:ratio43">0.025 0.033333</margin>      <!-- 640x480 / 16x 16y-->
-      <padding ifSubset="Ratio:ratio43">0.0375 0</padding>      <!--640x480 / 24x0-->
-
-      <!-- Tamanhos para ratio53 -->
-      <pos ifSubset="Ratio:ratio53">0 0.180556</pos>
-      <size ifSubset="Ratio:ratio53">1 0.750000</size>
-      <margin ifSubset="Ratio:ratio53">0.018750 0.020833</margin>
-      <padding ifSubset="Ratio:ratio53">0.037500 0</padding>
+      <pos>0 0.225</pos>      <!-- 480x320 / 0x 72y-->
+      <size>1 0.7</size>      <!--480x320 / 480h 224v-->
+      <margin>0.033333 0.025</margin>      <!-- 480x320 / 16x 8y -->
+      <padding>0.05 0</padding>      <!-- 480x320 / 24x 0y -->
     </imagegrid>
 
     <gridtile name="default, selected">
@@ -55,28 +42,24 @@
     </gridtile>
 
     <gridtile name="selected">
-      <padding ifSubset="Ratio:ratio32">4 4</padding>
-      <padding ifSubset="Ratio:ratio43">6 6</padding>
-      <padding ifSubset="Ratio:ratio53">12 12</padding>
+      <padding>4 4</padding>
 
-      <backgroundCornerSize>0.05</backgroundCornerSize>
+      <backgroundCornerSize>0</backgroundCornerSize>
       <backgroundColor>${mainColor}</backgroundColor>
       <imageColor>FFFFFFFF</imageColor>
     </gridtile>
 
     <image name="gridtile.image">
-      <roundCorners>0.06</roundCorners>
+      <roundCorners>0</roundCorners>
     </image>
 
     <image name="gridtile.image:selected">
-      <roundCorners>0.05</roundCorners>
+      <roundCorners>0</roundCorners>
     </image>
 
     <ninepatch name="gridtile.background">
-      <path ifSubset="Ratio:ratio32">./assets/ratio32/menu.png</path>
-      <path ifSubset="Ratio:ratio43">./assets/ratio43/menu.png</path>
-      <path ifSubset="Ratio:ratio53">./assets/ratio53/menu.png</path>
-      <cornerSize>24 24</cornerSize>
+      <path>./assets/ratio32/menu.png</path>
+      <cornerSize>16 16</cornerSize>
     </ninepatch>
 
     <text name="gridtile">
@@ -87,16 +70,8 @@
       <lineSpacing>1.1</lineSpacing>
 
       <!-- Tamanhos para ratio32 -->
-      <size ifSubset="Ratio:ratio32">0.92 0.225</size>
-      <padding ifSubset="Ratio:ratio32">0.04 0</padding>
-
-      <!-- Tamanhos para ratio43 -->
-      <size ifSubset="Ratio:ratio43">0.9 0.225</size>
-      <padding ifSubset="Ratio:ratio43">0.05 0</padding>
-
-      <!-- Tamanhos para ratio53 -->
-      <size ifSubset="Ratio:ratio53">0.9 0.18</size>
-      <padding ifSubset="Ratio:ratio53">0.05 0</padding>
+      <size>0.92 0.225</size>
+      <padding>0.04 0</padding>
     </text>
 
     <rating name="md_rating">

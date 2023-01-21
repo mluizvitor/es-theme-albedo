@@ -7,10 +7,10 @@
   <formatVersion>7</formatVersion>
 
   <variables>
-    <header1F>0.0625</header1F>
-    <header2F>0.056250</header2F>
-    <bodyF>0.037500</bodyF>
-    <tinyF>0.031250</tinyF>
+    <header1F>0.05</header1F>
+    <header2F>0.04375</header2F>
+    <bodyF>0.0375</bodyF>
+    <tinyF>0.03125</tinyF>
   </variables>
 
   <view name="system, basic, detailed, grid">
@@ -94,23 +94,23 @@
   <view name="system">
     <!-- Cards position -->
     <carousel name="systemcarousel">
-      <size>1.75 1</size>
-      <logoSize>1 0.275</logoSize>
+      <size>0.33333333 1.3</size>
+      <logoSize>0.2 1</logoSize>
       <logoScale>1.4</logoScale>
-      <maxLogoCount>6</maxLogoCount>
-      <logoPos>0.125 0.545</logoPos>
+      <maxLogoCount>5</maxLogoCount>
+      <logoPos>-0.25 0</logoPos>
     </carousel>
 
     <!-- System Name -->
     <text name="systemName" extra="true">
-      <pos>0.08333 0.275</pos> <!-- 480x320 / 40x 88y -->
-      <size>0.86666 ${header1F}</size> <!-- 480x320 / 416x -->
+      <pos>0.35 0.05</pos> <!-- 480x320 / 40x 88y -->
+      <size>0.58333333 ${header2F}</size> <!-- 480x320 / 280x -->
     </text>
 
     <!-- Total games per system -->
     <text name="systemInfo">
-      <pos>0.08333 0.375</pos>
-      <size>0.86666 ${bodyF}</size> <!-- 480x320 / 416x -->
+      <pos>0.38750000 0.05</pos>
+      <size>0.58333333 ${bodyF}</size> <!-- 480x320 / 416x -->
     </text>
 
     <image name="osdBackground" extra="true">

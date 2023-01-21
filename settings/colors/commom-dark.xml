@@ -21,11 +21,11 @@
     </text>
 
     <image name="background">
-      <color>${backgroundDarkColor}</color>
+      <color>ffff00</color>
     </image>
 
     <image name="cover_list_fallback" extra="true">
-      <color>${backgroundDarkColor}</color>
+      <color>121212</color>
     </image>
 
     <textlist name="gamelist">
@@ -67,7 +67,7 @@
     </menuGroup>
 
     <menuBackground name="menubg">
-      <color>${backgroundDarkColor}</color>
+      <color>1a1a1a</color>
     </menuBackground>
 
     <menuText name="menufooter">
@@ -112,8 +112,7 @@
   <!-- Carousel Config -->
   <view name="system">
     <carousel name="systemcarousel">
-      <color ifSubset="custom_background:no">${backgroundDarkColor}1a</color>
-      <color ifSubset="custom_background:yes">${backgroundDarkColor}4d</color>
+      <color>00000000</color>
     </carousel>
 
     <!-- System Name -->
@@ -126,6 +125,11 @@
       <color>${backgroundLightColor}cc</color>
     </text>
 
+    <!-- System Logo -->
+    <image name="logo" ifSubset="SystemLogoMono:monoYes">
+      <color>${sectionDarkColor}</color>
+    </image>
+
     <!-- Logo Fallback -->
     <text name="logoText" extra="true">
       <color>${sectionDarkColor}</color>
@@ -133,27 +137,23 @@
 
     <!-- System Background -->
     <image name="cover_fallback" extra="true">
-      <color>${backgroundDarkColor}</color>
-    </image>
-
-    <image name="custom_bg_fg" extra="true">
-      <color>${backgroundDarkColor}</color>
+      <color>121212</color>
     </image>
 
     <!-- System Background -->
-    <image name="osdBackground" extra="true">
-      <color>${backgroundDarkColor}</color>
+    <image name="cover" extra="true" ifSubset="SystemLogoMono:monoYes">
+      <color>${sectionDarkColor}</color>
     </image>
   </view>
 
   <!-- Clock Settings -->
   <view name="screen">
     <text name="clock">
-      <color>${backgroundLightColor}</color>
+      <color>ffffff</color>
     </text>
 
     <batteryIndicator name="batteryIndicator">
-      <color>${backgroundLightColor}</color>
+      <color>ffffff</color>
     </batteryIndicator>
 
     <controllerActivity name="controllerActivity">
