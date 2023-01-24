@@ -1,0 +1,86 @@
+<!--
+  Theme: Albedo
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <!--Configurações da view "detailed"-->
+  <view name="detailed">
+    <image name="detailed_background" extra="true">
+      <path>./assets/ratio32/gamelist-detailed-bg.png</path>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+      <zIndex>-4</zIndex>
+    </image>
+    
+    <image name="detailed_background" extra="true" ifSubset="ThemeScreenRatio:ratio43">
+      <path>./assets/ratio43/gamelist-detailed-bg.png</path>
+    </image>
+    
+    <image name="detailed_background" extra="true" ifSubset="ThemeScreenRatio:ratio53">
+      <path>./assets/ratio53/gamelist-detailed-bg.png</path>
+    </image>
+
+    <textlist name="gamelist">
+      <pos>0 0.15</pos>      <!-- 480x320 / 0x 48y -->
+      <size>0.433333333 0.85</size>      <!-- 480x320 / 208x 272y-->
+      <size ifHelpPrompts="true">0.433333333 0.775</size>      <!-- 480x320 / 208x 248y-->
+      <horizontalMargin>0.033333333</horizontalMargin>      <!-- 24px -->
+    </textlist>
+
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre md_players, md_lastplayed, md_playcount, md_name">
+      <color></color>
+    </text>
+
+    <datetime name="md_lastplayed, md_releasedate">
+      <color></color>
+    </datetime>
+
+    <image name="md_image">
+      <origin>0.5 0</origin>
+      <pos>0.708333333 0.2</pos>      <!-- 480x320 / 340x 64y -->
+      <maxSize>0.5 0.45</maxSize>      <!-- 480x320 / 240x 144y -->
+      <zIndex>32</zIndex>
+      <roundCorners>0.02</roundCorners>
+      <path>./assets/icons/cartridge-dark.png</path>
+    </image>
+
+    <image name="md_marquee">
+      <pos>0.716666667 0.2125</pos>      <!-- 480x320 / 344x 68y -->
+      <origin>0.5 0.5</origin>      <!-- 480x320 / center center / -->
+      <maxSize>0.433333333 0.175</maxSize>      <!-- 480x320 / 208x 56y -->
+      <zIndex>33</zIndex>
+    </image>
+
+    <text name="md_description">
+      <pos>0.466666667 0.75</pos>      <!-- 480x320 / 224x 240y-->
+      <size>0.433333333 0.2</size>      <!-- 480x320 / 240x 64y-->
+      <size ifHelpPrompts="true">0.433333333 0.175</size>      <!-- 480x320 / 240x 56y-->
+      <color>ffffff</color>
+      <fontPath>${typefaceRegular}</fontPath>
+      <fontSize>${fontSizeSmall}</fontSize>
+      <lineSpacing>0.9</lineSpacing>
+    </text>
+
+    <rating name="md_rating">
+      <origin>0.5 0.5</origin>
+      <pos>0.95 0.93</pos>
+      <rotation>-90</rotation>
+
+      <size ifHelpPrompts="true">0.0375</size>      <!-- 480x320 / 12 -->
+      <pos ifHelpPrompts="true">0.96 0.88</pos>
+    </rating>
+
+    <rating name="md_rating" ifSubset="ThemeScreenRatio:ratio43">
+      <pos ifHelpPrompts="true">0.96 0.885</pos>
+    </rating>
+    
+    <!-- TODO 5:3 -->
+    <rating name="md_rating" ifSubset="ThemeScreenRatio:ratio53">
+      <pos ifHelpPrompts="true">0.96 0.885</pos>
+    </rating>
+  </view>
+</theme>

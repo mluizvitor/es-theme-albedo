@@ -1,5 +1,5 @@
 <!--
-  Theme: Elementerial
+  Theme: Albedo
   Author: mluizvitor
 -->
 
@@ -7,41 +7,57 @@
   <formatVersion>7</formatVersion>
 
   <variables>
-    <fontLight>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Regular.ttf</fontLight>
-    <fontRegular>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Medium.ttf</fontRegular>
-    <fontBold>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Bold.ttf</fontBold>
+    <typefaceLight>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Regular.ttf</typefaceLight>
+    <typefaceRegular>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Medium.ttf</typefaceRegular>
+    <typefaceBold>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Bold.ttf</typefaceBold>
 
-    <fontMonoRegular>./assets/fonts/FiraCode/FiraCode-Regular.ttf</fontMonoRegular>
-    <fontMonoBold>./assets/fonts/FiraCode/FiraCode-Bold.ttf</fontMonoBold>
+    <typefaceTitleRegular>./assets/fonts/Teko/Teko-Medium.ttf</typefaceTitleRegular>
+    <typefaceTitleBold>./assets/fonts/Teko/Teko-SemiBold.ttf</typefaceTitleBold>
 
-    <subset.themesettings>Main Color</subset.themesettings>
-    <subset.variantSet>Monocolor Everywhere</subset.variantSet>
+    <fontSizeH1>0.05</fontSizeH1>
+    <fontSizeH2>0.04375</fontSizeH2>
+    <fontSizeBody>0.0375</fontSizeBody>
+    <fontSizeSmall>0.03125</fontSizeSmall>
+
+    <subset.settingsColorSchemeTitle>Main Color</subset.settingsColorSchemeTitle>
+    <subset.settingsColorSchemeTitle lang="pt">Cor Principal</subset.settingsColorSchemeTitle>
+    
+    <subset.settingsMonochromaticTitle>Monocolor Everywhere</subset.settingsMonochromaticTitle>
+    <subset.settingsMonochromaticTitle lang="pt">Monocor em todo lugar</subset.settingsMonochromaticTitle>
+    
+    <subset.settingsScreenRatio>Adapt to Aspect Ratio</subset.settingsScreenRatio>
+    <subset.settingsScreenRatio lang="pt">Adaptar à Proporção</subset.settingsScreenRatio>
   </variables>
 
-  <subset name="Flavor" displayName="${subset.themesettings}">
-    <include name="strawberry" displayName="strawberry">./settings/colors/strawberry.xml</include>
+  <subset name="colorScheme" displayName="${subset.settingsColorSchemeTitle}">
+    <include name="blue" displayName="blue">./settings/colors/blue.xml</include>
+    <include name="purple" displayName="purple">./settings/colors/purple.xml</include>
+    <include name="pink" displayName="pink">./settings/colors/pink.xml</include>
+    <include name="red" displayName="red">./settings/colors/red.xml</include>
     <include name="orange" displayName="orange">./settings/colors/orange.xml</include>
-    <include name="banana" displayName="banana">./settings/colors/banana.xml</include>
-    <include name="lime" displayName="lime">./settings/colors/lime.xml</include>
-    <include name="mint" displayName="mint">./settings/colors/mint.xml</include>
-    <include name="blueberry" displayName="blueberry">./settings/colors/blueberry.xml</include>
-    <include name="grape" displayName="grape">./settings/colors/grape.xml</include>
-    <include name="bubblegun" displayName="bubblegun">./settings/colors/bubblegun.xml</include>
-    <include name="cocoa" displayName="cocoa">./settings/colors/cocoa.xml</include>
-    <include name="slate" displayName="slate">./settings/colors/slate.xml</include>
+    <include name="yellow" displayName="yellow">./settings/colors/yellow.xml</include>
+    <include name="green" displayName="green">./settings/colors/green.xml</include>
+    <include name="teal" displayName="teal">./settings/colors/teal.xml</include>
+    <include name="gray" displayName="gray">./settings/colors/gray.xml</include>
+    <include name="brown" displayName="brown">./settings/colors/brown.xml</include>
   </subset>
 
-  <subset name="SystemLogoMono" displayName="${subset.variantSet}">
+  <subset name="ThemeScreenRatio" displayName="${subset.settingsScreenRatio}">
+    <include name="ratio32" displayName="3:2 · RG351P/M"/>
+    <include name="ratio43" displayName="4:3 · RG351V/MP"/>
+    <include name="ratio53" displayName="5:3 · RG552"/>
+  </subset>
+
+  <subset name="SystemMonoEverywhere" displayName="${subset.settingsMonochromaticTitle}">
     <include name="monoNo" displayName="No"/>
     <include name="monoYes" displayName="Yes"/>
   </subset>
 
-  <include>./settings/colors/commom-dark.xml</include>
-
-  <include>./settings/display/ratio32.xml</include>
-
-  <include>./settings/display/commom.xml</include>
-  <include>./settings/display/grid.xml</include>
-  <include>./settings/display/boxes.xml</include>
+  <include>./settings/display/view-general.xml</include>
+  <include>./settings/display/view-system.xml</include>
+  <include>./settings/display/view-menu.xml</include>
+  <include>./settings/display/view-basic.xml</include>
+  <include>./settings/display/view-detailed.xml</include>
+  <include>./settings/display/view-grid.xml</include>
 
 </theme>

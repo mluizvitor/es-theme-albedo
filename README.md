@@ -1,59 +1,33 @@
 # About
 
-![Version](https://img.shields.io/badge/Version_1.221116-de3e80?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version_1.230123-de3e80?style=for-the-badge)
 
-**For instructions regard Custom Backgrounds, please read [CUSTOMBG.md](/CUSTOMBG.md)**
-
-Elementerial is a theme built totally from scratch for EmulationStation.
-It's based on Android TV's interface using some principles from Material Design with the adition of ElementaryOS color palette.
+Albedo is a theme built totally from scratch for EmulationStation.
+It's based on Android TV's interface using some principles from Material Design with the addition of ElementaryOS color palette.
 
 This theme has 10 main colors:
 
-* Strawberry (Red)
-* Orange
-* Banana (Yellow)
-* Lime (Green)
-* Mint (Turquoise)
-* Blueberry (Blue)
-* Grape (Purple)
-* Bubblegun (Pink)
-* Cocoa (Brown)
-* Slate (Gray)
-
-And three variations:
-* Dark
-* Light
-* Hybrid
+Blue, Purple, Pink, Red, Orange, Yellow, Green, Teal, Brown, Gray
 
 <br>
 
 # Compatibility
 
-Elementerial was made for the following resolutions:
+Albedo was made for the following resolutions:
 
 - **480x320** (3:2 screen ratio), tested on Anbernic RG351M running AmberElec
 - **640x480** (4:3 screen ratio), tested on VirtualBox running Batocera
 - **1920x1152** (5:3 screen ratio), tested on VirtualBox running Batocera
 
-\* It's possible to use Elementerial in other resolutions and systems based on EmulationStation, however full compatibility is not guaranteed.
+\* It's possible to use Albedo in other resolutions and systems based on EmulationStation, however full compatibility is not guaranteed.
 
 <br>
 
 # Screenshots
 ## Main Screen
-![](./.github/CarouselDark.png) | ![](./.github/CarouselLight.png)
+![](./.github/0001.png) | ![](./.github/0002.png)
 :------------------------------:|:-------------------------------:
-Strawberry + Dark    | Grape + Light
-
-## Game List
-![](./.github/GamelistDark.png) | ![](./.github/GamelistLight.png)
-:------------------------------:|:-------------------------------:
-Mint + Dark          | Banana + Light
-
-## Menu
-![](./.github/MenuDark.png)     | ![](./.github/MenuLight.png)
-:------------------------------:|:-------------------------------:
-Bubblegun + Dark     | Slate + Light
+![](./.github/0003.png) | ![](./.github/0004.png)
 
 <br>
 

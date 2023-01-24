@@ -1,5 +1,5 @@
 <!--
-  Theme: Elementerial
+  Theme: Albedo
   Author: mluizvitor
 -->
 
@@ -7,14 +7,12 @@
   <formatVersion>7</formatVersion>
 
   <variables>
-    <mainColor>F37329</mainColor>
-    <onMainColor>FFF2EB</onMainColor>
+    <primaryColor>F37329</primaryColor>
 
-    <backgroundDarkColor>2E2A28</backgroundDarkColor>
-    <backgroundLightColor>FFF2EB</backgroundLightColor>
+    <primaryColorLightVariant>FFF2EB</primaryColorLightVariant>
 
-    <sectionDarkColor>ffc27d</sectionDarkColor>
-    <sectionLightColor>cc3b02</sectionLightColor>
+    <primaryColorDarkVariant>311f15</primaryColorDarkVariant>
+    <primaryColorAlt>f79d69</primaryColorAlt>
   </variables>
 
 </theme>

@@ -1,0 +1,183 @@
+<!--
+  Theme: Albedo
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <!--Configurações de ajuda-->
+  <view name="system, basic, detailed, grid">
+
+    <text name="logoText, md_name">
+      <color>${primaryColorLightVariant}</color>
+    </text>
+
+    <helpsystem name="help">
+      <origin>0 1</origin>
+      <pos>0.016666667 0.98</pos>
+
+      <fontPath>${fontLight}</fontPath>
+      <fontSize>${fontSizeSmall}</fontSize>
+
+      <textColor>${primaryColorLightVariant}</textColor>
+      <iconColor>${primaryColor}</iconColor>
+    </helpsystem>
+
+    <image name="borderOverlay" extra="true">
+      <path>./assets/ratio32/borders.png</path>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+      <zIndex>110</zIndex>
+    </image>
+
+    <image name="borderOverlay" extra="true" ifSubset="ThemeScreenRatio:ratio43">
+      <path>./assets/ratio43/borders.png</path>
+    </image>
+
+    <image name="borderOverlay" extra="true" ifSubset="ThemeScreenRatio:ratio53">
+      <path>./assets/ratio53/borders.png</path>
+    </image>
+
+    <image name="help_system_background" extra="true" ifHelpPrompts="true">
+      <path>./assets/ratio32/help-system-bg.png</path>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <zIndex>41</zIndex>
+    </image>
+  </view>
+
+  <image name="help_system_background" extra="true" ifHelpPrompts="true" ifSubset="ThemeScreenRatio:ratio43">
+    <path>./assets/ratio43/help-system-bg.png</path>
+  </image>
+
+  <image name="help_system_background" extra="true" ifHelpPrompts="true" ifSubset="ThemeScreenRatio:ratio53">
+    <path>./assets/ratio53/help-system-bg.png</path>
+  </image>
+
+  <view name="basic, detailed">
+    <text name="logoText">
+      <pos>0.033333333 0.075</pos>      <!--480x320 / 16x 28y-->
+      <origin>0 0.5</origin>      <!--vertical center-->
+    </text>
+
+    <textlist name="gamelist">
+      <selectorHeight>0.1</selectorHeight>      <!-- 32y-->
+      <selectorOffsetY>0.00625</selectorOffsetY>
+      <lineSpacing>1.6</lineSpacing>
+    </textlist>
+  </view>
+
+  <!--Configurações comuns de views-->
+  <view name="basic, detailed, grid">
+    <text name="logoText">
+      <size>0.7 ${fontSizeH1}</size>
+    </text>
+    <text name="logoText">
+      <fontPath>${typefaceTitleBold}</fontPath>
+      <fontSize>${fontSizeH2}</fontSize>
+      <forceUppercase>1</forceUppercase>
+      <alignment>left</alignment>
+      <zIndex>40</zIndex>
+    </text>
+
+    <textlist name="gamelist">
+      <fontPath>${typefaceRegular}</fontPath>
+      <fontSize>${fontSizeBody}</fontSize>
+      <alignment>left</alignment>
+      <origin>0 0</origin>
+    </textlist>
+
+    <image name="background">
+      <path>./assets/background.png</path>
+      <path>./assets/systems/${system.theme}.cropped.webp</path>
+      <opacity>0.3</opacity>
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>-5</zIndex>
+    </image>
+
+    <image name="background" ifSubset="SystemMonoEverywhere:monoYes">
+      <path>./assets/systems/mono/${system.theme}.cropped.webp</path>
+      <opacity>0.4</opacity>
+      <color>${primaryColorAlt}</color>
+    </image>
+
+    <rating name="md_rating">
+      <size>0.04375</size>      <!-- 480x320 / 14 -->
+
+      <filledPath>./assets/icons/star.svg</filledPath>
+      <color>${primaryColor}</color>
+
+      <unfilledPath>./assets/icons/star.svg</unfilledPath>
+      <unfilledColor>${primaryColorAlt}66</unfilledColor>
+    </rating>
+
+    <textlist name="gamelist">
+      <selectedColor>${primaryColorDarkVariant}</selectedColor>
+      <selectorColor>${primaryColorAlt}</selectorColor>
+      <primaryColor>${primaryColorLightVariant}</primaryColor>
+      <secondaryColor>${primaryColorLightVariant}</secondaryColor>
+    </textlist>
+  </view>
+
+  <!-- Clock Settings -->
+  <view name="screen">
+    <text name="clock">
+      <origin>0 0</origin>
+      <pos>0.73 0.017</pos>
+      <size>0.14 0</size>
+
+      <fontPath>${typefaceRegular}</fontPath>
+      <fontSize>${fontSizeBody}</fontSize>
+      <lineSpacing>1</lineSpacing>
+      <alignment>center</alignment>
+
+      <color>ffffff</color>
+    </text>
+
+    <text name="clock" ifSubset="ThemeScreenRatio:ratio43">
+      <pos>0.705 0.015</pos>
+      <size>0.14 0</size>
+      <fontSize>${fontSizeSmall}</fontSize>
+    </text>
+
+    <text name="clock" ifSubset="ThemeScreenRatio:ratio53">
+      <pos>0.74 0.013</pos>
+      <size>0.13 0</size>
+      <fontSize>${fontSizeBody}</fontSize>
+    </text>
+
+    <batteryIndicator name="batteryIndicator">
+      <pos>0.944 0.025</pos>
+      <pos ifSubset="ThemeScreenRatio:ratio43">0.944 0.017</pos>
+      <pos ifSubset="ThemeScreenRatio:ratio53">0.944 0.0225</pos>
+      <size>0.033333 0.05</size>      <!-- 480x320 / 16x 16y -->
+
+      <color>ffffff</color>
+
+      <!-- Assets -->
+      <full>./assets/ratio32/battery-full.png</full>
+      <at75>./assets/ratio32/battery-75.png</at75>
+      <at50>./assets/ratio32/battery-50.png</at50>
+      <at25>./assets/ratio32/battery-25.png</at25>
+      <empty>./assets/ratio32/battery-empty.png</empty>
+      <incharge>./assets/ratio32/battery-charging.png</incharge>
+      <networkIcon>./assets/ratio32/wifi.png</networkIcon>
+    </batteryIndicator>
+
+    <controllerActivity name="controllerActivity">
+      <pos>0.0085 -0.03</pos>
+      <size>0.077083333</size>
+
+      <itemSpacing>0.1</itemSpacing>
+      <imagePath>./assets/pin.svg</imagePath>
+
+      <color>454545</color>
+      <activityColor>${primaryColor}</activityColor>
+      <hotkeyColor>${primaryColor}</hotkeyColor>
+    </controllerActivity>
+  </view>
+</theme>

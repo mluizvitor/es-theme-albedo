@@ -1,0 +1,141 @@
+<!--
+  Theme: Albedo
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <!-- Carousel Config -->
+  <view name="system">
+
+    <!-- Cards position -->
+    <carousel name="systemcarousel">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>0.33333333 1.3</size>
+
+      <logoSize>0.2 1</logoSize>
+      <logoScale>1.4</logoScale>
+      <maxLogoCount>5</maxLogoCount>
+      <logoPos>-0.25 0</logoPos>
+
+      <color>00000000</color>
+
+      <type>vertical_wheel</type>
+      <logoRotation>5</logoRotation>
+      <logoRotationOrigin>-10 0.5</logoRotationOrigin>
+
+      <defaultTransition>fade</defaultTransition>
+      <systemInfoDelay>300</systemInfoDelay>
+    </carousel>
+
+    <carousel name="systemcarousel" ifSubset="ThemeScreenRatio:ratio53">
+      <logoRotation>5</logoRotation>
+      <logoRotationOrigin>-9.5 0.5</logoRotationOrigin>
+    </carousel>
+
+    <!-- System Name -->
+    <text name="systemName" extra="true">
+      <origin>0 0</origin>
+      <pos>0.34375 0.05</pos>      <!-- 480x320 / 165x 16y -->
+      <size>0.58333333 ${fontSizeH1}</size>      <!-- 480x320 / 280x -->
+
+      <color>ffffff</color>
+
+      <text>${system.fullName}</text>
+      <fontPath>${typefaceTitleBold}</fontPath>
+      <fontSize>${fontSizeH1}</fontSize>
+      <lineSpacing>1</lineSpacing>
+      <alignment>left</alignment>
+      <forceUppercase>1</forceUppercase>
+
+      <rotation>90</rotation>
+      <rotationOrigin>0 0.5</rotationOrigin>
+      <zIndex>50</zIndex>
+    </text>
+
+    <!-- Total games per system -->
+    <text name="systemInfo">
+      <origin>0 0</origin>
+      <pos>0.3875 0.05</pos>      <!-- 480x320 / 186x 16y -->
+      <size>0.58333333 ${fontSizeBody}</size>      <!-- 480x320 / 416x -->
+
+      <color>ffffffcc</color>
+      <backgroundColor>00000000</backgroundColor>
+
+      <fontSize>${fontSizeBody}</fontSize>
+      <alignment>left</alignment>
+      <forceUppercase>1</forceUppercase>
+      <fontPath>${typefaceTitleRegular}</fontPath>
+      <lineSpacing>1</lineSpacing>
+
+      <rotation>90</rotation>
+      <rotationOrigin>0 0.5</rotationOrigin>
+      <zIndex>50</zIndex>
+    </text>
+
+    <!-- System Logo -->
+    <image name="logo">
+      <path>./assets/logos/${system.theme}.svg</path>
+    </image>
+
+    <image name="logo" ifSubset="SystemMonoEverywhere:monoYes">
+      <path>./assets/logos/mono/${system.theme}.svg</path>
+      <color>${primaryColorAlt}</color>
+    </image>
+
+    <!-- Logo Fallback -->
+    <text name="logoText">
+      <origin>0 0</origin>
+      <fontPath>${typefaceRegular}</fontPath>
+      <fontSize>${fontSizeH2}</fontSize>
+      <lineSpacing>0.7</lineSpacing>,
+
+      <color>${primaryColorAlt}</color>
+    </text>
+
+    <!-- System Background -->
+    <image name="cover_fallback" extra="true">
+      <path>./assets/background.png</path>
+      <color>121212</color>
+
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <origin>0 0</origin>
+
+      <zIndex>25</zIndex>
+    </image>
+
+    <!-- System Background -->
+    <image name="cover" extra="true">
+      <path>./assets/systems/${system.theme}.webp</path>
+      <size>0 1</size>
+      <origin>0.5 0</origin>
+      <pos>0.708333333 0</pos>
+      <zIndex>26</zIndex>
+    </image>
+
+    <image name="cover" extra="true" ifSubset="SystemMonoEverywhere:monoYes">
+      <path>./assets/systems/mono/${system.theme}.webp</path>
+      <color>${primaryColor}</color>
+    </image>
+
+    <image name="osdBackground" extra="true">
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+      <path>./assets/ratio32/carousel-bg.png</path>
+      <zIndex>27</zIndex>
+    </image>
+
+    <image name="osdBackground" extra="true" ifSubset="ThemeScreenRatio:ratio43">
+      <path>./assets/ratio43/carousel-bg.png</path>
+    </image>
+
+    <image name="osdBackground" extra="true" ifSubset="ThemeScreenRatio:ratio53">
+      <path>./assets/ratio53/carousel-bg.png</path>
+    </image>
+  </view>
+</theme>
+  

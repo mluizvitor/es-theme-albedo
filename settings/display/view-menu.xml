@@ -1,0 +1,90 @@
+<!--
+  Theme: Albedo
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <!-- Menu Settings -->
+  <view name="menu">
+    <menuText name="menutext">
+      <fontPath>${typefaceRegular}</fontPath>
+      <fontSize>${fontSizeBody}</fontSize>
+
+      <selectedColor>121212ee</selectedColor>
+      <selectorColor>${primaryColorAlt}</selectorColor>
+
+      <color>${primaryColorLightVariant}</color>
+      <separatorColor>${primaryColorLightVariant}0f</separatorColor>
+    </menuText>
+
+    <menuText name="menufooter">
+      <fontPath>${typefaceRegular}</fontPath>
+      <fontSize>${fontSizeSmall}</fontSize>
+      <color>${primaryColorLightVariant}cc</color>
+    </menuText>
+
+    <menuTextSmall name="menutextsmall">
+      <fontPath>${typefaceRegular}</fontPath>
+      <fontSize>${fontSizeSmall}</fontSize>
+      <color>${primaryColorAlt}</color>
+    </menuTextSmall>
+
+    <menuGroup name="menugroup">
+      <fontPath>${typefaceTitleRegular}</fontPath>
+      <fontSize>${fontSizeBody}</fontSize>
+
+      <color>${primaryColorLightVariant}</color>
+      <separatorColor>${primaryColor}</separatorColor>
+
+      <backgroundColor>${primaryColorDarkVariant}</backgroundColor>
+    </menuGroup>
+
+    <menuIcons name="menuicons">
+      <iconSystem>./assets/icons/cog.svg</iconSystem>
+      <iconUpdates>./assets/icons/update.svg</iconUpdates>
+      <iconControllers>./assets/icons/gamepad.svg</iconControllers>
+      <iconGames>./assets/icons/gamepad-variant-outline.svg</iconGames>
+      <iconUI>./assets/icons/brush-variant.svg</iconUI>
+      <iconSound>./assets/icons/volume-high.svg</iconSound>
+      <iconNetwork>./assets/icons/wifi.svg</iconNetwork>
+      <iconScraper>./assets/icons/image.svg</iconScraper>
+      <iconAdvanced>./assets/icons/tune-variant.svg</iconAdvanced>
+      <iconQuit>./assets/icons/exit-to-app.svg</iconQuit>
+      <iconRetroachievements>./assets/icons/trophy.svg</iconRetroachievements>
+      <iconKodi>./assets/icons/kodi.svg</iconKodi>
+      <iconRestart>./assets/icons/restart.svg</iconRestart>
+      <iconShutdown>./assets/icons/power.svg</iconShutdown>
+      <iconFastShutdown>./assets/icons/power.svg</iconFastShutdown>
+    </menuIcons>
+
+    <menuText name="menutitle">
+      <fontPath>${typefaceTitleBold}</fontPath>
+      <fontSize>${fontSizeH1}</fontSize>
+      <color>${primaryColorLightVariant}</color>
+    </menuText>
+
+    <menuBackground name="menubg">
+      <path>./assets/menu.png</path>
+      <size>1 1</size>
+
+      <color>1a1a1a</color>
+    </menuBackground>
+
+    <menuButton name="menubutton">
+      <path>./assets/button-normal.png</path>
+      <filledPath>./assets/button-hover.png</filledPath>
+    </menuButton>
+
+    <menuSwitch name="menuswitch">
+      <pathOn>./assets/switch-on.svg</pathOn>
+      <pathOff>./assets/switch-off.svg</pathOff>
+    </menuSwitch>
+
+    <menuTextEdit name="menutextedit">
+      <inactive>./assets/input_inactive-dark.svg</inactive>
+      <active>./assets/input_active-dark.svg</active>
+    </menuTextEdit>
+  </view>
+</theme>
