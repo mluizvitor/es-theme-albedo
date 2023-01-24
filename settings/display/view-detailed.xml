@@ -16,11 +16,11 @@
       <zIndex>-4</zIndex>
     </image>
     
-    <image name="detailed_background" extra="true" ifSubset="ThemeScreenRatio:ratio43">
+    <image name="detailed_background" extra="true" ifSubset="Aspect Ratio:ratio43">
       <path>./assets/ratio43/gamelist-detailed-bg.png</path>
     </image>
     
-    <image name="detailed_background" extra="true" ifSubset="ThemeScreenRatio:ratio53">
+    <image name="detailed_background" extra="true" ifSubset="Aspect Ratio:ratio53">
       <path>./assets/ratio53/gamelist-detailed-bg.png</path>
     </image>
 
@@ -74,12 +74,12 @@
       <pos ifHelpPrompts="true">0.96 0.88</pos>
     </rating>
 
-    <rating name="md_rating" ifSubset="ThemeScreenRatio:ratio43">
+    <rating name="md_rating" ifSubset="Aspect Ratio:ratio43">
       <pos ifHelpPrompts="true">0.96 0.885</pos>
     </rating>
     
     <!-- TODO 5:3 -->
-    <rating name="md_rating" ifSubset="ThemeScreenRatio:ratio53">
+    <rating name="md_rating" ifSubset="Aspect Ratio:ratio53">
       <pos ifHelpPrompts="true">0.96 0.885</pos>
     </rating>
   </view>

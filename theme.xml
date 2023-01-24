@@ -25,8 +25,8 @@
     <subset.settingsMonochromaticTitle>Monocolor Everywhere</subset.settingsMonochromaticTitle>
     <subset.settingsMonochromaticTitle lang="pt">Monocor em todo lugar</subset.settingsMonochromaticTitle>
     
-    <subset.settingsScreenRatio>Adapt to Aspect Ratio</subset.settingsScreenRatio>
-    <subset.settingsScreenRatio lang="pt">Adaptar à Proporção</subset.settingsScreenRatio>
+    <subset.settingsScreenRatio>Screen Aspect Ratio</subset.settingsScreenRatio>
+    <subset.settingsScreenRatio lang="pt">Proporção da Tela</subset.settingsScreenRatio>
   </variables>
 
   <subset name="colorScheme" displayName="${subset.settingsColorSchemeTitle}">
@@ -48,7 +48,7 @@
     <include name="ratio53" displayName="5:3 · RG552"/>
   </subset>
 
-  <subset name="SystemMonoEverywhere" displayName="${subset.settingsMonochromaticTitle}">
+  <subset name="Monochromatic" displayName="${subset.settingsMonochromaticTitle}">
     <include name="monoNo" displayName="No"/>
     <include name="monoYes" displayName="Yes"/>
   </subset>

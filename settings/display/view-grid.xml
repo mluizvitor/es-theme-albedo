@@ -17,7 +17,7 @@
     <imagegrid name="gamegrid">
       <scrollDirection>horizontal</scrollDirection>
       <autoLayout>2 2</autoLayout>
-      <autoLayout ifSubset="ThemeScreenRatio:ratio53">3 2</autoLayout>
+      <autoLayout ifSubset="Aspect Ratio:ratio53">3 2</autoLayout>
       <scrollLoop>false</scrollLoop>
 
       <imageSource ifSubset="GridImage:gridscreenshot">image</imageSource>
@@ -43,11 +43,11 @@
       <zIndex>-4</zIndex>
     </image>
 
-    <image name="grid_background" extra="true" ifSubset="ThemeScreenRatio:ratio43">
+    <image name="grid_background" extra="true" ifSubset="Aspect Ratio:ratio43">
       <path>./assets/ratio43/gamelist-grid-bg.png</path>
     </image>
 
-    <image name="grid_background" extra="true" ifSubset="ThemeScreenRatio:ratio53">
+    <image name="grid_background" extra="true" ifSubset="Aspect Ratio:ratio53">
       <path>./assets/ratio53/gamelist-grid-bg.png</path>
     </image>
 
@@ -59,16 +59,16 @@
 
     <gridtile name="default">
       <padding>2 2</padding>
-      <padding ifSubset="ThemeScreenRatio:ratio43">4 4</padding>
-      <padding ifSubset="ThemeScreenRatio:ratio53">8 8</padding>
+      <padding ifSubset="Aspect Ratio:ratio43">4 4</padding>
+      <padding ifSubset="Aspect Ratio:ratio53">8 8</padding>
 
       <backgroundColor>00000000</backgroundColor>
     </gridtile>
 
     <gridtile name="selected">
       <padding>2 2</padding>
-      <padding ifSubset="ThemeScreenRatio:ratio43">4 4</padding>
-      <padding ifSubset="ThemeScreenRatio:ratio53">8 8</padding>
+      <padding ifSubset="Aspect Ratio:ratio43">4 4</padding>
+      <padding ifSubset="Aspect Ratio:ratio53">8 8</padding>
 
       <backgroundCornerSize>0</backgroundCornerSize>
       <backgroundColor>${primaryColorAlt}</backgroundColor>
@@ -88,11 +88,11 @@
       <cornerSize>16 16</cornerSize>
     </ninepatch>
 
-    <ninepatch name="gridtile.background" ifSubset="ThemeScreenRatio:ratio43">
+    <ninepatch name="gridtile.background" ifSubset="Aspect Ratio:ratio43">
       <path>./assets/ratio43/menu.png</path>
     </ninepatch>
 
-    <ninepatch name="gridtile.background" ifSubset="ThemeScreenRatio:ratio53">
+    <ninepatch name="gridtile.background" ifSubset="Aspect Ratio:ratio53">
       <path>./assets/ratio53/menu.png</path>
     </ninepatch>
 
@@ -142,11 +142,11 @@
       <pos>0.820833333 0.128125</pos>      <!-- 480x320 / 456x 272y-->
     </rating>
 
-    <rating name="md_rating" ifSubset="ThemeScreenRatio:ratio43">
+    <rating name="md_rating" ifSubset="Aspect Ratio:ratio43">
       <pos>0.81 0.128125</pos>
     </rating>
 
-    <rating name="md_rating" ifSubset="ThemeScreenRatio:ratio53">
+    <rating name="md_rating" ifSubset="Aspect Ratio:ratio53">
       <pos>0.8375 0.128125</pos>
     </rating>
   </view>

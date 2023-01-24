@@ -30,7 +30,7 @@
       <systemInfoDelay>300</systemInfoDelay>
     </carousel>
 
-    <carousel name="systemcarousel" ifSubset="ThemeScreenRatio:ratio53">
+    <carousel name="systemcarousel" ifSubset="Aspect Ratio:ratio53">
       <logoRotation>5</logoRotation>
       <logoRotationOrigin>-9.5 0.5</logoRotationOrigin>
     </carousel>
@@ -80,7 +80,7 @@
       <path>./assets/logos/${system.theme}.svg</path>
     </image>
 
-    <image name="logo" ifSubset="SystemMonoEverywhere:monoYes">
+    <image name="logo" ifSubset="Monochromatic:monoYes">
       <path>./assets/logos/mono/${system.theme}.svg</path>
       <color>${primaryColorAlt}</color>
     </image>
@@ -116,7 +116,7 @@
       <zIndex>26</zIndex>
     </image>
 
-    <image name="cover" extra="true" ifSubset="SystemMonoEverywhere:monoYes">
+    <image name="cover" extra="true" ifSubset="Monochromatic:monoYes">
       <path>./assets/systems/mono/${system.theme}.webp</path>
       <color>${primaryColor}</color>
     </image>
@@ -129,11 +129,11 @@
       <zIndex>27</zIndex>
     </image>
 
-    <image name="osdBackground" extra="true" ifSubset="ThemeScreenRatio:ratio43">
+    <image name="osdBackground" extra="true" ifSubset="Aspect Ratio:ratio43">
       <path>./assets/ratio43/carousel-bg.png</path>
     </image>
 
-    <image name="osdBackground" extra="true" ifSubset="ThemeScreenRatio:ratio53">
+    <image name="osdBackground" extra="true" ifSubset="Aspect Ratio:ratio53">
       <path>./assets/ratio53/carousel-bg.png</path>
     </image>
   </view>

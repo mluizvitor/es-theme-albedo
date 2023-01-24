@@ -32,11 +32,11 @@
       <zIndex>110</zIndex>
     </image>
 
-    <image name="borderOverlay" extra="true" ifSubset="ThemeScreenRatio:ratio43">
+    <image name="borderOverlay" extra="true" ifSubset="Aspect Ratio:ratio43">
       <path>./assets/ratio43/borders.png</path>
     </image>
 
-    <image name="borderOverlay" extra="true" ifSubset="ThemeScreenRatio:ratio53">
+    <image name="borderOverlay" extra="true" ifSubset="Aspect Ratio:ratio53">
       <path>./assets/ratio53/borders.png</path>
     </image>
 
@@ -48,11 +48,11 @@
     </image>
   </view>
 
-  <image name="help_system_background" extra="true" ifHelpPrompts="true" ifSubset="ThemeScreenRatio:ratio43">
+  <image name="help_system_background" extra="true" ifHelpPrompts="true" ifSubset="Aspect Ratio:ratio43">
     <path>./assets/ratio43/help-system-bg.png</path>
   </image>
 
-  <image name="help_system_background" extra="true" ifHelpPrompts="true" ifSubset="ThemeScreenRatio:ratio53">
+  <image name="help_system_background" extra="true" ifHelpPrompts="true" ifSubset="Aspect Ratio:ratio53">
     <path>./assets/ratio53/help-system-bg.png</path>
   </image>
 
@@ -99,7 +99,7 @@
       <zIndex>-5</zIndex>
     </image>
 
-    <image name="background" ifSubset="SystemMonoEverywhere:monoYes">
+    <image name="background" ifSubset="Monochromatic:monoYes">
       <path>./assets/systems/mono/${system.theme}.cropped.webp</path>
       <opacity>0.4</opacity>
       <color>${primaryColorAlt}</color>
@@ -138,13 +138,13 @@
       <color>ffffff</color>
     </text>
 
-    <text name="clock" ifSubset="ThemeScreenRatio:ratio43">
+    <text name="clock" ifSubset="Aspect Ratio:ratio43">
       <pos>0.705 0.015</pos>
       <size>0.14 0</size>
       <fontSize>${fontSizeSmall}</fontSize>
     </text>
 
-    <text name="clock" ifSubset="ThemeScreenRatio:ratio53">
+    <text name="clock" ifSubset="Aspect Ratio:ratio53">
       <pos>0.74 0.013</pos>
       <size>0.13 0</size>
       <fontSize>${fontSizeBody}</fontSize>
@@ -152,8 +152,8 @@
 
     <batteryIndicator name="batteryIndicator">
       <pos>0.944 0.025</pos>
-      <pos ifSubset="ThemeScreenRatio:ratio43">0.944 0.017</pos>
-      <pos ifSubset="ThemeScreenRatio:ratio53">0.944 0.0225</pos>
+      <pos ifSubset="Aspect Ratio:ratio43">0.944 0.017</pos>
+      <pos ifSubset="Aspect Ratio:ratio53">0.944 0.0225</pos>
       <size>0.033333 0.05</size>      <!-- 480x320 / 16x 16y -->
 
       <color>ffffff</color>

@@ -15,11 +15,11 @@
       <zIndex>-4</zIndex>
     </image>
     
-    <image name="simple_background" ifSubset="ThemeScreenRatio:ratio43">
+    <image name="simple_background" ifSubset="Aspect Ratio:ratio43">
       <path>./assets/ratio43/gamelist-simple-bg.png</path>
     </image>
     
-    <image name="simple_background" ifSubset="ThemeScreenRatio:ratio53">
+    <image name="simple_background" ifSubset="Aspect Ratio:ratio53">
       <path>./assets/ratio53/gamelist-simple-bg.png</path>
     </image>
 
