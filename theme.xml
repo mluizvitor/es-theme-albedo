@@ -42,10 +42,14 @@
     <include name="brown" displayName="brown">./settings/colors/brown.xml</include>
   </subset>
 
-  <subset name="ThemeScreenRatio" displayName="${subset.settingsScreenRatio}">
-    <include name="ratio32" displayName="3:2 · RG351P/M"/>
-    <include name="ratio43" displayName="4:3 · RG351V/MP"/>
-    <include name="ratio53" displayName="5:3 · RG552"/>
+  <subset name="Aspect Ratio" displayName="${subset.settingsScreenRatio}">
+    <include ifArch="rg351p,amberelec-rg351p" name="ratio32" displayName="3:2" />
+    <include ifArch="rg353p,rg351mp,rg351v,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="ratio43" displayName="4:3" />
+    <include ifArch="rg552,amberelec-rg552" name="ratio53" displayName="5:3" />
+    
+    <include ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="ratio32" displayName="3:2" />
+    <include ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="ratio43" displayName="4:3" />
+    <include ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="ratio53" displayName="5:3" />
   </subset>
 
   <subset name="Monochromatic" displayName="${subset.settingsMonochromaticTitle}">
