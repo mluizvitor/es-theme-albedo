@@ -1,0 +1,33 @@
+<!--
+  Theme: Albedo
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <!-- Settings Titles -->
+    <string.settings.colorSchemeTitle>Cor de destaque</string.settings.colorSchemeTitle>
+    <string.settings.monochromaticTitle>Logos monocromáticos</string.settings.monochromaticTitle>
+    <string.settings.screenRatio>Proporção da tela</string.settings.screenRatio>
+    <string.settings.statusBar>Barra de status</string.settings.statusBar>
+
+    <!-- Colors -->
+    <string.settings.color.blue>Azul</string.settings.color.blue>
+    <string.settings.color.purple>Roxo</string.settings.color.purple>
+    <string.settings.color.pink>Rosa</string.settings.color.pink>
+    <string.settings.color.red>Vermelho</string.settings.color.red>
+    <string.settings.color.orange>Laranja</string.settings.color.orange>
+    <string.settings.color.yellow>Amarelo</string.settings.color.yellow>
+    <string.settings.color.green>Verde</string.settings.color.green>
+    <string.settings.color.teal>Turquesa</string.settings.color.teal>
+    <string.settings.color.gray>Cinza</string.settings.color.gray>
+    <string.settings.color.beige>Bege</string.settings.color.beige>
+
+    <!-- Interface Texts -->
+    <string.view.detailed.description>Descrição</string.view.detailed.description>
+
+  </variables>
+
+</theme>

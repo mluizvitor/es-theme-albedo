@@ -3,7 +3,7 @@
   Author: mluizvitor
 -->
 
-<theme defaultTransition="instant">
+<theme>
   <formatVersion>7</formatVersion>
 
   <variables>
@@ -19,59 +19,47 @@
     <fontSizeBody>0.0375</fontSizeBody>
     <fontSizeSmall>0.03125</fontSizeSmall>
     <fontSizeTiny>0.028125</fontSizeTiny>
-
-    <subset.settingsColorSchemeTitle>Accent color</subset.settingsColorSchemeTitle>
-    <subset.settingsColorSchemeTitle lang="pt">Cor de destaque</subset.settingsColorSchemeTitle>
-    <subset.settingsColorSchemeTitle lang="es">Acentuar el color</subset.settingsColorSchemeTitle>
-    
-    <subset.settingsMonochromaticTitle>Monochrome logos</subset.settingsMonochromaticTitle>
-    <subset.settingsMonochromaticTitle lang="pt">Logos monocromáticos</subset.settingsMonochromaticTitle>
-    <subset.settingsMonochromaticTitle lang="es">Logotipos monocromáticos</subset.settingsMonochromaticTitle>
-    
-    <subset.settingsScreenRatio>Screen ratio</subset.settingsScreenRatio>
-    <subset.settingsScreenRatio lang="pt">Proporção da tela</subset.settingsScreenRatio>
-    <subset.settingsScreenRatio lang="es">Formato de pantalla</subset.settingsScreenRatio>
-    
-    <subset.settingsStatusBar>Status bar</subset.settingsStatusBar>
-    <subset.settingsStatusBar lang="pt">Barra de status</subset.settingsStatusBar>
-    <subset.settingsStatusBar lang="es">Barra de estado</subset.settingsStatusBar>
   </variables>
 
-  <subset name="colorScheme" displayName="${subset.settingsColorSchemeTitle}">
-    <include name="blue" displayName="blue">./settings/colors/blue.xml</include>
-    <include name="purple" displayName="purple">./settings/colors/purple.xml</include>
-    <include name="pink" displayName="pink">./settings/colors/pink.xml</include>
-    <include name="red" displayName="red">./settings/colors/red.xml</include>
-    <include name="orange" displayName="orange">./settings/colors/orange.xml</include>
-    <include name="yellow" displayName="yellow">./settings/colors/yellow.xml</include>
-    <include name="green" displayName="green">./settings/colors/green.xml</include>
-    <include name="teal" displayName="teal">./settings/colors/teal.xml</include>
-    <include name="gray" displayName="gray">./settings/colors/gray.xml</include>
-    <include name="brown" displayName="brown">./settings/colors/brown.xml</include>
+  <include>./settings/langs/en.xml</include>
+  <include lang="es">./settings/langs/es.xml</include>
+  <include lang="pt">./settings/langs/pt.xml</include>
+
+  <subset name="colorScheme" displayName="${string.settings.colorSchemeTitle}">
+    <include name="blue" displayName="${string.settings.color.blue}">./settings/colors/blue.xml</include>
+    <include name="purple" displayName="${string.settings.color.purple}">./settings/colors/purple.xml</include>
+    <include name="pink" displayName="${string.settings.color.pink}">./settings/colors/pink.xml</include>
+    <include name="red" displayName="${string.settings.color.red}">./settings/colors/red.xml</include>
+    <include name="orange" displayName="${string.settings.color.orange}">./settings/colors/orange.xml</include>
+    <include name="yellow" displayName="${string.settings.color.yellow}">./settings/colors/yellow.xml</include>
+    <include name="green" displayName="${string.settings.color.green}">./settings/colors/green.xml</include>
+    <include name="teal" displayName="${string.settings.color.teal}">./settings/colors/teal.xml</include>
+    <include name="gray" displayName="${string.settings.color.gray}">./settings/colors/gray.xml</include>
+    <include name="brown" displayName="${string.settings.color.beige}">./settings/colors/brown.xml</include>
   </subset>
 
-  <subset name="Aspect Ratio" displayName="${subset.settingsScreenRatio}">
+  <subset name="Aspect Ratio" displayName="${string.settings.screenRatio}">
     <include ifArch="rg351p,amberelec-rg351p" name="ratio32" displayName="3:2" />
     <include ifArch="rg353p,rg351mp,rg351v,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="ratio43" displayName="4:3" />
     <include ifArch="rg552,amberelec-rg552" name="ratio53" displayName="5:3" />
-    
+
     <include ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="ratio32" displayName="3:2" />
     <include ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="ratio43" displayName="4:3" />
     <include ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="ratio53" displayName="5:3" />
   </subset>
 
-  <subset name="Date Format" displayName="${subset.settingsDateFormat}">
+  <subset name="Date Format" displayName="${string.settings.DateFormat}">
     <include name="y-m-d" displayName="YYYY·MM·DD"/>
     <include name="m-d-y" displayName="MM·DD·YYYY"/>
     <include name="d-m-y" displayName="DD·MM·YYYY"/>
   </subset>
 
-  <subset name="Monochromatic" displayName="${subset.settingsMonochromaticTitle}">
+  <subset name="Monochromatic" displayName="${string.settings.monochromaticTitle}">
     <include name="monoNo" displayName="No"/>
     <include name="monoYes" displayName="Yes"/>
   </subset>
 
-  <subset name="StatusBar" displayName="${subset.settingsStatusBar}">
+  <subset name="StatusBar" displayName="${string.settings.statusBar}">
     <include name="statusYes" displayName="Yes"/>
     <include name="statusNo" displayName="No"/>
   </subset>

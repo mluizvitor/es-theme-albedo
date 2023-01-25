@@ -88,9 +88,7 @@
     </text>
 
     <text name="md_description_label" extra="true">
-      <text>Description</text>
-      <text lang="pt">Descrição</text>
-      <text lang="es">Descripción</text>
+      <text>${string.view.detailed.description}</text>
 
       <color>${primaryColorLightVariant}</color>
       <origin>0 0.5</origin>
