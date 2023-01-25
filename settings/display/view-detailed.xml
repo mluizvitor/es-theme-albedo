@@ -13,13 +13,12 @@
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
-      <zIndex>-4</zIndex>
     </image>
-    
+
     <image name="detailed_background" extra="true" ifSubset="Aspect Ratio:ratio43">
       <path>./assets/ratio43/gamelist-detailed-bg.png</path>
     </image>
-    
+
     <image name="detailed_background" extra="true" ifSubset="Aspect Ratio:ratio53">
       <path>./assets/ratio53/gamelist-detailed-bg.png</path>
     </image>
@@ -35,15 +34,15 @@
       <color></color>
     </text>
 
-    <datetime name="md_lastplayed, md_releasedate">
+    <datetime name="md_lastplayed">
       <color></color>
     </datetime>
 
     <image name="md_image">
       <origin>0.5 0</origin>
-      <pos>0.708333333 0.2</pos>      <!-- 480x320 / 340x 64y -->
-      <maxSize>0.5 0.45</maxSize>      <!-- 480x320 / 240x 144y -->
-      <zIndex>32</zIndex>
+      <pos>0.716666667 0.175</pos>      <!-- 480x320 / 344x 56y -->
+      <maxSize>0.5 0.5</maxSize>      <!-- 480x320 / 240x 160y -->
+      <zIndex>0</zIndex>
       <roundCorners>0.02</roundCorners>
       <path>./assets/icons/cartridge-dark.png</path>
     </image>
@@ -55,29 +54,56 @@
       <zIndex>33</zIndex>
     </image>
 
+    <datetime name="md_releasedate">
+      <pos>0.825 0.7375</pos>
+      <visible ifHelpPrompts="true">0</visible>
+    </datetime>
+
+    <image name="md_releasedate_icon">
+      <pos>0.783333333 0.7375</pos>
+      <visible ifHelpPrompts="true">0</visible>
+    </image>
+
     <text name="md_description">
-      <pos>0.466666667 0.75</pos>      <!-- 480x320 / 224x 240y-->
-      <size>0.433333333 0.2</size>      <!-- 480x320 / 240x 64y-->
-      <size ifHelpPrompts="true">0.433333333 0.175</size>      <!-- 480x320 / 240x 56y-->
+      <pos>0.466666667 0.775</pos>      <!-- 480x320 / 224x 240y-->
+      <pos ifHelpPrompts="true">0.466666667 0.725</pos>      <!-- 480x320 / 224x 232y-->
+      
+      <size>0.5 0.2</size>      <!-- 480x320 / 240x 64y-->
+      <size ifHelpPrompts="true">0.5 0.175</size>      <!-- 480x320 / 240x 64y-->
+
       <color>ffffff</color>
       <fontPath>${typefaceRegular}</fontPath>
       <fontSize>${fontSizeSmall}</fontSize>
       <lineSpacing>0.9</lineSpacing>
     </text>
 
-    <rating name="md_rating">
-      <origin>0.5 0.5</origin>
-      <pos>0.95 0.93</pos>
-      <rotation>-90</rotation>
+    <text name="md_description_label" extra="true">
+      <text>Description</text>
+      <text lang="pt">Descrição</text>
+      <text lang="es">Descripción</text>
 
-      <size ifHelpPrompts="true">0.0375</size>      <!-- 480x320 / 12 -->
-      <pos ifHelpPrompts="true">0.96 0.88</pos>
+      <color>${primaryColorLightVariant}</color>
+      <origin>0 1</origin>
+      <pos>0.466666667 0.775</pos>
+
+      <fontSize>${fontSizeTiny}</fontSize>
+      <fontPath>${typefaceTitleBold}</fontPath>
+      <forceUppercase>1</forceUppercase>
+
+      <visible ifHelpPrompts="true">0</visible>
+
+      <zIndex>40</zIndex>
+    </text>
+
+    <rating name="md_rating">
+      <origin>0 0.5</origin>
+      <pos>0.816666667 0.6625</pos>
     </rating>
 
     <rating name="md_rating" ifSubset="Aspect Ratio:ratio43">
       <pos ifHelpPrompts="true">0.96 0.885</pos>
     </rating>
-    
+
     <!-- TODO 5:3 -->
     <rating name="md_rating" ifSubset="Aspect Ratio:ratio53">
       <pos ifHelpPrompts="true">0.96 0.885</pos>

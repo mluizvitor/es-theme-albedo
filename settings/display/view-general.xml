@@ -8,7 +8,6 @@
 
   <!--Configurações de ajuda-->
   <view name="system, basic, detailed, grid">
-
     <text name="logoText, md_name">
       <color>${primaryColorLightVariant}</color>
     </text>
@@ -42,26 +41,16 @@
 
     <image name="help_system_background" extra="true" ifHelpPrompts="true">
       <path>./assets/ratio32/help-system-bg.png</path>
+      <path ifSubset="Aspect Ratio:ratio43">./assets/ratio43/help-system-bg.png</path>
+      <path ifSubset="Aspect Ratio:ratio53">./assets/ratio53/help-system-bg.png</path>
+
       <pos>0 0</pos>
       <size>1 1</size>
       <zIndex>41</zIndex>
     </image>
   </view>
 
-  <image name="help_system_background" extra="true" ifHelpPrompts="true" ifSubset="Aspect Ratio:ratio43">
-    <path>./assets/ratio43/help-system-bg.png</path>
-  </image>
-
-  <image name="help_system_background" extra="true" ifHelpPrompts="true" ifSubset="Aspect Ratio:ratio53">
-    <path>./assets/ratio53/help-system-bg.png</path>
-  </image>
-
   <view name="basic, detailed">
-    <text name="logoText">
-      <pos>0.033333333 0.075</pos>      <!--480x320 / 16x 28y-->
-      <origin>0 0.5</origin>      <!--vertical center-->
-    </text>
-
     <textlist name="gamelist">
       <selectorHeight>0.1</selectorHeight>      <!-- 32y-->
       <selectorOffsetY>0.00625</selectorOffsetY>
@@ -72,9 +61,10 @@
   <!--Configurações comuns de views-->
   <view name="basic, detailed, grid">
     <text name="logoText">
-      <size>0.7 ${fontSizeH1}</size>
-    </text>
-    <text name="logoText">
+      <origin>0 0.5</origin>      <!--vertical center-->
+      <size>0.7 ${fontSizeH2}</size>
+      <pos>0.033333333 0.075</pos>      <!--480x320 / 16x 28y-->
+      
       <fontPath>${typefaceTitleBold}</fontPath>
       <fontSize>${fontSizeH2}</fontSize>
       <forceUppercase>1</forceUppercase>
@@ -99,11 +89,6 @@
       <zIndex>-5</zIndex>
     </image>
 
-    <image name="background" ifSubset="Monochromatic:monoYes">
-      <path>./assets/systems/mono/${system.theme}.cropped.webp</path>
-      <opacity>0.4</opacity>
-      <color>${primaryColorAlt}</color>
-    </image>
 
     <rating name="md_rating">
       <size>0.04375</size>      <!-- 480x320 / 14 -->
@@ -121,6 +106,28 @@
       <primaryColor>${primaryColorLightVariant}</primaryColor>
       <secondaryColor>${primaryColorLightVariant}</secondaryColor>
     </textlist>
+  </view>
+
+  <view name="detailed, grid">
+    <datetime name="md_releasedate">
+      <origin>0 0.5</origin>
+      <size>0.141666667 ${fontSizeTiny}</size>
+
+      <color>${primaryColorLightVariant}</color>
+      <fontSize>${fontSizeTiny}</fontSize>
+      <fontPath>${typefaceRegular}</fontPath>
+
+      <alignment>left</alignment>
+      <zIndex>42</zIndex>
+    </datetime>
+
+    <image name="md_releasedate_icon" extra="true">
+      <origin>0 0.5</origin>
+      <path>./assets/icons/calendar.png</path>
+      <size>0.033333333 0</size>
+      <color>${primaryColor}</color>
+      <zIndex>42</zIndex>
+    </image>
   </view>
 
   <!-- Clock Settings -->
@@ -159,13 +166,13 @@
       <color>ffffff</color>
 
       <!-- Assets -->
-      <full>./assets/ratio32/battery-full.png</full>
-      <at75>./assets/ratio32/battery-75.png</at75>
-      <at50>./assets/ratio32/battery-50.png</at50>
-      <at25>./assets/ratio32/battery-25.png</at25>
-      <empty>./assets/ratio32/battery-empty.png</empty>
-      <incharge>./assets/ratio32/battery-charging.png</incharge>
-      <networkIcon>./assets/ratio32/wifi.png</networkIcon>
+      <full>./assets/icons/battery-full.png</full>
+      <at75>./assets/icons/battery-75.png</at75>
+      <at50>./assets/icons/battery-50.png</at50>
+      <at25>./assets/icons/battery-25.png</at25>
+      <empty>./assets/icons/battery-empty.png</empty>
+      <incharge>./assets/icons/battery-charging.png</incharge>
+      <networkIcon>./assets/icons/wifi.png</networkIcon>
     </batteryIndicator>
 
     <controllerActivity name="controllerActivity">

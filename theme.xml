@@ -3,7 +3,7 @@
   Author: mluizvitor
 -->
 
-<theme>
+<theme defaultTransition="instant">
   <formatVersion>7</formatVersion>
 
   <variables>
@@ -18,15 +18,23 @@
     <fontSizeH2>0.04375</fontSizeH2>
     <fontSizeBody>0.0375</fontSizeBody>
     <fontSizeSmall>0.03125</fontSizeSmall>
+    <fontSizeTiny>0.028125</fontSizeTiny>
 
-    <subset.settingsColorSchemeTitle>Main Color</subset.settingsColorSchemeTitle>
-    <subset.settingsColorSchemeTitle lang="pt">Cor Principal</subset.settingsColorSchemeTitle>
+    <subset.settingsColorSchemeTitle>Accent color</subset.settingsColorSchemeTitle>
+    <subset.settingsColorSchemeTitle lang="pt">Cor de destaque</subset.settingsColorSchemeTitle>
+    <subset.settingsColorSchemeTitle lang="es">Acentuar el color</subset.settingsColorSchemeTitle>
     
-    <subset.settingsMonochromaticTitle>Monocolor Everywhere</subset.settingsMonochromaticTitle>
-    <subset.settingsMonochromaticTitle lang="pt">Monocor em todo lugar</subset.settingsMonochromaticTitle>
+    <subset.settingsMonochromaticTitle>Monochrome logos</subset.settingsMonochromaticTitle>
+    <subset.settingsMonochromaticTitle lang="pt">Logos monocromáticos</subset.settingsMonochromaticTitle>
+    <subset.settingsMonochromaticTitle lang="es">Logotipos monocromáticos</subset.settingsMonochromaticTitle>
     
-    <subset.settingsScreenRatio>Screen Aspect Ratio</subset.settingsScreenRatio>
-    <subset.settingsScreenRatio lang="pt">Proporção da Tela</subset.settingsScreenRatio>
+    <subset.settingsScreenRatio>Screen ratio</subset.settingsScreenRatio>
+    <subset.settingsScreenRatio lang="pt">Proporção da tela</subset.settingsScreenRatio>
+    <subset.settingsScreenRatio lang="es">Formato de pantalla</subset.settingsScreenRatio>
+    
+    <subset.settingsStatusBar>Status bar</subset.settingsStatusBar>
+    <subset.settingsStatusBar lang="pt">Barra de status</subset.settingsStatusBar>
+    <subset.settingsStatusBar lang="es">Barra de estado</subset.settingsStatusBar>
   </variables>
 
   <subset name="colorScheme" displayName="${subset.settingsColorSchemeTitle}">
@@ -55,6 +63,11 @@
   <subset name="Monochromatic" displayName="${subset.settingsMonochromaticTitle}">
     <include name="monoNo" displayName="No"/>
     <include name="monoYes" displayName="Yes"/>
+  </subset>
+
+  <subset name="StatusBar" displayName="${subset.settingsStatusBar}">
+    <include name="statusYes" displayName="Yes"/>
+    <include name="statusNo" displayName="No"/>
   </subset>
 
   <include>./settings/display/view-general.xml</include>

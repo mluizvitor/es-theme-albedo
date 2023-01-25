@@ -116,26 +116,30 @@
       <zIndex>26</zIndex>
     </image>
 
-    <image name="cover" extra="true" ifSubset="Monochromatic:monoYes">
-      <path>./assets/systems/mono/${system.theme}.webp</path>
-      <color>${primaryColor}</color>
-    </image>
-
-    <image name="osdBackground" extra="true">
+    <image name="carouselBackground" extra="true">
+      <path>./assets/ratio32/carousel-bg.png</path>
+      <path ifSubset="Aspect Ratio:ratio43">./assets/ratio43/carousel-bg.png</path>
+      <path ifSubset="Aspect Ratio:ratio53">./assets/ratio53/carousel-bg.png</path>
+      
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
-      <path>./assets/ratio32/carousel-bg.png</path>
+
       <zIndex>27</zIndex>
     </image>
 
-    <image name="osdBackground" extra="true" ifSubset="Aspect Ratio:ratio43">
-      <path>./assets/ratio43/carousel-bg.png</path>
+    <image name="osdBackground" extra="true" ifSubset="StatusBar:statusYes">
+      <path>./assets/ratio32/status-bar.png</path>
+      <path ifSubset="Aspect Ratio:ratio43">./assets/ratio43/status-bar.png</path>
+      <path ifSubset="Aspect Ratio:ratio53">./assets/ratio53/status-bar.png</path>
+      
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+
+      <zIndex>27</zIndex>
     </image>
 
-    <image name="osdBackground" extra="true" ifSubset="Aspect Ratio:ratio53">
-      <path>./assets/ratio53/carousel-bg.png</path>
-    </image>
   </view>
 </theme>
   

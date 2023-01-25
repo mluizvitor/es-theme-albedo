@@ -12,7 +12,6 @@
   </subset>
 
   <!--Confugurações da view "grid"-->
-
   <view name="grid">
     <imagegrid name="gamegrid">
       <scrollDirection>horizontal</scrollDirection>
@@ -52,25 +51,21 @@
     </image>
 
     <gridtile name="default, selected">
+      <padding>3 3</padding>
+      <padding ifSubset="Aspect Ratio:ratio43">4 4</padding>
+      <padding ifSubset="Aspect Ratio:ratio53">8 8</padding>
+
       <selectionMode>full</selectionMode>
+
       <imageSizeMode ifSubset="GridImage:gridscreenshot|gridthumbnail">minSize</imageSizeMode>
       <imageSizeMode ifSubset="GridImage:gridlogo">maxSize</imageSizeMode>
     </gridtile>
 
     <gridtile name="default">
-      <padding>2 2</padding>
-      <padding ifSubset="Aspect Ratio:ratio43">4 4</padding>
-      <padding ifSubset="Aspect Ratio:ratio53">8 8</padding>
-
       <backgroundColor>00000000</backgroundColor>
     </gridtile>
 
     <gridtile name="selected">
-      <padding>2 2</padding>
-      <padding ifSubset="Aspect Ratio:ratio43">4 4</padding>
-      <padding ifSubset="Aspect Ratio:ratio53">8 8</padding>
-
-      <backgroundCornerSize>0</backgroundCornerSize>
       <backgroundColor>${primaryColorAlt}</backgroundColor>
     </gridtile>
 
@@ -122,20 +117,24 @@
       <color>${primaryColorLightVariant}</color>
     </text>
 
-    <text name="logoText">
-      <pos>0.033333333 0.075</pos>      <!--480x320 / 24x 20y-->
-      <origin>0 0.5</origin>      <!--vertical center-->
-    </text>
-
     <text name="md_name">
+      <origin>0 0.5</origin>      <!--vertical center-->
+      <pos>0.033333333 0.15</pos>      <!--480x320 / 24x 48y-->
+      <size>0.508333333 ${fontSizeSmall}</size>
+
       <fontSize>${fontSizeSmall}</fontSize>
       <fontPath>${typefaceRegular}</fontPath>
-      <pos>0.033333333 0.15</pos>      <!--480x320 / 24x 48y-->
-      <origin>0 0.5</origin>      <!--vertical center-->
-      <size>0.9 ${fontSizeSmall}</size>
       <alignment>left</alignment>
       <zIndex>41</zIndex>
     </text>
+
+    <datetime name="md_releasedate">
+      <pos>0.591666667 0.15</pos>
+    </datetime>
+
+    <image name="md_releasedate_icon" extra="true">
+      <pos>0.55 0.15</pos>
+    </image>
 
     <rating name="md_rating">
       <origin>0 0</origin>
