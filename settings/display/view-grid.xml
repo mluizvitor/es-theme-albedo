@@ -28,10 +28,15 @@
       <margin>0.033333 0.05</margin>      <!-- 480x320 / 16x 8y -->
       <padding>0.066666667 0.05</padding>      <!-- 480x320 / 32x 0y -->
 
-      <autoLayoutSelectedZoom>1.1</autoLayoutSelectedZoom>
+      <autoLayoutSelectedZoom>1.075</autoLayoutSelectedZoom>
 
       <gameImage>./assets/icons/cartridge-dark.png</gameImage>
       <folderImage>./assets/icons/folder-dark.png</folderImage>
+
+      <storyboard>
+        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
+        <animation property="y" from="0.25" to="0.2" duration="300" mode="EaseOut"/>
+      </storyboard>
     </imagegrid>
 
     <image name="grid_background" extra="true">
@@ -106,13 +111,14 @@
     <text name="gridtile">
       <fontSize>${fontSizeSmall}</fontSize>
       <fontPath>${typefaceRegular}</fontPath>
-      <alignment>center</alignment>
+      <alignment>left</alignment>
       <singleLineScroll>false</singleLineScroll>
-      <lineSpacing>1.1</lineSpacing>
+      <lineSpacing>0.9</lineSpacing>
       <backgroundColor>00000099</backgroundColor>
 
       <size>1 0.3</size>
       <pos>0 0.7</pos>
+      <padding>0.066666667 0.0125 0.066666667 0.0125</padding>
 
       <color>${primaryColorLightVariant}</color>
     </text>
@@ -126,19 +132,39 @@
       <fontPath>${typefaceRegular}</fontPath>
       <alignment>left</alignment>
       <zIndex>41</zIndex>
+
+      <storyboard>
+        <animation property="y" from="0.175" to="0.15" duration="300" mode="EaseOut"/>
+        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
+      </storyboard>
     </text>
 
     <datetime name="md_releasedate">
-      <pos>0.591666667 0.15</pos>
+      <pos>0.608333334 0.15</pos>
+
+      <storyboard>
+        <animation property="y" from="0.175" to="0.15" duration="300" mode="EaseOut"/>
+        <animation property="opacity" from="0" to="1" duration="1000" mode="EaseOut"/>
+      </storyboard>
     </datetime>
 
     <image name="md_releasedate_icon" extra="true">
-      <pos>0.55 0.15</pos>
+      <pos>0.566666667 0.15</pos>
+
+      <storyboard>
+        <animation property="y" from="0.175" to="0.15" duration="300" mode="EaseOut"/>
+        <animation property="opacity" from="0" to="1" duration="1000" mode="EaseOut"/>
+      </storyboard>
     </image>
 
     <rating name="md_rating">
-      <origin>0 0</origin>
-      <pos>0.820833333 0.128125</pos>      <!-- 480x320 / 456x 272y-->
+      <origin>0 0.5</origin>
+      <pos>0.820833333 0.15</pos>      <!-- 480x320 / 456x 272y-->
+
+      <storyboard>
+        <animation property="y" from="0.175" to="0.15" duration="300" mode="EaseOut"/>
+        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
+      </storyboard>
     </rating>
 
     <rating name="md_rating" ifSubset="Aspect Ratio:ratio43">

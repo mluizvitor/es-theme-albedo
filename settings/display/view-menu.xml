@@ -6,13 +6,20 @@
 <theme>
   <formatVersion>7</formatVersion>
 
+
+  <variables>
+    <menuFontSizeH1>0.053125</menuFontSizeH1>
+    <menuFontSizeBody>0.040625</menuFontSizeBody>
+    <menuFontSizeSmall>0.034375</menuFontSizeSmall>
+  </variables>
+
   <!-- Menu Settings -->
   <view name="menu">
     <menuText name="menutext">
       <fontPath>${typefaceRegular}</fontPath>
-      <fontSize>${fontSizeBody}</fontSize>
+      <fontSize>${menuFontSizeBody}</fontSize>
 
-      <selectedColor>121212ee</selectedColor>
+      <selectedColor>121212</selectedColor>
       <selectorColor>${primaryColorAlt}</selectorColor>
 
       <color>${primaryColorLightVariant}</color>
@@ -21,19 +28,19 @@
 
     <menuText name="menufooter">
       <fontPath>${typefaceRegular}</fontPath>
-      <fontSize>${fontSizeSmall}</fontSize>
+      <fontSize>${menuFontSizeSmall}</fontSize>
       <color>${primaryColorLightVariant}cc</color>
     </menuText>
 
     <menuTextSmall name="menutextsmall">
       <fontPath>${typefaceRegular}</fontPath>
-      <fontSize>${fontSizeSmall}</fontSize>
+      <fontSize>${menuFontSizeSmall}</fontSize>
       <color>${primaryColorAlt}</color>
     </menuTextSmall>
 
     <menuGroup name="menugroup">
-      <fontPath>${typefaceTitleRegular}</fontPath>
-      <fontSize>${fontSizeBody}</fontSize>
+      <fontPath>${typefaceTitleBold}</fontPath>
+      <fontSize>${menuFontSizeSmall}</fontSize>
 
       <color>${primaryColorLightVariant}</color>
       <separatorColor>${primaryColor}</separatorColor>
@@ -61,7 +68,7 @@
 
     <menuText name="menutitle">
       <fontPath>${typefaceTitleBold}</fontPath>
-      <fontSize>${fontSizeH1}</fontSize>
+      <fontSize>${menuFontSizeH1}</fontSize>
       <color>${primaryColorLightVariant}</color>
     </menuText>
 
@@ -78,8 +85,8 @@
     </menuButton>
 
     <menuSwitch name="menuswitch">
-      <pathOn>./assets/switch-on.svg</pathOn>
-      <pathOff>./assets/switch-off.svg</pathOff>
+      <pathOn>./assets/switch-on.png</pathOn>
+      <pathOff>./assets/switch-off.png</pathOff>
     </menuSwitch>
 
     <menuTextEdit name="menutextedit">

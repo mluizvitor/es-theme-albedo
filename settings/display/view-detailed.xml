@@ -24,7 +24,6 @@
     </image>
 
     <textlist name="gamelist">
-      <pos>0 0.15</pos>      <!-- 480x320 / 0x 48y -->
       <size>0.433333333 0.85</size>      <!-- 480x320 / 208x 272y-->
       <size ifHelpPrompts="true">0.433333333 0.775</size>      <!-- 480x320 / 208x 248y-->
       <horizontalMargin>0.033333333</horizontalMargin>      <!-- 24px -->
@@ -55,21 +54,32 @@
     </image>
 
     <datetime name="md_releasedate">
-      <pos>0.825 0.7375</pos>
+      <pos>0.841666667 0.7375</pos>
       <visible ifHelpPrompts="true">0</visible>
+
+      <storyboard>
+        <animation property="x" from="0.875" to="0.841666667" duration="300" mode="EaseOut"/>
+        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
+      </storyboard>
     </datetime>
 
     <image name="md_releasedate_icon">
-      <pos>0.783333333 0.7375</pos>
+      <pos>0.8 0.7375</pos>
       <visible ifHelpPrompts="true">0</visible>
+
+      <storyboard>
+        <animation property="x" from="0.833333333" to="0.8" duration="300" mode="EaseOut"/>
+        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
+      </storyboard>
     </image>
 
     <text name="md_description">
       <pos>0.466666667 0.775</pos>      <!-- 480x320 / 224x 240y-->
       <pos ifHelpPrompts="true">0.466666667 0.725</pos>      <!-- 480x320 / 224x 232y-->
-      
+
       <size>0.5 0.2</size>      <!-- 480x320 / 240x 64y-->
       <size ifHelpPrompts="true">0.5 0.175</size>      <!-- 480x320 / 240x 64y-->
+
 
       <color>ffffff</color>
       <fontPath>${typefaceRegular}</fontPath>
@@ -83,8 +93,9 @@
       <text lang="es">Descripción</text>
 
       <color>${primaryColorLightVariant}</color>
-      <origin>0 1</origin>
-      <pos>0.466666667 0.775</pos>
+      <origin>0 0.5</origin>
+      <pos>0.466666667 0.7375</pos>
+      <size>0.3 ${fontSizeTiny}</size>
 
       <fontSize>${fontSizeTiny}</fontSize>
       <fontPath>${typefaceTitleBold}</fontPath>
@@ -95,9 +106,21 @@
       <zIndex>40</zIndex>
     </text>
 
+    <text name="md_description_label, md_description">
+      <storyboard>
+        <animation property="x" from="0.5" to="0.466666667" duration="300" mode="EaseOut"/>
+        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
+      </storyboard>
+    </text>
+
     <rating name="md_rating">
       <origin>0 0.5</origin>
       <pos>0.816666667 0.6625</pos>
+
+      <storyboard>
+        <animation property="x" from="0.85" to="0.816666667" duration="300" mode="EaseOut"/>
+        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
+      </storyboard>
     </rating>
 
     <rating name="md_rating" ifSubset="Aspect Ratio:ratio43">

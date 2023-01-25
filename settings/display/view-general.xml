@@ -52,9 +52,26 @@
 
   <view name="basic, detailed">
     <textlist name="gamelist">
+      <origin>0 0</origin>
+      <pos>0 0.15</pos>      <!-- 480x320 / 0x 48y -->
+
+      <fontPath>${typefaceRegular}</fontPath>
+      <fontSize>${fontSizeBody}</fontSize>
+      <alignment>left</alignment>
+
+      <selectedColor>${primaryColorDarkVariant}</selectedColor>
+      <selectorColor>${primaryColorAlt}</selectorColor>
+      <primaryColor>${primaryColorLightVariant}</primaryColor>
+      <secondaryColor>${primaryColorLightVariant}</secondaryColor>
+
       <selectorHeight>0.1</selectorHeight>      <!-- 32y-->
       <selectorOffsetY>0.00625</selectorOffsetY>
       <lineSpacing>1.6</lineSpacing>
+
+      <storyboard>
+        <animation property="y" from="0.175" to="0.15" duration="300" mode="EaseOut"/>
+        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
+      </storyboard>
     </textlist>
   </view>
 
@@ -64,29 +81,31 @@
       <origin>0 0.5</origin>      <!--vertical center-->
       <size>0.7 ${fontSizeH2}</size>
       <pos>0.033333333 0.075</pos>      <!--480x320 / 16x 28y-->
-      
+
       <fontPath>${typefaceTitleBold}</fontPath>
       <fontSize>${fontSizeH2}</fontSize>
       <forceUppercase>1</forceUppercase>
       <alignment>left</alignment>
       <zIndex>40</zIndex>
-    </text>
 
-    <textlist name="gamelist">
-      <fontPath>${typefaceRegular}</fontPath>
-      <fontSize>${fontSizeBody}</fontSize>
-      <alignment>left</alignment>
-      <origin>0 0</origin>
-    </textlist>
+      <storyboard>
+        <animation property="y" from="0.1" to="0.074" duration="300" mode="EaseOut"/>
+        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
+      </storyboard>
+    </text>
 
     <image name="background">
       <path>./assets/background.png</path>
       <path>./assets/systems/${system.theme}.cropped.webp</path>
       <opacity>0.3</opacity>
       <size>1 1</size>
-      <origin>0 0</origin>
-      <pos>0 0</pos>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
       <zIndex>-5</zIndex>
+
+      <storyboard>
+        <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut"/>
+      </storyboard>
     </image>
 
 
@@ -99,19 +118,12 @@
       <unfilledPath>./assets/icons/star.svg</unfilledPath>
       <unfilledColor>${primaryColorAlt}66</unfilledColor>
     </rating>
-
-    <textlist name="gamelist">
-      <selectedColor>${primaryColorDarkVariant}</selectedColor>
-      <selectorColor>${primaryColorAlt}</selectorColor>
-      <primaryColor>${primaryColorLightVariant}</primaryColor>
-      <secondaryColor>${primaryColorLightVariant}</secondaryColor>
-    </textlist>
   </view>
 
   <view name="detailed, grid">
     <datetime name="md_releasedate">
       <origin>0 0.5</origin>
-      <size>0.141666667 ${fontSizeTiny}</size>
+      <size>0.125 ${fontSizeTiny}</size>
 
       <color>${primaryColorLightVariant}</color>
       <fontSize>${fontSizeTiny}</fontSize>
@@ -119,6 +131,10 @@
 
       <alignment>left</alignment>
       <zIndex>42</zIndex>
+
+      <format>%Y·%m·%d</format>
+      <format ifSubset="Date Format:m-d-y">%m·%d·%Y</format>
+      <format ifSubset="Date Format:d-m-y">%d·%m·%Y</format>
     </datetime>
 
     <image name="md_releasedate_icon" extra="true">

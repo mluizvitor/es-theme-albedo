@@ -26,8 +26,8 @@
       <logoRotation>5</logoRotation>
       <logoRotationOrigin>-10 0.5</logoRotationOrigin>
 
-      <defaultTransition>fade</defaultTransition>
-      <systemInfoDelay>300</systemInfoDelay>
+      <defaultTransition>instant</defaultTransition>
+      <systemInfoDelay>2000</systemInfoDelay>
     </carousel>
 
     <carousel name="systemcarousel" ifSubset="Aspect Ratio:ratio53">
@@ -40,6 +40,7 @@
       <origin>0 0</origin>
       <pos>0.34375 0.05</pos>      <!-- 480x320 / 165x 16y -->
       <size>0.58333333 ${fontSizeH1}</size>      <!-- 480x320 / 280x -->
+      <size ifHelpPrompts="true">0.55 ${fontSizeH1}</size>      <!-- 480x320 / 280x -->
 
       <color>ffffff</color>
 
@@ -53,6 +54,11 @@
       <rotation>90</rotation>
       <rotationOrigin>0 0.5</rotationOrigin>
       <zIndex>50</zIndex>
+
+      <storyboard>
+        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
+        <animation property="x" from="0.32375" to="0.34375" duration="300" mode="EaseOut"/>
+      </storyboard>
     </text>
 
     <!-- Total games per system -->
@@ -60,9 +66,9 @@
       <origin>0 0</origin>
       <pos>0.3875 0.05</pos>      <!-- 480x320 / 186x 16y -->
       <size>0.58333333 ${fontSizeBody}</size>      <!-- 480x320 / 416x -->
+      <size ifHelpPrompts="true">0.55 ${fontSizeH1}</size>      <!-- 480x320 / 280x -->
 
       <color>ffffffcc</color>
-      <backgroundColor>00000000</backgroundColor>
 
       <fontSize>${fontSizeBody}</fontSize>
       <alignment>left</alignment>
@@ -73,6 +79,10 @@
       <rotation>90</rotation>
       <rotationOrigin>0 0.5</rotationOrigin>
       <zIndex>50</zIndex>
+
+      <storyboard>
+        <animation property="opacity" from="0" to="1" duration="1000" mode="EaseOut"/>
+      </storyboard>
     </text>
 
     <!-- System Logo -->
@@ -111,9 +121,14 @@
     <image name="cover" extra="true">
       <path>./assets/systems/${system.theme}.webp</path>
       <size>0 1</size>
-      <origin>0.5 0</origin>
-      <pos>0.708333333 0</pos>
+      <origin>0.5 0.5</origin>
+      <pos>0.708333333 0.5</pos>
       <zIndex>26</zIndex>
+
+      <storyboard>
+        <animation property="x" from="0.658333333" to="0.708333333" duration="500" mode="EaseOut"/>
+        <animation property="opacity" from="0" to="1" duration="500" mode="EaseOut"/>
+      </storyboard>
     </image>
 
     <image name="carouselBackground" extra="true">

@@ -24,7 +24,6 @@
     </image>
 
     <textlist name="gamelist">
-      <pos>0 0.15</pos>      <!-- 480x320 / 0x 48y -->
       <size>1 0.85</size>      <!-- 480x320 / 480x 272y-->
       <size ifHelpPrompts="true">1 0.775</size>      <!-- 480x320 / 208x 248y-->
       <horizontalMargin>0.033333333</horizontalMargin>
