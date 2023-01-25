@@ -24,10 +24,17 @@ Albedo was made for the following resolutions:
 <br>
 
 # Screenshots
-## Main Screen
-![](./.github/0001.png) | ![](./.github/0002.png)
-:------------------------------:|:-------------------------------:
-![](./.github/0003.png) | ![](./.github/0004.png)
+| ![](./.github/0001.png) |  ![](./.github/0002.png)   |
+| :---------------------: | :------------------------: |
+|        Carousel         | Monochromatic System Logos |
+
+|     ![](./.github/0003.png)     |       ![](./.github/0004.png)       |
+| :-----------------------------: | :---------------------------------: |
+| Grid view + Purple accent color | Detailed view + Yellow accent color |
+
+|    ![](./.github/0005.png)     | ![](./.github/0006.png)  |
+| :----------------------------: | :----------------------: |
+| Basic view + Blue accent color | Menu + Pink accent color |
 
 <br>
 
@@ -147,6 +154,7 @@ All the files, code and images not mentioned abore are licensed under the [MIT L
 # Made With
 
 ![Inkscape](https://img.shields.io/badge/Inkscape-273445?style=for-the-badge&logo=Inkscape&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-272727?style=for-the-badge&logo=Figma&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0d52bf?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![And](https://img.shields.io/badge/And-f37329?style=for-the-badge&logoColor=white)
 ![Love](https://img.shields.io/badge/Love-de3e80?style=for-the-badge&logoColor=white)
