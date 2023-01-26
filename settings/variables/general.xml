@@ -1,0 +1,23 @@
+<!--
+  Theme: Albedo
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <typefaceLight>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Regular.ttf</typefaceLight>
+    <typefaceRegular>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Medium.ttf</typefaceRegular>
+    <typefaceBold>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Bold.ttf</typefaceBold>
+
+    <typefaceTitleRegular>./assets/fonts/Teko/Teko-Medium.ttf</typefaceTitleRegular>
+    <typefaceTitleBold>./assets/fonts/Teko/Teko-SemiBold.ttf</typefaceTitleBold>
+
+    <fontSizeH1>0.05</fontSizeH1>
+    <fontSizeH2>0.04375</fontSizeH2>
+    <fontSizeBody>0.0375</fontSizeBody>
+    <fontSizeSmall>0.03125</fontSizeSmall>
+    <fontSizeTiny>0.028125</fontSizeTiny>
+  </variables>
+</theme>

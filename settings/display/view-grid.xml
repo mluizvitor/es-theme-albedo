@@ -44,7 +44,7 @@
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
-      <zIndex>-4</zIndex>
+      <zIndex>5</zIndex>
     </image>
 
     <image name="grid_background" extra="true" ifSubset="Aspect Ratio:ratio43">
@@ -131,7 +131,7 @@
       <fontSize>${fontSizeSmall}</fontSize>
       <fontPath>${typefaceRegular}</fontPath>
       <alignment>left</alignment>
-      <zIndex>41</zIndex>
+      <zIndex>10</zIndex>
 
       <storyboard>
         <animation property="y" from="0.175" to="0.15" duration="300" mode="EaseOut"/>

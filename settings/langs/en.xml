@@ -7,11 +7,20 @@
   <formatVersion>7</formatVersion>
 
   <variables>
+    <string.settings.yes>Yes</string.settings.yes>
+    <string.settings.no>No</string.settings.no>
+
     <!-- Settings Titles -->
     <string.settings.colorSchemeTitle>Accent color</string.settings.colorSchemeTitle>
     <string.settings.monochromaticTitle>Monochrome logos</string.settings.monochromaticTitle>
     <string.settings.screenRatio>Screen ratio</string.settings.screenRatio>
     <string.settings.statusBar>Status bar</string.settings.statusBar>
+    <string.settings.scanlines>Scanlines</string.settings.scanlines>
+    <string.settings.dateFormat>Date format</string.settings.dateFormat>
+    
+    <string.settings.backgroundEntry>Theme Background</string.settings.backgroundEntry>
+    <string.settings.backgroundEntry.defaultBg>Default</string.settings.backgroundEntry.defaultBg>
+    <string.settings.backgroundEntry.customBg>Custom</string.settings.backgroundEntry.customBg>
 
     <!-- Colors -->
     <string.settings.color.blue>Blue</string.settings.color.blue>

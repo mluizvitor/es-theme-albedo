@@ -1,0 +1,13 @@
+<!--
+  Theme: Albedo
+  Author: mluizvitor
+-->
+
+<theme>
+  <formatVersion>7</formatVersion>
+
+  <variables>
+    <fontSizeH1>0.08</fontSizeH1>
+    <fontSizeH2>0.07375</fontSizeH2>
+  </variables>
+</theme>

@@ -6,21 +6,6 @@
 <theme>
   <formatVersion>7</formatVersion>
 
-  <variables>
-    <typefaceLight>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Regular.ttf</typefaceLight>
-    <typefaceRegular>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Medium.ttf</typefaceRegular>
-    <typefaceBold>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Bold.ttf</typefaceBold>
-
-    <typefaceTitleRegular>./assets/fonts/Teko/Teko-Medium.ttf</typefaceTitleRegular>
-    <typefaceTitleBold>./assets/fonts/Teko/Teko-SemiBold.ttf</typefaceTitleBold>
-
-    <fontSizeH1>0.05</fontSizeH1>
-    <fontSizeH2>0.04375</fontSizeH2>
-    <fontSizeBody>0.0375</fontSizeBody>
-    <fontSizeSmall>0.03125</fontSizeSmall>
-    <fontSizeTiny>0.028125</fontSizeTiny>
-  </variables>
-
   <include>./settings/langs/en.xml</include>
   <include lang="es">./settings/langs/es.xml</include>
   <include lang="pt">./settings/langs/pt.xml</include>
@@ -37,6 +22,11 @@
     <include name="gray" displayName="${string.settings.color.gray}">./settings/colors/gray.xml</include>
     <include name="brown" displayName="${string.settings.color.beige}">./settings/colors/brown.xml</include>
   </subset>
+  
+  <subset name="Scanlines" displayName="${string.settings.scanlines}">
+    <include name="scanlinesYes" displayName="${string.settings.yes}"/>
+    <include name="scanlinesNo" displayName="${string.settings.no}"/>
+  </subset>
 
   <subset name="Aspect Ratio" displayName="${string.settings.screenRatio}">
     <include ifArch="rg351p,amberelec-rg351p" name="ratio32" displayName="3:2" />
@@ -48,21 +38,29 @@
     <include ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="ratio53" displayName="5:3" />
   </subset>
 
-  <subset name="Date Format" displayName="${string.settings.DateFormat}">
-    <include name="y-m-d" displayName="YYYY·MM·DD"/>
-    <include name="m-d-y" displayName="MM·DD·YYYY"/>
-    <include name="d-m-y" displayName="DD·MM·YYYY"/>
-  </subset>
-
   <subset name="Monochromatic" displayName="${string.settings.monochromaticTitle}">
-    <include name="monoNo" displayName="No"/>
-    <include name="monoYes" displayName="Yes"/>
+    <include name="monoNo" displayName="${string.settings.no}"/>
+    <include name="monoYes" displayName="${string.settings.yes}"/>
   </subset>
 
   <subset name="StatusBar" displayName="${string.settings.statusBar}">
-    <include name="statusYes" displayName="Yes"/>
-    <include name="statusNo" displayName="No"/>
+    <include name="statusYes" displayName="${string.settings.yes}"/>
+    <include name="statusNo" displayName="${string.settings.no}"/>
   </subset>
+
+  <subset name="Backgrounds" displayName="${string.settings.backgroundEntry}">
+    <include name="defaultBg" displayName="${string.settings.backgroundEntry.defaultBg}"/>
+    <include name="customBg" displayName="${string.settings.backgroundEntry.customBg}"/>
+  </subset>
+
+  <subset name="Date Format" displayName="${string.settings.dateFormat}">
+    <include name="y-m-d" displayName="YYYY/MM/DD"/>
+    <include name="m-d-y" displayName="MM/DD/YYYY"/>
+    <include name="d-m-y" displayName="DD/MM/YYYY"/>
+  </subset>
+
+  <include>./settings/variables/general.xml</include>
+  <include ifSubset="Aspect Ratio:ratio53">./settings/variables/ratio53.xml</include>
 
   <include>./settings/display/view-general.xml</include>
   <include>./settings/display/view-system.xml</include>

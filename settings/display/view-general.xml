@@ -28,7 +28,7 @@
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
-      <zIndex>110</zIndex>
+      <zIndex>100</zIndex>
     </image>
 
     <image name="borderOverlay" extra="true" ifSubset="Aspect Ratio:ratio43">
@@ -46,7 +46,22 @@
 
       <pos>0 0</pos>
       <size>1 1</size>
-      <zIndex>41</zIndex>
+      <zIndex>90</zIndex>
+    </image>
+
+    <image name="backgroundScanlines" extra="true" ifSubset="Scanlines:scanlinesYes">
+      <path>./assets/ratio32/scanlines.png</path>
+      <path ifSubset="Aspect Ratio:ratio43">./assets/ratio43/scanlines.png</path>
+      <path ifSubset="Aspect Ratio:ratio53">./assets/ratio53/scanlines.png</path>
+      <opacity>0.2</opacity>
+      <size>1 1</size>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
+      <zIndex>0</zIndex>
+
+      <storyboard>
+        <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut"/>
+      </storyboard>
     </image>
   </view>
 
@@ -60,11 +75,13 @@
       <alignment>left</alignment>
 
       <selectedColor>${primaryColorDarkVariant}</selectedColor>
+
       <selectorColor>${primaryColorAlt}</selectorColor>
       <primaryColor>${primaryColorLightVariant}</primaryColor>
       <secondaryColor>${primaryColorLightVariant}</secondaryColor>
 
       <selectorHeight>0.1</selectorHeight>      <!-- 32y-->
+      <selectorHeight ifSubset="Aspect Ratio:ratio53">0.08</selectorHeight>
       <selectorOffsetY>0.00625</selectorOffsetY>
       <lineSpacing>1.6</lineSpacing>
 
@@ -86,7 +103,7 @@
       <fontSize>${fontSizeH2}</fontSize>
       <forceUppercase>1</forceUppercase>
       <alignment>left</alignment>
-      <zIndex>40</zIndex>
+      <zIndex>10</zIndex>
 
       <storyboard>
         <animation property="y" from="0.1" to="0.074" duration="300" mode="EaseOut"/>
@@ -97,17 +114,35 @@
     <image name="background">
       <path>./assets/background.png</path>
       <path>./assets/systems/${system.theme}.cropped.webp</path>
-      <opacity>0.3</opacity>
-      <size>1 1</size>
+      <opacity>0.4</opacity>
+      <size>1 0</size>
       <origin>0.5 0.5</origin>
       <pos>0.5 0.5</pos>
       <zIndex>-5</zIndex>
+
 
       <storyboard>
         <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut"/>
       </storyboard>
     </image>
 
+    <image name="background" ifSubset="Backgrounds:customBg">
+      <!-- Select primary background -->
+      <path>./customBackground/${system.theme}.png</path>
+      <path>./customBackground/${system.theme}.jpg</path>
+      <path>./customBackground/${system.theme}.jpeg</path>
+      <path>./customBackground/${system.theme}.webp</path>
+
+      <!-- Select alternative background - Intended to use a blurred image -->
+      <path>./customBackground/${system.theme}.cropped.png</path>
+      <path>./customBackground/${system.theme}.cropped.jpg</path>
+      <path>./customBackground/${system.theme}.cropped.jpeg</path>
+      <path>./customBackground/${system.theme}.cropped.webp</path>
+
+      <storyboard>
+        <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut"/>
+      </storyboard>
+    </image>
 
     <rating name="md_rating">
       <size>0.04375</size>      <!-- 480x320 / 14 -->
@@ -130,11 +165,11 @@
       <fontPath>${typefaceRegular}</fontPath>
 
       <alignment>left</alignment>
-      <zIndex>42</zIndex>
+      <zIndex>10</zIndex>
 
-      <format>%Y·%m·%d</format>
-      <format ifSubset="Date Format:m-d-y">%m·%d·%Y</format>
-      <format ifSubset="Date Format:d-m-y">%d·%m·%Y</format>
+      <format>%Y/%m/%d</format>
+      <format ifSubset="Date Format:m-d-y">%m/%d/%Y</format>
+      <format ifSubset="Date Format:d-m-y">%d/%m/%Y</format>
     </datetime>
 
     <image name="md_releasedate_icon" extra="true">
@@ -142,15 +177,15 @@
       <path>./assets/icons/calendar.png</path>
       <size>0.033333333 0</size>
       <color>${primaryColor}</color>
-      <zIndex>42</zIndex>
+      <zIndex>10</zIndex>
     </image>
   </view>
 
   <!-- Clock Settings -->
   <view name="screen">
     <text name="clock">
-      <origin>0 0</origin>
-      <pos>0.73 0.017</pos>
+      <origin>0 0.5</origin>
+      <pos>0.73 0.05</pos>
       <size>0.14 0</size>
 
       <fontPath>${typefaceRegular}</fontPath>
@@ -161,23 +196,29 @@
       <color>ffffff</color>
     </text>
 
+    <text name="clock" ifSubset="StatusBar:statusNo">
+      <visible>false</visible>
+    </text>
+
     <text name="clock" ifSubset="Aspect Ratio:ratio43">
-      <pos>0.705 0.015</pos>
+      <origin>0 0.5</origin>
+      <pos>0.705 0.041666667</pos>
       <size>0.14 0</size>
       <fontSize>${fontSizeSmall}</fontSize>
     </text>
 
     <text name="clock" ifSubset="Aspect Ratio:ratio53">
-      <pos>0.74 0.013</pos>
-      <size>0.13 0</size>
+      <pos>0.77 0.046875</pos>
+      <size>0.1 0</size>
       <fontSize>${fontSizeBody}</fontSize>
     </text>
 
     <batteryIndicator name="batteryIndicator">
-      <pos>0.944 0.025</pos>
-      <pos ifSubset="Aspect Ratio:ratio43">0.944 0.017</pos>
-      <pos ifSubset="Aspect Ratio:ratio53">0.944 0.0225</pos>
-      <size>0.033333 0.05</size>      <!-- 480x320 / 16x 16y -->
+      <pos>0.933333333 0.025</pos>
+      <pos ifSubset="Aspect Ratio:ratio43">0.933333333 0.017</pos>
+      <pos ifSubset="Aspect Ratio:ratio53">0.933333333 0.0225</pos>
+
+      <size>0.05</size>      <!-- 480x320 / 16x 16y -->
 
       <color>ffffff</color>
 
@@ -189,6 +230,10 @@
       <empty>./assets/icons/battery-empty.png</empty>
       <incharge>./assets/icons/battery-charging.png</incharge>
       <networkIcon>./assets/icons/wifi.png</networkIcon>
+    </batteryIndicator>
+
+    <batteryIndicator name="batteryIndicator" ifSubset="StatusBar:statusNo">
+      <visible>false</visible>
     </batteryIndicator>
 
     <controllerActivity name="controllerActivity">

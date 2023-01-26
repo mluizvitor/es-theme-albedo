@@ -7,11 +7,19 @@
   <formatVersion>7</formatVersion>
 
   <variables>
+    <string.settings.yes>Sim</string.settings.yes>
+    <string.settings.no>Não</string.settings.no>
+
     <!-- Settings Titles -->
     <string.settings.colorSchemeTitle>Cor de destaque</string.settings.colorSchemeTitle>
     <string.settings.monochromaticTitle>Logos monocromáticos</string.settings.monochromaticTitle>
     <string.settings.screenRatio>Proporção da tela</string.settings.screenRatio>
     <string.settings.statusBar>Barra de status</string.settings.statusBar>
+    <string.settings.dateFormat>Formato da data</string.settings.dateFormat>
+
+    <string.settings.backgroundEntry>Plano de Fundo do Tema</string.settings.backgroundEntry>
+    <string.settings.backgroundEntry.defaultBg>Padrão</string.settings.backgroundEntry.defaultBg>
+    <string.settings.backgroundEntry.customBg>Personalizado</string.settings.backgroundEntry.customBg>
 
     <!-- Colors -->
     <string.settings.color.blue>Azul</string.settings.color.blue>

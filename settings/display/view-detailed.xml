@@ -13,6 +13,7 @@
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
+      <zIndex>5</zIndex>
     </image>
 
     <image name="detailed_background" extra="true" ifSubset="Aspect Ratio:ratio43">
@@ -41,7 +42,7 @@
       <origin>0.5 0</origin>
       <pos>0.716666667 0.175</pos>      <!-- 480x320 / 344x 56y -->
       <maxSize>0.5 0.5</maxSize>      <!-- 480x320 / 240x 160y -->
-      <zIndex>0</zIndex>
+      <zIndex>4</zIndex>
       <roundCorners>0.02</roundCorners>
       <path>./assets/icons/cartridge-dark.png</path>
     </image>
@@ -50,7 +51,7 @@
       <pos>0.716666667 0.2125</pos>      <!-- 480x320 / 344x 68y -->
       <origin>0.5 0.5</origin>      <!-- 480x320 / center center / -->
       <maxSize>0.433333333 0.175</maxSize>      <!-- 480x320 / 208x 56y -->
-      <zIndex>33</zIndex>
+      <zIndex>6</zIndex>
     </image>
 
     <datetime name="md_releasedate">
@@ -100,8 +101,7 @@
       <forceUppercase>1</forceUppercase>
 
       <visible ifHelpPrompts="true">0</visible>
-
-      <zIndex>40</zIndex>
+      <zIndex>20</zIndex>
     </text>
 
     <text name="md_description_label, md_description">
