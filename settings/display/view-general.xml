@@ -184,39 +184,45 @@
   <!-- Clock Settings -->
   <view name="screen">
     <text name="clock">
-      <origin>0 0.5</origin>
-      <pos>0.73 0.05</pos>
-      <size>0.14 0</size>
+      <origin>0 0</origin>
+      <pos>0.73 0</pos>
+      <pos ifSubset="StatusBar:statusClock">0.85 0</pos>
 
+      <size>0.14 0.1</size>
+      
       <fontPath>${typefaceRegular}</fontPath>
       <fontSize>${fontSizeBody}</fontSize>
       <lineSpacing>1</lineSpacing>
       <alignment>center</alignment>
-
+      <padding>0 0.015 0 0</padding>
+      
       <color>ffffff</color>
     </text>
 
-    <text name="clock" ifSubset="StatusBar:statusNo">
+    <text name="clock" ifSubset="StatusBar:statusBattery|statusHidden">
       <visible>false</visible>
     </text>
 
     <text name="clock" ifSubset="Aspect Ratio:ratio43">
-      <origin>0 0.5</origin>
-      <pos>0.705 0.041666667</pos>
-      <size>0.14 0</size>
+      <pos>0.705 0</pos>
+      <pos ifSubset="StatusBar:statusClock">0.845 0</pos>
+      <size>0.14 0.083333333</size>
       <fontSize>${fontSizeSmall}</fontSize>
     </text>
-
+    
     <text name="clock" ifSubset="Aspect Ratio:ratio53">
-      <pos>0.77 0.046875</pos>
-      <size>0.1 0</size>
+      <pos>0.785 0</pos>
+      <pos ifSubset="StatusBar:statusClock">0.8875 0</pos>
+      <size>0.1 0.083333333</size>
       <fontSize>${fontSizeBody}</fontSize>
     </text>
 
     <batteryIndicator name="batteryIndicator">
       <pos>0.933333333 0.025</pos>
-      <pos ifSubset="Aspect Ratio:ratio43">0.933333333 0.017</pos>
-      <pos ifSubset="Aspect Ratio:ratio53">0.933333333 0.0225</pos>
+      <pos ifSubset="StatusBar:statusBattery">0.92 0.025</pos>
+
+      <pos ifSubset="Aspect Ratio:ratio43">0.93 0.016</pos>
+      <pos ifSubset="Aspect Ratio:ratio53">0.94 0.0175</pos>
 
       <size>0.05</size>      <!-- 480x320 / 16x 16y -->
 
@@ -232,7 +238,7 @@
       <networkIcon>./assets/icons/wifi.png</networkIcon>
     </batteryIndicator>
 
-    <batteryIndicator name="batteryIndicator" ifSubset="StatusBar:statusNo">
+    <batteryIndicator name="batteryIndicator" ifSubset="StatusBar:statusClock|statusHidden">
       <visible>false</visible>
     </batteryIndicator>
 

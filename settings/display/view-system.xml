@@ -151,7 +151,7 @@
       <zIndex>0</zIndex>
     </image>
 
-    <image name="osdBackground" extra="true" ifSubset="StatusBar:statusYes">
+    <image name="osdBackground" extra="true" ifSubset="StatusBar:statusBattery|statusClock">
       <path>./assets/ratio32/status-bar.png</path>
       <path ifSubset="Aspect Ratio:ratio43">./assets/ratio43/status-bar.png</path>
       <path ifSubset="Aspect Ratio:ratio53">./assets/ratio53/status-bar.png</path>
@@ -159,7 +159,17 @@
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
+      <zIndex>1</zIndex>
+    </image>
 
+    <image name="osdBackground" extra="true" ifSubset="StatusBar:statusComplete">
+      <path>./assets/ratio32/status-bar-expanded.png</path>
+      <path ifSubset="Aspect Ratio:ratio43">./assets/ratio43/status-bar-expanded.png</path>
+      <path ifSubset="Aspect Ratio:ratio53">./assets/ratio53/status-bar-expanded.png</path>
+
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
       <zIndex>1</zIndex>
     </image>
 

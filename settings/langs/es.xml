@@ -17,6 +17,10 @@
     <string.settings.statusBar>Barra de estado</string.settings.statusBar>
     <string.settings.dateFormat>Formato de fecha</string.settings.dateFormat>
 
+    <string.settings.clock>Reloj</string.settings.clock>
+    <string.settings.battery>Batería</string.settings.battery>
+    <string.settings.hidden>Oculta</string.settings.hidden>
+
     <string.settings.backgroundEntry>Fondo del tema</string.settings.backgroundEntry>
     <string.settings.backgroundEntry.defaultBg>Por defecto</string.settings.backgroundEntry.defaultBg>
     <string.settings.backgroundEntry.customBg>Personalizado</string.settings.backgroundEntry.customBg>

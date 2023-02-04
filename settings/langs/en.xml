@@ -18,6 +18,10 @@
     <string.settings.scanlines>Scanlines</string.settings.scanlines>
     <string.settings.dateFormat>Date format</string.settings.dateFormat>
     
+    <string.settings.clock>Clock</string.settings.clock>
+    <string.settings.battery>Battery</string.settings.battery>
+    <string.settings.hidden>Hidden</string.settings.hidden>
+    
     <string.settings.backgroundEntry>Theme Background</string.settings.backgroundEntry>
     <string.settings.backgroundEntry.defaultBg>Default</string.settings.backgroundEntry.defaultBg>
     <string.settings.backgroundEntry.customBg>Custom</string.settings.backgroundEntry.customBg>

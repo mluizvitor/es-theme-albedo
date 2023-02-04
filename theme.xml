@@ -44,8 +44,10 @@
   </subset>
 
   <subset name="StatusBar" displayName="${string.settings.statusBar}">
-    <include name="statusYes" displayName="${string.settings.yes}"/>
-    <include name="statusNo" displayName="${string.settings.no}"/>
+    <include name="statusComplete" displayName="${string.settings.clock} + ${string.settings.battery}"/>
+    <include name="statusClock" displayName="${string.settings.clock}"/>
+    <include name="statusBattery" displayName="${string.settings.battery}"/>
+    <include name="statusHidden" displayName="${string.settings.hidden}"/>
   </subset>
 
   <subset name="Backgrounds" displayName="${string.settings.backgroundEntry}">

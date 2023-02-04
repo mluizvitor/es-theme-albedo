@@ -17,6 +17,10 @@
     <string.settings.statusBar>Barra de status</string.settings.statusBar>
     <string.settings.dateFormat>Formato da data</string.settings.dateFormat>
 
+    <string.settings.clock>Relógio</string.settings.clock>
+    <string.settings.battery>Bateria</string.settings.battery>
+    <string.settings.hidden>Oculta</string.settings.hidden>
+
     <string.settings.backgroundEntry>Plano de Fundo do Tema</string.settings.backgroundEntry>
     <string.settings.backgroundEntry.defaultBg>Padrão</string.settings.backgroundEntry.defaultBg>
     <string.settings.backgroundEntry.customBg>Personalizado</string.settings.backgroundEntry.customBg>
