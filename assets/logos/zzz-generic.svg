@@ -18,7 +18,7 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview1545"
-     pagecolor="#ffffff"
+     pagecolor="#333333"
      bordercolor="#808080"
      borderopacity="1"
      inkscape:pageshadow="0"
@@ -27,370 +27,72 @@
      inkscape:document-units="px"
      showgrid="false"
      units="px"
-     width="640px"
      inkscape:snap-page="true"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="1.6617009"
-     inkscape:cx="255.46113"
-     inkscape:cy="164.28949"
+     inkscape:cx="280.73644"
+     inkscape:cy="227.47776"
      inkscape:window-width="1920"
      inkscape:window-height="955"
      inkscape:window-x="0"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="svg1543"
      inkscape:showpageshadow="true"
-     inkscape:deskcolor="#ffffff"
+     inkscape:deskcolor="#1a1a1a"
      shape-rendering="auto"
      borderlayer="true">
     <sodipodi:guide
-       position="10.583333,71.4375"
-       orientation="-1,0"
-       id="guide2978"
-       inkscape:label=""
-       inkscape:locked="false"
-       inkscape:color="rgb(0,0,255)" />
+       position="40"
+       orientation="1,0"
+       id="guide228"
+       inkscape:locked="false" />
     <sodipodi:guide
-       position="116.41667,13.229167"
-       orientation="-1,0"
-       id="guide2980"
-       inkscape:label=""
-       inkscape:locked="false"
-       inkscape:color="rgb(0,0,255)" />
+       position="440"
+       orientation="1,0"
+       id="guide230"
+       inkscape:locked="false" />
     <sodipodi:guide
-       position="10.583333,71.4375"
-       orientation="0,1"
-       id="guide2982"
-       inkscape:label=""
-       inkscape:locked="false"
-       inkscape:color="rgb(0,0,255)" />
+       position="40,270"
+       orientation="0,-1"
+       id="guide232"
+       inkscape:locked="false" />
     <sodipodi:guide
-       position="116.41667,13.229167"
-       orientation="0,1"
-       id="guide2984"
-       inkscape:label=""
-       inkscape:locked="false"
-       inkscape:color="rgb(0,0,255)" />
+       position="440,50"
+       orientation="0,-1"
+       id="guide234"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <defs
      id="defs1540">
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient2856">
+       id="linearGradient1932">
       <stop
-         style="stop-color:#007367;stop-opacity:1"
+         style="stop-color:#008080;stop-opacity:1"
          offset="0"
-         id="stop2852" />
+         id="stop1928" />
       <stop
-         style="stop-color:#64baff;stop-opacity:1"
+         style="stop-color:#00ffff;stop-opacity:1"
          offset="1"
-         id="stop2854" />
+         id="stop1930" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient2856"
-       id="linearGradient2858"
-       x1="10.583333"
-       y1="71.4375"
-       x2="10.583333"
-       y2="13.229167"
+       xlink:href="#linearGradient1932"
+       id="linearGradient1934"
+       x1="240"
+       y1="320"
+       x2="240"
+       y2="0"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="scale(3.7795276)" />
-    <clipPath
-       id="clip1">
-      <path
-         d="m 249,0 h 75 v 124.51172 h -75 z m 0,0"
-         id="path2" />
-    </clipPath>
-    <clipPath
-       id="clip2">
-      <path
-         d="m 421,0 h 90 v 124.51172 h -90 z m 0,0"
-         id="path5" />
-    </clipPath>
-    <clipPath
-       id="clip3">
-      <path
-         d="m 513,0 h 28 v 124.51172 h -28 z m 0,0"
-         id="path8" />
-    </clipPath>
-    <clipPath
-       id="clip4">
-      <path
-         d="m 659,4 h 86.87109 V 124 H 659 Z m 0,0"
-         id="path11" />
-    </clipPath>
-    <marker
-       id="DefaultArrow2"
-       markerUnits="strokeWidth"
-       viewBox="0 0 1 1"
-       markerWidth="1"
-       markerHeight="1"
-       overflow="visible"
-       orient="auto">
-      <!-- REF_ARROW_STRAIGHT (-2) -->
-      <g
-         transform="scale(0.00925926)"
-         id="g8989">
-        <!-- 1/108 -->
-        <path
-           d="M -9,54 V -54 L 117,0 Z"
-           id="path8987" />
-      </g>
-    </marker>
-    <marker
-       id="DefaultArrow3"
-       markerUnits="strokeWidth"
-       viewBox="0 0 1 1"
-       markerWidth="1"
-       markerHeight="1"
-       overflow="visible"
-       orient="auto">
-      <!-- REF_ARROW_ANGLED -->
-      <g
-         transform="scale(0.00925926)"
-         id="g8994">
-        <path
-           d="M -27,54 -9,0 -27,-54 135,0 Z"
-           id="path8992" />
-      </g>
-    </marker>
-    <marker
-       id="DefaultArrow4"
-       markerUnits="strokeWidth"
-       viewBox="0 0 1 1"
-       markerWidth="1"
-       markerHeight="1"
-       overflow="visible"
-       orient="auto">
-      <!-- REF_ARROW_ROUNDED -->
-      <g
-         transform="scale(0.00925926)"
-         id="g8999">
-        <path
-           d="m -9,0 v -45 c 0,-6.708 11.808,-11.58 18,-9 l 108,45 c 3.916,1.631 9,4.758 9,9 0,4.242 -5.084,7.369 -9,9 L 9,54 C 2.808,56.58 -9,51.708 -9,45 Z"
-           id="path8997" />
-      </g>
-    </marker>
-    <marker
-       id="DefaultArrow5"
-       markerUnits="strokeWidth"
-       viewBox="0 0 1 1"
-       markerWidth="1"
-       markerHeight="1"
-       overflow="visible"
-       orient="auto">
-      <!-- REF_ARROW_SPOT -->
-      <g
-         transform="scale(0.00925926)"
-         id="g9004">
-        <path
-           d="M -54,0 C -54,29.807 -29.807,54 0,54 29.807,54 54,29.807 54,0 54,-29.807 29.807,-54 0,-54 -29.807,-54 -54,-29.807 -54,0 Z"
-           id="path9002" />
-      </g>
-    </marker>
-    <marker
-       id="DefaultArrow6"
-       markerUnits="strokeWidth"
-       viewBox="0 0 1 1"
-       markerWidth="1"
-       markerHeight="1"
-       overflow="visible"
-       orient="auto">
-      <!-- REF_ARROW_DIAMOND -->
-      <g
-         transform="scale(0.00925926)"
-         id="g9009">
-        <path
-           d="M -63,0 0,63 63,0 0,-63 Z"
-           id="path9007" />
-      </g>
-    </marker>
-    <marker
-       id="DefaultArrow7"
-       markerUnits="strokeWidth"
-       viewBox="0 0 1 1"
-       markerWidth="1"
-       markerHeight="1"
-       overflow="visible"
-       orient="auto">
-      <!-- REF_ARROW_FEATHER -->
-      <g
-         transform="scale(0.00925926)"
-         id="g9014">
-        <path
-           d="m 18,-54 h 90 L 63,0 108,54 H 18 L -36,0 Z"
-           id="path9012" />
-      </g>
-    </marker>
-    <marker
-       id="DefaultArrow8"
-       markerUnits="strokeWidth"
-       viewBox="0 0 1 1"
-       markerWidth="1"
-       markerHeight="1"
-       overflow="visible"
-       orient="auto">
-      <!-- REF_ARROW_FEATHER2 -->
-      <g
-         transform="scale(0.00925926)"
-         id="g9019">
-        <path
-           d="m -36,0 54,-54 h 36 l -36,36 h 9 l 36,-36 h 36 l -36,36 h 9 l 36,-36 h 36 L 90,0 144,54 H 108 L 72,18 H 63 L 99,54 H 63 L 27,18 H 18 L 54,54 H 18 Z"
-           id="path9017" />
-      </g>
-    </marker>
-    <marker
-       id="DefaultArrow9"
-       markerUnits="strokeWidth"
-       viewBox="0 0 1 1"
-       markerWidth="1"
-       markerHeight="1"
-       overflow="visible"
-       orient="auto">
-      <!-- REF_ARROW_HOLLOWDIAMOND -->
-      <g
-         transform="scale(0.00925926)"
-         id="g9024">
-        <path
-           d="M 0,45 -45,0 0,-45 45,0 Z M 0,63 -63,0 0,-63 63,0 Z"
-           id="path9022" />
-      </g>
-    </marker>
-    <filter
-       id="StainedFilter">
-      <feBlend
-         mode="multiply"
-         in2="BackgroundImage"
-         in="SourceGraphic"
-         result="blend"
-         id="feBlend9027" />
-      <feComposite
-         in="blend"
-         in2="SourceAlpha"
-         operator="in"
-         result="comp"
-         id="feComposite9029" />
-    </filter>
-    <filter
-       id="BleachFilter">
-      <feBlend
-         mode="screen"
-         in2="BackgroundImage"
-         in="SourceGraphic"
-         result="blend"
-         id="feBlend9032" />
-      <feComposite
-         in="blend"
-         in2="SourceAlpha"
-         operator="in"
-         result="comp"
-         id="feComposite9034" />
-    </filter>
-    <filter
-       id="InvertTransparencyBitmapFilter">
-      <feComponentTransfer
-         id="feComponentTransfer9043">
-        <feFuncR
-           type="gamma"
-           amplitude="1.055"
-           exponent=".416666666"
-           offset="-0.055"
-           id="feFuncR9037" />
-        <feFuncG
-           type="gamma"
-           amplitude="1.055"
-           exponent=".416666666"
-           offset="-0.055"
-           id="feFuncG9039" />
-        <feFuncB
-           type="gamma"
-           amplitude="1.055"
-           exponent=".416666666"
-           offset="-0.055"
-           id="feFuncB9041" />
-      </feComponentTransfer>
-      <feComponentTransfer
-         id="feComponentTransfer9053">
-        <feFuncR
-           type="linear"
-           slope="-1"
-           intercept="1"
-           id="feFuncR9045" />
-        <feFuncG
-           type="linear"
-           slope="-1"
-           intercept="1"
-           id="feFuncG9047" />
-        <feFuncB
-           type="linear"
-           slope="-1"
-           intercept="1"
-           id="feFuncB9049" />
-        <feFuncA
-           type="linear"
-           slope="1"
-           intercept="0"
-           id="feFuncA9051" />
-      </feComponentTransfer>
-      <feComponentTransfer
-         id="feComponentTransfer9061">
-        <feFuncR
-           type="gamma"
-           amplitude="1"
-           exponent="2.4"
-           offset="0"
-           id="feFuncR9055" />
-        <feFuncG
-           type="gamma"
-           amplitude="1"
-           exponent="2.4"
-           offset="0"
-           id="feFuncG9057" />
-        <feFuncB
-           type="gamma"
-           amplitude="1"
-           exponent="2.4"
-           offset="0"
-           id="feFuncB9059" />
-      </feComponentTransfer>
-    </filter>
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 1988.7159 : 1"
-       inkscape:vp_y="0 : 3779.5275 : 0"
-       inkscape:vp_z="2812.3256 : 1988.7159 : 1"
-       inkscape:persp3d-origin="1406.1628 : 1325.8106 : 1"
-       id="perspective10" />
-    <inkscape:perspective
-       id="perspective2824"
-       inkscape:persp3d-origin="1.8897638 : 1.2598425 : 1"
-       inkscape:vp_z="3.7795276 : 1.8897638 : 1"
-       inkscape:vp_y="0 : 3779.5275 : 0"
-       inkscape:vp_x="0 : 1.8897638 : 1"
-       sodipodi:type="inkscape:persp3d" />
+       spreadMethod="pad" />
   </defs>
-  <g
-     inkscape:label="Camada 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <rect
-       style="opacity:1;fill:url(#linearGradient2858);fill-opacity:1;stroke-width:1.99999;stroke-linecap:square;stroke-linejoin:round;paint-order:stroke fill markers"
-       id="rect1569"
-       width="480"
-       height="320"
-       x="0"
-       y="0"
-       ry="16"
-       inkscape:export-filename="/home/vitor/Dev/es-theme-material-tv-3-2/assets/logo/fbn.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-  </g>
-  <style
-     type="text/css"
-     id="style3952">
-	.st0{fill:#FC0C18;}
-	.st1{fill:#FC0C18;}
-   </style>
+  <rect
+     id="baseRect"
+     width="480"
+     height="320"
+     ry="16"
+     style="fill:url(#linearGradient1934)" />
 </svg>

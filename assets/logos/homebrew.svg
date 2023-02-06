@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="480" height="320" version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <linearGradient id="a" x1="10.583" x2="58.767" y1="71.438" y2="-58.66" gradientTransform="scale(3.7795)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#404040" offset="0"/>
-   <stop stop-color="#f90" offset="1"/>
-  </linearGradient>
- </defs>
- <rect width="480" height="320" ry="16" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" style="paint-order:stroke fill markers"/>
- <path d="m211.79 224.61h136.18v25.392h-166.38l9.0104-67.68h-19.454l-3.8906 29.59h-26.724l3.686-29.59h-12.184v-21.297h15.051l5.3242-40.547h-12.799v-21.399h15.665l3.686-29.078h26.928l-3.9931 29.078h19.556l3.8906-29.078h26.724l-3.8906 29.078h12.389v21.399h-15.256l-5.1194 40.547h12.799v21.297h-15.665zm-37.988-63.583h19.454l5.3242-40.547h-19.454z" fill="#f9f9f9" stroke-width="0"/>
- <style type="text/css">.st0{fill:#FC0C18;}
-	.st1{fill:#FC0C18;}</style>
-</svg>
+<svg width="480" height="320" version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a" x1="186.61" x2="288.78" y1="290.83" y2="-90.495" gradientUnits="userSpaceOnUse"><stop stop-color="#404040" offset="0"/><stop stop-color="#f90" offset="1"/></linearGradient></defs><rect width="480" height="320" ry="16" fill="url(#a)"/><path d="m211.79 224.61h136.18v25.392h-166.38l9.0104-67.68h-19.454l-3.8906 29.59h-26.724l3.686-29.59h-12.184v-21.297h15.051l5.3242-40.547h-12.799v-21.399h15.665l3.686-29.078h26.928l-3.9931 29.078h19.556l3.8906-29.078h26.724l-3.8906 29.078h12.389v21.399h-15.256l-5.1194 40.547h12.799v21.297h-15.665zm-37.988-63.583h19.454l5.3242-40.547h-19.454z" fill="#fff"/></svg>
