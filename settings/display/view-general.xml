@@ -112,10 +112,11 @@
     </text>
 
     <image name="background">
-      <path>./assets/background.png</path>
-      <path>./assets/systems/${system.theme}.cropped.webp</path>
+      <path>./assets/systems/blurred/unknown.blurred.webp</path>
+      <path>./assets/systems/blurred/${system.theme}.blurred.webp</path>
       <opacity>0.4</opacity>
-      <size>1 0</size>
+      <size>0 1</size>
+      <size ifSubset="Aspect Ratio:ratio53">1 0</size>
       <origin>0.5 0.5</origin>
       <pos>0.5 0.5</pos>
       <zIndex>-5</zIndex>
@@ -134,10 +135,10 @@
       <path>./customBackground/${system.theme}.webp</path>
 
       <!-- Select alternative background - Intended to use a blurred image -->
-      <path>./customBackground/${system.theme}.cropped.png</path>
-      <path>./customBackground/${system.theme}.cropped.jpg</path>
-      <path>./customBackground/${system.theme}.cropped.jpeg</path>
-      <path>./customBackground/${system.theme}.cropped.webp</path>
+      <path>./customBackground/blurred/${system.theme}.blurred.png</path>
+      <path>./customBackground/blurred/${system.theme}.blurred.jpg</path>
+      <path>./customBackground/blurred/${system.theme}.blurred.jpeg</path>
+      <path>./customBackground/blurred/${system.theme}.blurred.webp</path>
 
       <storyboard>
         <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut"/>
