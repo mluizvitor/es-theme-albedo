@@ -1,17 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="480" height="320" version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <linearGradient id="a" x1="59.977" x2="127" y1="-39.605" y2="84.667" gradientTransform="scale(3.7795)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#43d6b5" offset="0"/>
-   <stop stop-color="#0d52bf" offset="1"/>
-  </linearGradient>
- </defs>
- <rect width="480" height="320" ry="16" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" style="paint-order:stroke fill markers"/>
- <path d="m206 94h68.001v30l-34 34-34-34z" fill="#fff" fill-opacity=".25" stroke-linecap="round" stroke-linejoin="round" stroke-width=".51437" style="paint-order:stroke markers fill"/>
- <g transform="matrix(8.0001 0 0 8.0001 144 63.998)">
-  <path d="m0 0h24v24h-24z" fill="none"/>
-  <path d="m6 2v6h0.01l-0.01 0.01 4 3.99-4 4 0.01 0.01h-0.01v5.99h12v-5.99h-0.01l0.01-0.01-4-4 4-3.99-0.01-0.01h0.01v-6zm10 14.5v3.5h-8v-3.5l4-4zm-4-5-4-4v-3.5h8v3.5z" fill="#fff"/>
- </g>
- <style type="text/css">.st0{fill:#FC0C18;}
-	.st1{fill:#FC0C18;}</style>
-</svg>
+<svg version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a" x1="59.98" x2="127" y1="-39.6" y2="84.67" gradientTransform="scale(3.78)" gradientUnits="userSpaceOnUse"><stop stop-color="#43d6b5" offset="0"/><stop stop-color="#0d52bf" offset="1"/></linearGradient></defs><rect width="480" height="320" ry="16" fill="url(#a)"/><path d="m208 96h64v28l-32 32-32-32z" fill="#fff" fill-opacity=".25"/><path d="m192 80v48h0.08l-0.08 0.08 32 31.92-32 32 0.08 0.08h-0.08v47.92h96v-47.92h-0.08l0.08-0.08-32-32 32-31.92-0.08-0.08h0.08v-48zm80 116v28h-64v-28l32-32zm-32-40-32-32v-28h64v28z" fill="#fff"/></svg>

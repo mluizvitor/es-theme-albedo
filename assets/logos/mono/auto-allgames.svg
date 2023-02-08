@@ -1,22 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="480" height="320" version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <linearGradient id="a" x1="81.598" x2="81.598" y2="84.667" gradientTransform="scale(3.7795)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#fff" offset="0"/>
-   <stop stop-color="#e6e6e6" offset="1"/>
-  </linearGradient>
- </defs>
- <rect width="480" height="320" ry="16" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" style="paint-order:stroke fill markers"/>
- <g transform="matrix(8.0001 0 0 8.0001 144 63.998)" fill="#1a1a1a">
-  <g fill="#1a1a1a">
-   <g fill="#1a1a1a">
-    <path d="m21.58 16.09-1.09-7.66c-0.28-1.97-1.97-3.43-3.96-3.43h-9.06c-1.99 0-3.68 1.46-3.96 3.43l-1.09 7.66c-0.22 1.54 0.97 2.91 2.52 2.91 0.68 0 1.32-0.27 1.8-0.75l2.26-2.25h6l2.25 2.25c0.48 0.48 1.13 0.75 1.8 0.75 1.56 0 2.75-1.37 2.53-2.91zm-2.1 0.72c-0.08 0.09-0.21 0.19-0.42 0.19-0.15 0-0.29-0.06-0.39-0.16l-2.84-2.84h-7.66l-2.84 2.84c-0.1 0.1-0.24 0.16-0.39 0.16-0.21 0-0.34-0.1-0.42-0.19s-0.16-0.23-0.13-0.44l1.09-7.66c0.15-0.97 1-1.71 1.99-1.71h9.06c0.99 0 1.84 0.74 1.98 1.72l1.09 7.66c0.03 0.2-0.05 0.34-0.12 0.43z"/>
-    <polygon points="9 11 11 11 11 10 9 10 9 8 8 8 8 10 6 10 6 11 8 11 8 13 9 13"/>
-    <circle cx="17" cy="12" r="1"/>
-    <circle cx="15" cy="9" r="1"/>
-   </g>
-  </g>
- </g>
- <style type="text/css">.st0{fill:#FC0C18;}
-	.st1{fill:#FC0C18;}</style>
-</svg>
+<svg version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a" x2="0" y1="200" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#fff" offset="0"/><stop stop-color="#e6e6e6" offset="1"/></linearGradient></defs><rect width="480" height="320" ry="16" fill="url(#a)"/><path d="m203.8 104c-15.92 0-29.44 11.68-31.68 27.44l-8.721 61.28c-1.76 12.32 7.76 23.28 20.16 23.28 5.44 0 10.56-2.16 14.4-6l18.08-18h48l18 18c3.84 3.84 9.04 6 14.4 6 12.48 0 22-10.96 20.24-23.28l-8.721-61.28c-2.24-15.76-15.76-27.44-31.68-27.44h-72.48zm0 16h72.48c7.92 0 14.72 5.922 15.84 13.76l8.721 61.28c0.24 1.6-0.4009 2.721-0.9609 3.441-0.64 0.72-1.679 1.52-3.359 1.52-1.2 0-2.321-0.4812-3.121-1.281l-22.72-22.72h-61.28l-22.72 22.72c-0.8 0.8-1.921 1.281-3.121 1.281-1.68 0-2.719-0.7995-3.359-1.52s-1.279-1.841-1.039-3.521l8.719-61.28c1.2-7.76 8.002-13.68 15.92-13.68zm4.238 8v16h-16v8.002h16v16h8v-16h16v-8.002h-16v-16zm56 0a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm16 24a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8z" fill="#444"/></svg>
