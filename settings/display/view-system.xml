@@ -16,7 +16,7 @@
       <size>0.33333333 1.3</size>
 
       <logoSize>0.2 1</logoSize>
-      <logoScale>1.5</logoScale>
+      <logoScale>1.375</logoScale>
       <maxLogoCount>5</maxLogoCount>
       <logoPos>-0.25 0</logoPos>
 
@@ -30,7 +30,7 @@
       <systemInfoDelay>2000</systemInfoDelay>
     </carousel>
 
-    <carousel name="systemcarousel" ifSubset="Aspect Ratio:ratio53">
+    <carousel name="systemcarousel" ifSubset="Ratio:5-3">
       <logoRotation>5</logoRotation>
       <logoRotationOrigin>-9.5 0.5</logoRotationOrigin>
     </carousel>
@@ -41,12 +41,12 @@
       <pos>0.34375 0.05</pos>      <!-- 480x320 / 165x 16y -->
 
       <size>0.58333333 ${fontSizeH1}</size>      <!-- 480x320 / 280x -->
-      <size ifSubset="Aspect Ratio:ratio43">0.6375 ${fontSizeH1}</size>
-      <size ifSubset="Aspect Ratio:ratio53">0.525 ${fontSizeH1}</size>
+      <size ifSubset="Ratio:4-3">0.6375 ${fontSizeH1}</size>
+      <size ifSubset="Ratio:5-3">0.525 ${fontSizeH1}</size>
 
       <size ifHelpPrompts="true">0.55 ${fontSizeH1}</size>      <!-- 480x320 / 280x -->
-      <size ifHelpPrompts="true" ifSubset="Aspect Ratio:ratio43">0.6125 ${fontSizeH1}</size>
-      <size ifHelpPrompts="true" ifSubset="Aspect Ratio:ratio53">0.48 ${fontSizeH1}</size>
+      <size ifHelpPrompts="true" ifSubset="Ratio:4-3">0.6125 ${fontSizeH1}</size>
+      <size ifHelpPrompts="true" ifSubset="Ratio:5-3">0.48 ${fontSizeH1}</size>
 
       <color>ffffff</color>
 
@@ -73,12 +73,12 @@
       <pos>0.3875 0.05</pos>      <!-- 480x320 / 186x 16y -->
       
       <size>0.58333333 ${fontSizeH1}</size>      <!-- 480x320 / 280x -->
-      <size ifSubset="Aspect Ratio:ratio43">0.6375 ${fontSizeH1}</size>
-      <size ifSubset="Aspect Ratio:ratio53">0.525 ${fontSizeH1}</size>
+      <size ifSubset="Ratio:4-3">0.6375 ${fontSizeH1}</size>
+      <size ifSubset="Ratio:5-3">0.525 ${fontSizeH1}</size>
 
       <size ifHelpPrompts="true">0.55 ${fontSizeH1}</size>      <!-- 480x320 / 280x -->
-      <size ifHelpPrompts="true" ifSubset="Aspect Ratio:ratio43">0.6125 ${fontSizeH1}</size>
-      <size ifHelpPrompts="true" ifSubset="Aspect Ratio:ratio53">0.48 ${fontSizeH1}</size>
+      <size ifHelpPrompts="true" ifSubset="Ratio:4-3">0.6125 ${fontSizeH1}</size>
+      <size ifHelpPrompts="true" ifSubset="Ratio:5-3">0.48 ${fontSizeH1}</size>
 
       <color>ffffffcc</color>
 
@@ -102,7 +102,7 @@
       <path>./assets/logos/${system.theme}.svg</path>
     </image>
 
-    <image name="logo" ifSubset="Monochromatic:monoYes">
+    <image name="logo" ifSubset="Logos:styleMono">
       <path>./assets/logos/mono/${system.theme}.svg</path>
       <color>${primaryColorAlt}</color>
     </image>
@@ -132,7 +132,7 @@
       </storyboard>
     </image>
 
-    <image name="cover" extra="true" ifSubset="Backgrounds:customBg">
+    <image name="cover" extra="true" ifSubset="Custom Backgrounds:customBg">
       <!-- Select primary background -->
       <path>./customBackground/${system.theme}.png</path>
       <path>./customBackground/${system.theme}.jpg</path>
@@ -142,8 +142,8 @@
 
     <image name="carouselBackground" extra="true">
       <path>./assets/ratio32/carousel-bg.png</path>
-      <path ifSubset="Aspect Ratio:ratio43">./assets/ratio43/carousel-bg.png</path>
-      <path ifSubset="Aspect Ratio:ratio53">./assets/ratio53/carousel-bg.png</path>
+      <path ifSubset="Ratio:4-3">./assets/ratio43/carousel-bg.png</path>
+      <path ifSubset="Ratio:5-3">./assets/ratio53/carousel-bg.png</path>
 
       <pos>0 0</pos>
       <origin>0 0</origin>
@@ -154,8 +154,8 @@
 
     <image name="osdBackground" extra="true" ifSubset="StatusBar:statusBattery|statusClock">
       <path>./assets/ratio32/status-bar.png</path>
-      <path ifSubset="Aspect Ratio:ratio43">./assets/ratio43/status-bar.png</path>
-      <path ifSubset="Aspect Ratio:ratio53">./assets/ratio53/status-bar.png</path>
+      <path ifSubset="Ratio:4-3">./assets/ratio43/status-bar.png</path>
+      <path ifSubset="Ratio:5-3">./assets/ratio53/status-bar.png</path>
 
       <pos>0 0</pos>
       <origin>0 0</origin>
@@ -165,8 +165,8 @@
 
     <image name="osdBackground" extra="true" ifSubset="StatusBar:statusComplete">
       <path>./assets/ratio32/status-bar-expanded.png</path>
-      <path ifSubset="Aspect Ratio:ratio43">./assets/ratio43/status-bar-expanded.png</path>
-      <path ifSubset="Aspect Ratio:ratio53">./assets/ratio53/status-bar-expanded.png</path>
+      <path ifSubset="Ratio:4-3">./assets/ratio43/status-bar-expanded.png</path>
+      <path ifSubset="Ratio:5-3">./assets/ratio53/status-bar-expanded.png</path>
 
       <pos>0 0</pos>
       <origin>0 0</origin>

@@ -12,11 +12,17 @@
 
     <!-- Settings Titles -->
     <string.settings.colorSchemeTitle>Accent color</string.settings.colorSchemeTitle>
-    <string.settings.monochromaticTitle>Monochrome logos</string.settings.monochromaticTitle>
     <string.settings.screenRatio>Screen ratio</string.settings.screenRatio>
     <string.settings.statusBar>Status bar</string.settings.statusBar>
-    <string.settings.scanlines>Scanlines</string.settings.scanlines>
     <string.settings.dateFormat>Date format</string.settings.dateFormat>
+
+    <string.settings.backgroundStyle>Background style</string.settings.backgroundStyle>
+    <string.settings.backgroundStyle.scanlines>Scanlines</string.settings.backgroundStyle.scanlines>
+    <string.settings.backgroundStyle.clean>Clean</string.settings.backgroundStyle.clean>
+
+    <string.settings.logoStyle>Logos style</string.settings.logoStyle>
+    <string.settings.logoStyle.color>Colored</string.settings.logoStyle.color>
+    <string.settings.logoStyle.mono>Monochrome</string.settings.logoStyle.mono>
     
     <string.settings.clock>Clock</string.settings.clock>
     <string.settings.battery>Battery</string.settings.battery>

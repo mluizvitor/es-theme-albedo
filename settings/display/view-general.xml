@@ -31,28 +31,28 @@
       <zIndex>100</zIndex>
     </image>
 
-    <image name="borderOverlay" extra="true" ifSubset="Aspect Ratio:ratio43">
+    <image name="borderOverlay" extra="true" ifSubset="Ratio:4-3">
       <path>./assets/ratio43/borders.png</path>
     </image>
 
-    <image name="borderOverlay" extra="true" ifSubset="Aspect Ratio:ratio53">
+    <image name="borderOverlay" extra="true" ifSubset="Ratio:5-3">
       <path>./assets/ratio53/borders.png</path>
     </image>
 
     <image name="help_system_background" extra="true" ifHelpPrompts="true">
       <path>./assets/ratio32/help-system-bg.png</path>
-      <path ifSubset="Aspect Ratio:ratio43">./assets/ratio43/help-system-bg.png</path>
-      <path ifSubset="Aspect Ratio:ratio53">./assets/ratio53/help-system-bg.png</path>
+      <path ifSubset="Ratio:4-3">./assets/ratio43/help-system-bg.png</path>
+      <path ifSubset="Ratio:5-3">./assets/ratio53/help-system-bg.png</path>
 
       <pos>0 0</pos>
       <size>1 1</size>
       <zIndex>90</zIndex>
     </image>
 
-    <image name="backgroundScanlines" extra="true" ifSubset="Scanlines:scanlinesYes">
+    <image name="backgroundScanlines" extra="true" ifSubset="Background:bgScanlines">
       <path>./assets/ratio32/scanlines.png</path>
-      <path ifSubset="Aspect Ratio:ratio43">./assets/ratio43/scanlines.png</path>
-      <path ifSubset="Aspect Ratio:ratio53">./assets/ratio53/scanlines.png</path>
+      <path ifSubset="Ratio:4-3">./assets/ratio43/scanlines.png</path>
+      <path ifSubset="Ratio:5-3">./assets/ratio53/scanlines.png</path>
       <opacity>0.2</opacity>
       <size>1 1</size>
       <origin>0.5 0.5</origin>
@@ -81,7 +81,7 @@
       <secondaryColor>${primaryColorLightVariant}</secondaryColor>
 
       <selectorHeight>0.1</selectorHeight>      <!-- 32y-->
-      <selectorHeight ifSubset="Aspect Ratio:ratio53">0.08</selectorHeight>
+      <selectorHeight ifSubset="Ratio:5-3">0.08</selectorHeight>
       <selectorOffsetY>0.00625</selectorOffsetY>
       <lineSpacing>1.6</lineSpacing>
 
@@ -116,7 +116,7 @@
       <path>./assets/systems/blurred/${system.theme}.blurred.webp</path>
       <opacity>0.4</opacity>
       <size>0 1</size>
-      <size ifSubset="Aspect Ratio:ratio53">1 0</size>
+      <size ifSubset="Ratio:5-3">1 0</size>
       <origin>0.5 0.5</origin>
       <pos>0.5 0.5</pos>
       <zIndex>-5</zIndex>
@@ -127,7 +127,7 @@
       </storyboard>
     </image>
 
-    <image name="background" ifSubset="Backgrounds:customBg">
+    <image name="background" ifSubset="Custom Backgrounds:customBg">
       <!-- Select primary background -->
       <path>./customBackground/${system.theme}.png</path>
       <path>./customBackground/${system.theme}.jpg</path>
@@ -204,14 +204,14 @@
       <visible>false</visible>
     </text>
 
-    <text name="clock" ifSubset="Aspect Ratio:ratio43">
+    <text name="clock" ifSubset="Ratio:4-3">
       <pos>0.705 0</pos>
       <pos ifSubset="StatusBar:statusClock">0.845 0</pos>
       <size>0.14 0.083333333</size>
       <fontSize>${fontSizeSmall}</fontSize>
     </text>
     
-    <text name="clock" ifSubset="Aspect Ratio:ratio53">
+    <text name="clock" ifSubset="Ratio:5-3">
       <pos>0.785 0</pos>
       <pos ifSubset="StatusBar:statusClock">0.8875 0</pos>
       <size>0.1 0.083333333</size>
@@ -222,8 +222,8 @@
       <pos>0.933333333 0.025</pos>
       <pos ifSubset="StatusBar:statusBattery">0.92 0.025</pos>
 
-      <pos ifSubset="Aspect Ratio:ratio43">0.93 0.016</pos>
-      <pos ifSubset="Aspect Ratio:ratio53">0.94 0.0175</pos>
+      <pos ifSubset="Ratio:4-3">0.93 0.016</pos>
+      <pos ifSubset="Ratio:5-3">0.94 0.0175</pos>
 
       <size>0.05</size>      <!-- 480x320 / 16x 16y -->
 

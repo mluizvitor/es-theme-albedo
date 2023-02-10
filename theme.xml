@@ -23,24 +23,19 @@
     <include name="brown" displayName="${string.settings.color.beige}">./settings/colors/brown.xml</include>
   </subset>
   
-  <subset name="Scanlines" displayName="${string.settings.scanlines}">
-    <include name="scanlinesYes" displayName="${string.settings.yes}"/>
-    <include name="scanlinesNo" displayName="${string.settings.no}"/>
+  <subset name="Background" displayName="${string.settings.backgroundStyle}">
+    <include name="bgScanlines" displayName="${string.settings.backgroundStyle.scanlines}"/>
+    <include name="bgClean" displayName="${string.settings.backgroundStyle.clean}"/>
   </subset>
 
-  <subset name="Aspect Ratio" displayName="${string.settings.screenRatio}">
-    <include ifArch="rg351p,amberelec-rg351p" name="ratio32" displayName="3:2" />
-    <include ifArch="rg353p,rg351mp,rg351v,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="ratio43" displayName="4:3" />
-    <include ifArch="rg552,amberelec-rg552" name="ratio53" displayName="5:3" />
-
-    <include ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="ratio32" displayName="3:2" />
-    <include ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="ratio43" displayName="4:3" />
-    <include ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="ratio53" displayName="5:3" />
+  <subset name="Custom Backgrounds" displayName="${string.settings.backgroundEntry}">
+    <include name="defaultBg" displayName="${string.settings.backgroundEntry.defaultBg}"/>
+    <include name="customBg" displayName="${string.settings.backgroundEntry.customBg}"/>
   </subset>
 
-  <subset name="Monochromatic" displayName="${string.settings.monochromaticTitle}">
-    <include name="monoNo" displayName="${string.settings.no}"/>
-    <include name="monoYes" displayName="${string.settings.yes}"/>
+  <subset name="Logos" displayName="${string.settings.logoStyle}">
+    <include name="styleColor" displayName="${string.settings.logoStyle.color}"/>
+    <include name="styleMono" displayName="${string.settings.logoStyle.mono}"/>
   </subset>
 
   <subset name="StatusBar" displayName="${string.settings.statusBar}">
@@ -50,19 +45,24 @@
     <include name="statusHidden" displayName="${string.settings.hidden}"/>
   </subset>
 
-  <subset name="Backgrounds" displayName="${string.settings.backgroundEntry}">
-    <include name="defaultBg" displayName="${string.settings.backgroundEntry.defaultBg}"/>
-    <include name="customBg" displayName="${string.settings.backgroundEntry.customBg}"/>
-  </subset>
-
-  <subset name="Date Format" displayName="${string.settings.dateFormat}">
+  <subset name="Date Format" displayName="${string.settings.dateFormat}" appliesTo="grid">
     <include name="y-m-d" displayName="YYYY/MM/DD"/>
     <include name="m-d-y" displayName="MM/DD/YYYY"/>
     <include name="d-m-y" displayName="DD/MM/YYYY"/>
   </subset>
 
+  <subset name="Ratio" displayName="${string.settings.screenRatio}">
+    <include ifArch="rg351p,amberelec-rg351p" name="3-2" displayName="3:2" />
+    <include ifArch="rg353p,rg351mp,rg351v,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="4-3" displayName="4:3" />
+    <include ifArch="rg552,amberelec-rg552" name="5-3" displayName="5:3" />
+
+    <include ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="3-2" displayName="3:2" />
+    <include ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="4-3" displayName="4:3" />
+    <include ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="5-3" displayName="5:3" />
+  </subset>
+
   <include>./settings/variables/general.xml</include>
-  <include ifSubset="Aspect Ratio:ratio53">./settings/variables/ratio53.xml</include>
+  <include ifSubset="Ratio:5-3">./settings/variables/ratio53.xml</include>
 
   <include>./settings/display/view-general.xml</include>
   <include>./settings/display/view-system.xml</include>

@@ -16,7 +16,7 @@
     <imagegrid name="gamegrid">
       <scrollDirection>horizontal</scrollDirection>
       <autoLayout>2 2</autoLayout>
-      <autoLayout ifSubset="Aspect Ratio:ratio53">3 2</autoLayout>
+      <autoLayout ifSubset="Ratio:5-3">3 2</autoLayout>
       <scrollLoop>false</scrollLoop>
 
       <imageSource ifSubset="GridImage:gridscreenshot">image</imageSource>
@@ -47,18 +47,18 @@
       <zIndex>5</zIndex>
     </image>
 
-    <image name="grid_background" extra="true" ifSubset="Aspect Ratio:ratio43">
+    <image name="grid_background" extra="true" ifSubset="Ratio:4-3">
       <path>./assets/ratio43/gamelist-grid-bg.png</path>
     </image>
 
-    <image name="grid_background" extra="true" ifSubset="Aspect Ratio:ratio53">
+    <image name="grid_background" extra="true" ifSubset="Ratio:5-3">
       <path>./assets/ratio53/gamelist-grid-bg.png</path>
     </image>
 
     <gridtile name="default, selected">
       <padding>3 3</padding>
-      <padding ifSubset="Aspect Ratio:ratio43">4 4</padding>
-      <padding ifSubset="Aspect Ratio:ratio53">8 8</padding>
+      <padding ifSubset="Ratio:4-3">4 4</padding>
+      <padding ifSubset="Ratio:5-3">8 8</padding>
 
       <selectionMode>full</selectionMode>
 
@@ -88,11 +88,11 @@
       <cornerSize>16 16</cornerSize>
     </ninepatch>
 
-    <ninepatch name="gridtile.background" ifSubset="Aspect Ratio:ratio43">
+    <ninepatch name="gridtile.background" ifSubset="Ratio:4-3">
       <path>./assets/ratio43/menu.png</path>
     </ninepatch>
 
-    <ninepatch name="gridtile.background" ifSubset="Aspect Ratio:ratio53">
+    <ninepatch name="gridtile.background" ifSubset="Ratio:5-3">
       <path>./assets/ratio53/menu.png</path>
     </ninepatch>
 
@@ -167,11 +167,11 @@
       </storyboard>
     </rating>
 
-    <rating name="md_rating" ifSubset="Aspect Ratio:ratio43">
+    <rating name="md_rating" ifSubset="Ratio:4-3">
       <pos>0.81 0.128125</pos>
     </rating>
 
-    <rating name="md_rating" ifSubset="Aspect Ratio:ratio53">
+    <rating name="md_rating" ifSubset="Ratio:5-3">
       <pos>0.8375 0.128125</pos>
     </rating>
   </view>
