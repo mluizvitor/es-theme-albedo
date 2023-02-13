@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="480" height="320" version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <linearGradient id="a" x1="81.598" x2="81.598" y2="84.667" gradientTransform="matrix(3.7795 0 0 3.7795 -.00025098 0)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#fff" offset="0"/>
-   <stop stop-color="#e6e6e6" offset="1"/>
-  </linearGradient>
- </defs>
- <rect x="-.00025177" y="9.1553e-8" width="480" height="320" ry="16" fill="url(#a)" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" style="paint-order:stroke fill markers"/>
- <path d="m39.999 130.45v11.819h11.766v47.27h23.529v-47.27h11.766v-11.819zm70.59 0v11.819h11.763v35.455h-11.763v11.816h47.059v-11.816h-11.766v-35.455h11.766v-11.819zm70.586 0v11.819h-11.766v35.455h11.766v11.816h35.292v-11.813l11.763-3e-3v-11.819h-11.763v11.819h-23.529v-35.455h23.529v-11.819zm35.292 11.819v11.819l11.763-3e-3v-11.816zm105.88-11.819v11.819h-11.763v11.819h11.763l11.766-3e-3v-11.816h23.529v-11.819zm35.296 11.819v11.819l11.763-3e-3v-11.816zm0 11.819h-35.296v11.816h-11.763v11.819h11.763v11.816h35.296v-11.813l11.763-3e-3v-11.819h-11.763v11.819h-23.529v-11.819h23.529zm35.292-23.639v11.819h-11.763v35.455h11.763v11.816h35.295v-11.813l11.763-3e-3v-35.455h-11.763v-11.819zm11.766 11.819h11.766v11.819h11.763v23.636h-23.529v-11.819h11.766v-11.816h-11.766zm-152.94 11.819v11.816h35.292v-11.816z" fill="#1a1a1a" stroke-width="1.5151"/>
- <style type="text/css">.st0{fill:#FC0C18;}
-	.st1{fill:#FC0C18;}</style>
-</svg>
+<svg width="480" height="320" version="1.1" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="a" x2="0" y1="200" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#fff" offset="0"/><stop stop-color="#e6e6e6" offset="1"/></linearGradient></defs><rect width="480" height="320" ry="16" fill="url(#a)"/><path d="m40 130v12h12v48h23v-48h12v-12zm71 0v12h11v36h-11v12h47v-12h-12v-36h12v-12zm70 0v12h-12v36h12v12h35v-12l12-3e-3v-12h-12v12h-23v-36h23v-12zm35 12v12l12-3e-3v-12zm106 12h-12v-12h12v-12l35 5e-5v12h-23v12l-12 3e-3v12h-12v12h12v12h35v-12l12-3e-3v-12h-12v12h-23v-12h23v-12h-35m35-12v12l12-3e-3v-12zm36-12v12h-12v36h12v12h35v-12l12-3e-3v-36h-12v-12zm11 12h12v12h12v24h-24v-12h12v-12h-12zm-152 12v12h35v-12z" fill="#444"/></svg>
