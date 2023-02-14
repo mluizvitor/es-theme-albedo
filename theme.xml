@@ -28,6 +28,12 @@
     <include name="bgClean" displayName="${string.settings.backgroundStyle.clean}"/>
   </subset>
 
+  <subset name="GameListBGStyle" displayName="${string.settings.gamelistBackgroundStyle}">
+    <include name="bgBlurred" displayName="${string.settings.gamelistBackgroundStyle.blurred}"/>
+    <include name="bgNormal" displayName="${string.settings.gamelistBackgroundStyle.normal}"/>
+    <include name="bgNone" displayName="${string.settings.gamelistBackgroundStyle.none}"/>
+  </subset>
+
   <subset name="Custom Backgrounds" displayName="${string.settings.backgroundEntry}">
     <include name="defaultBg" displayName="${string.settings.backgroundEntry.defaultBg}"/>
     <include name="customBg" displayName="${string.settings.backgroundEntry.customBg}"/>

@@ -32,6 +32,11 @@
     <string.settings.backgroundEntry.defaultBg>Por defecto</string.settings.backgroundEntry.defaultBg>
     <string.settings.backgroundEntry.customBg>Personalizado</string.settings.backgroundEntry.customBg>
 
+    <string.settings.gamelistBackgroundStyle>Estilo de fondo de la lista de juegos</string.settings.gamelistBackgroundStyle>
+    <string.settings.gamelistBackgroundStyle.blurred>Borroso</string.settings.gamelistBackgroundStyle.blurred>
+    <string.settings.gamelistBackgroundStyle.normal>Normal</string.settings.gamelistBackgroundStyle.normal>
+    <string.settings.gamelistBackgroundStyle.none>Sin fondo</string.settings.gamelistBackgroundStyle.none>
+
     <!-- Colors -->
     <string.settings.color.blue>Azul</string.settings.color.blue>
     <string.settings.color.purple>Púrpura</string.settings.color.purple>

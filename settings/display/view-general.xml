@@ -113,10 +113,10 @@
 
     <image name="background">
       <path>./assets/systems/blurred/unknown.blurred.webp</path>
-      <path>./assets/systems/blurred/${system.theme}.blurred.webp</path>
+      <path ifSubset="GameListBGStyle:bgNormal">./assets/systems/${system.theme}.webp</path>
+      <path ifSubset="GameListBGStyle:bgBlurred">./assets/systems/blurred/${system.theme}.blurred.webp</path>
       <opacity>0.4</opacity>
-      <size>0 1</size>
-      <size ifSubset="Ratio:5-3">1 0</size>
+      <size>1 0</size>
       <origin>0.5 0.5</origin>
       <pos>0.5 0.5</pos>
       <zIndex>-5</zIndex>

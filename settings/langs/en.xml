@@ -32,6 +32,11 @@
     <string.settings.backgroundEntry.defaultBg>Default</string.settings.backgroundEntry.defaultBg>
     <string.settings.backgroundEntry.customBg>Custom</string.settings.backgroundEntry.customBg>
 
+    <string.settings.gamelistBackgroundStyle>Game list background</string.settings.gamelistBackgroundStyle>
+    <string.settings.gamelistBackgroundStyle.blurred>Blurred</string.settings.gamelistBackgroundStyle.blurred>
+    <string.settings.gamelistBackgroundStyle.normal>Normal</string.settings.gamelistBackgroundStyle.normal>
+    <string.settings.gamelistBackgroundStyle.none>No background</string.settings.gamelistBackgroundStyle.none>
+
     <!-- Colors -->
     <string.settings.color.blue>Blue</string.settings.color.blue>
     <string.settings.color.purple>Purple</string.settings.color.purple>
