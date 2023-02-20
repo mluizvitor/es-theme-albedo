@@ -48,24 +48,6 @@
       <backgroundColor>${primaryColorDarkVariant}</backgroundColor>
     </menuGroup>
 
-    <menuIcons name="menuicons">
-      <iconSystem>./assets/icons/cog.png</iconSystem>
-      <iconUpdates>./assets/icons/update.png</iconUpdates>
-      <iconControllers>./assets/icons/gamepad.png</iconControllers>
-      <iconGames>./assets/icons/gamepad-variant-outline.png</iconGames>
-      <iconUI>./assets/icons/brush-variant.png</iconUI>
-      <iconSound>./assets/icons/volume-high.png</iconSound>
-      <iconNetwork>./assets/icons/wifi.png</iconNetwork>
-      <iconScraper>./assets/icons/image.png</iconScraper>
-      <iconAdvanced>./assets/icons/tune-variant.png</iconAdvanced>
-      <iconQuit>./assets/icons/exit-to-app.png</iconQuit>
-      <iconRetroachievements>./assets/icons/trophy.png</iconRetroachievements>
-      <iconKodi>./assets/icons/kodi.png</iconKodi>
-      <iconRestart>./assets/icons/restart.png</iconRestart>
-      <iconShutdown>./assets/icons/power.png</iconShutdown>
-      <iconFastShutdown>./assets/icons/power.png</iconFastShutdown>
-    </menuIcons>
-
     <menuText name="menutitle">
       <fontPath>${typefaceTitleBold}</fontPath>
       <fontSize>${menuFontSizeH1}</fontSize>
@@ -93,5 +75,23 @@
       <inactive>./assets/input_inactive.svg</inactive>
       <active>./assets/input_active.svg</active>
     </menuTextEdit>
+
+    <menuIcons name="menuicons">
+      <iconSystem>./assets/icons/cog.svg</iconSystem>
+      <iconUpdates>./assets/icons/update.svg</iconUpdates>
+      <iconControllers>./assets/icons/gamepad-round.svg</iconControllers>
+      <iconGames>./assets/icons/gamepad-square.svg</iconGames>
+      <iconUI>./assets/icons/brush.svg</iconUI>
+      <iconSound>./assets/icons/volume-high.svg</iconSound>
+      <iconNetwork>./assets/icons/wifi-strength-3.svg</iconNetwork>
+      <iconScraper>./assets/icons/image.svg</iconScraper>
+      <iconAdvanced>./assets/icons/library-shelves.svg</iconAdvanced>
+      <iconQuit>./assets/icons/exit-to-app.svg</iconQuit>
+      <iconRetroachievements>./assets/icons/trophy.svg</iconRetroachievements>
+      <iconKodi>./assets/icons/kodi.svg</iconKodi>
+      <iconRestart>./assets/icons/restart.svg</iconRestart>
+      <iconShutdown>./assets/icons/power.svg</iconShutdown>
+      <iconFastShutdown>./assets/icons/power.svg</iconFastShutdown>
+    </menuIcons>
   </view>
 </theme>
