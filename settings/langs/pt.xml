@@ -16,8 +16,8 @@
     <string.settings.statusBar>Barra de status</string.settings.statusBar>
     <string.settings.dateFormat>Formato da data</string.settings.dateFormat>
 
-    <string.settings.backgroundStyle>Estilo de plano de fundo</string.settings.backgroundStyle>
-    <string.settings.backgroundStyle.scanlines>Scanlines</string.settings.backgroundStyle.scanlines>
+    <string.settings.backgroundStyle>Sobreposição do plano de fundo</string.settings.backgroundStyle>
+    <string.settings.backgroundStyle.scanlines>Linhas de varredura</string.settings.backgroundStyle.scanlines>
     <string.settings.backgroundStyle.clean>Limpo</string.settings.backgroundStyle.clean>
     
     <string.settings.logoStyle>Estilo dos logos</string.settings.logoStyle>

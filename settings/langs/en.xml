@@ -16,7 +16,7 @@
     <string.settings.statusBar>Status bar</string.settings.statusBar>
     <string.settings.dateFormat>Date format</string.settings.dateFormat>
 
-    <string.settings.backgroundStyle>Background style</string.settings.backgroundStyle>
+    <string.settings.backgroundStyle>Background overlay</string.settings.backgroundStyle>
     <string.settings.backgroundStyle.scanlines>Scanlines</string.settings.backgroundStyle.scanlines>
     <string.settings.backgroundStyle.clean>Clean</string.settings.backgroundStyle.clean>
 
