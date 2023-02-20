@@ -90,8 +90,8 @@
     </menuSwitch>
 
     <menuTextEdit name="menutextedit">
-      <inactive>./assets/input_inactive-dark.svg</inactive>
-      <active>./assets/input_active-dark.svg</active>
+      <inactive>./assets/input_inactive.svg</inactive>
+      <active>./assets/input_active.svg</active>
     </menuTextEdit>
   </view>
 </theme>
