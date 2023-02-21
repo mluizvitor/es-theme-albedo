@@ -129,16 +129,16 @@
 
     <image name="background" ifSubset="Custom Backgrounds:customBg">
       <!-- Select primary background -->
-      <path>./customBackground/${system.theme}.png</path>
-      <path>./customBackground/${system.theme}.jpg</path>
-      <path>./customBackground/${system.theme}.jpeg</path>
-      <path>./customBackground/${system.theme}.webp</path>
+      <path ifSubset='GameListBGStyle:bgNormal'>./customBackground/${system.theme}.png</path>
+      <path ifSubset='GameListBGStyle:bgNormal'>./customBackground/${system.theme}.jpg</path>
+      <path ifSubset='GameListBGStyle:bgNormal'>./customBackground/${system.theme}.jpeg</path>
+      <path ifSubset='GameListBGStyle:bgNormal'>./customBackground/${system.theme}.webp</path>
 
       <!-- Select alternative background - Intended to use a blurred image -->
-      <path>./customBackground/blurred/${system.theme}.blurred.png</path>
-      <path>./customBackground/blurred/${system.theme}.blurred.jpg</path>
-      <path>./customBackground/blurred/${system.theme}.blurred.jpeg</path>
-      <path>./customBackground/blurred/${system.theme}.blurred.webp</path>
+      <path ifSubset='GameListBGStyle:bgBlurred'>./customBackground/blurred/${system.theme}.blurred.png</path>
+      <path ifSubset='GameListBGStyle:bgBlurred'>./customBackground/blurred/${system.theme}.blurred.jpg</path>
+      <path ifSubset='GameListBGStyle:bgBlurred'>./customBackground/blurred/${system.theme}.blurred.jpeg</path>
+      <path ifSubset='GameListBGStyle:bgBlurred'>./customBackground/blurred/${system.theme}.blurred.webp</path>
 
       <storyboard>
         <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut"/>
