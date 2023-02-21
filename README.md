@@ -5,10 +5,14 @@
 Albedo is a theme for EmulationStation. It's a fork of [Elementerial](https://github.com/mluizvitor/es-theme-elementerial), another ES theme built by me.
 It has flat surfaces, plays with transparency and sharp edges.
 
-> This theme supports custom backgrounds. I made an web app to load, crop and save images named as the designated system.
-> It's not powerful as Photoshop or GIMP, but help collect a lot of images and download them in one go. 
+> This theme supports custom backgrounds. Read [CUSTOMBG.md](CUSTOMBG.md) for more details.
 > 
-> [Albedo Wallpaper Cropper](https://albedo-wallpaper-cropper.vercel.app). If you're concerned about privacy, this web app will never collect or send any information anywhere. The images loaded are saved locally on the browser database. As an web app, it can be used offline after the first load.
+> I made an web app to load, crop and save images named as the designated system.
+> It's not powerful as Photoshop or GIMP, but help collect a lot of images and download them in one go.
+> 
+> Access [Albedo Wallpaper Cropper](https://albedo-wallpaper-cropper.vercel.app).
+> 
+>  If you're concerned about privacy, this web app will never collect or send any information anywhere. The images loaded are saved locally on the browser database. As an web app, it can be used offline after the first load.
 
 # Compatibility
 
