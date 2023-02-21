@@ -69,6 +69,7 @@ Set background overlay:
 
 Load your own custom backgrounds:
 
+> Please, read [CUSTOMBG.md](CUSTOMBG.md) for more details.
 
 | ![Default background](./.github/bg-default.png) | ![Custom background](./.github/bg-custom.png) |
 | :---------------------------------------------: | :-------------------------------------------: |
