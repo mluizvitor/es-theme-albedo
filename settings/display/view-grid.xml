@@ -58,7 +58,7 @@
     <gridtile name="default, selected">
       <padding>3 3</padding>
       <padding ifSubset="Ratio:4-3">4 4</padding>
-      <padding ifSubset="Ratio:5-3">8 8</padding>
+      <padding ifSubset="Ratio:5-3">6 6</padding>
 
       <selectionMode>full</selectionMode>
 
@@ -127,6 +127,7 @@
       <origin>0 0.5</origin>      <!--vertical center-->
       <pos>0.033333333 0.15</pos>      <!--480x320 / 24x 48y-->
       <size>0.508333333 ${fontSizeSmall}</size>
+      <size ifSubset="Ratio:5-3">0.58 ${fontSizeSmall}</size>
 
       <fontSize>${fontSizeSmall}</fontSize>
       <fontPath>${typefaceRegular}</fontPath>
@@ -141,6 +142,7 @@
 
     <datetime name="md_releasedate">
       <pos>0.608333334 0.15</pos>
+      <pos ifSubset="Ratio:5-3">0.67 0.15</pos>
 
       <storyboard>
         <animation property="y" from="0.175" to="0.15" duration="300" mode="EaseOut"/>
@@ -150,6 +152,7 @@
 
     <image name="md_releasedate_icon" extra="true">
       <pos>0.566666667 0.15</pos>
+      <pos ifSubset="Ratio:5-3">0.635 0.15</pos>
 
       <storyboard>
         <animation property="y" from="0.175" to="0.15" duration="300" mode="EaseOut"/>

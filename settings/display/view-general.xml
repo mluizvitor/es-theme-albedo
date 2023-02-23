@@ -117,10 +117,10 @@
       <path ifSubset="GameListBGStyle:bgBlurred">./assets/systems/blurred/${system.theme}.blurred.webp</path>
       <opacity>0.4</opacity>
       <size>1 0</size>
+      <size ifSubset="Ratio:4-3">0 1</size>
       <origin>0.5 0.5</origin>
       <pos>0.5 0.5</pos>
       <zIndex>-5</zIndex>
-
 
       <storyboard>
         <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut"/>
@@ -160,7 +160,9 @@
     <datetime name="md_releasedate">
       <origin>0 0.5</origin>
       <size>0.125 ${fontSizeTiny}</size>
-
+      <size ifSubset="Ratio:4-3">0.140625 ${fontSizeTiny}</size>
+      <size ifSubset="Ratio:5-3">0.1 ${fontSizeTiny}</size>
+      
       <color>${primaryColorLightVariant}</color>
       <fontSize>${fontSizeTiny}</fontSize>
       <fontPath>${typefaceRegular}</fontPath>
@@ -177,6 +179,7 @@
       <origin>0 0.5</origin>
       <path>./assets/icons/calendar.png</path>
       <size>0.033333333 0</size>
+      <size ifSubset="Ratio:5-3">0.025 0</size>
       <color>${primaryColor}</color>
       <zIndex>10</zIndex>
     </image>
