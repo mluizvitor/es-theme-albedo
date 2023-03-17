@@ -16,7 +16,7 @@
       <origin>0 1</origin>
       <pos>0.016666667 0.98</pos>
 
-      <fontPath>${fontLight}</fontPath>
+      <fontPath>${typefaceCondensed}</fontPath>
       <fontSize>${fontSizeSmall}</fontSize>
 
       <textColor>${primaryColorLightVariant}</textColor>
