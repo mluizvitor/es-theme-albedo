@@ -28,9 +28,11 @@
     <string.settings.battery>Battery</string.settings.battery>
     <string.settings.hidden>Hidden</string.settings.hidden>
     
-    <string.settings.backgroundEntry>Theme Background</string.settings.backgroundEntry>
-    <string.settings.backgroundEntry.defaultBg>Default</string.settings.backgroundEntry.defaultBg>
+    <string.settings.backgroundEntry>Background Source</string.settings.backgroundEntry>
+    <string.settings.backgroundEntry.defaultBg>Defined by theme</string.settings.backgroundEntry.defaultBg>
     <string.settings.backgroundEntry.customBg>Custom</string.settings.backgroundEntry.customBg>
+    <string.settings.backgroundEntry.videoBg>Random Video</string.settings.backgroundEntry.videoBg>
+    <string.settings.backgroundEntry.randomBg>Random Screenshot</string.settings.backgroundEntry.randomBg>
 
     <string.settings.gamelistBackgroundStyle>Game list background</string.settings.gamelistBackgroundStyle>
     <string.settings.gamelistBackgroundStyle.blurred>Blurred</string.settings.gamelistBackgroundStyle.blurred>
@@ -51,6 +53,13 @@
 
     <!-- Interface Texts -->
     <string.view.detailed.description>Description</string.view.detailed.description>
+
+    <string.settings.imageSource>Image for grid item</string.settings.imageSource>
+    <string.settings.videoSource>Video Snapshot</string.settings.videoSource>
+
+    <string.imageSource.thumbnail>Box Art</string.imageSource.thumbnail>
+    <string.imageSource.image>Screenshot</string.imageSource.image>
+    <string.imageSource.marquee>Game Logo</string.imageSource.marquee>
   </variables>
 
 </theme>

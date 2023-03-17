@@ -28,9 +28,11 @@
     <string.settings.battery>Bateria</string.settings.battery>
     <string.settings.hidden>Oculta</string.settings.hidden>
 
-    <string.settings.backgroundEntry>Plano de Fundo do Tema</string.settings.backgroundEntry>
-    <string.settings.backgroundEntry.defaultBg>Padrão</string.settings.backgroundEntry.defaultBg>
-    <string.settings.backgroundEntry.customBg>Personalizado</string.settings.backgroundEntry.customBg>
+    <string.settings.backgroundEntry>Fonte do Plano de Fundo</string.settings.backgroundEntry>
+    <string.settings.backgroundEntry.defaultBg>Definido pelo tema</string.settings.backgroundEntry.defaultBg>
+    <string.settings.backgroundEntry.customBg>Imagem Personalizada</string.settings.backgroundEntry.customBg>
+    <string.settings.backgroundEntry.videoBg>Vídeo aleatório</string.settings.backgroundEntry.videoBg>
+    <string.settings.backgroundEntry.randomBg>Captura de tela aleatória</string.settings.backgroundEntry.randomBg>
 
     <string.settings.gamelistBackgroundStyle>Estilo de fundo da lista de jogos</string.settings.gamelistBackgroundStyle>
     <string.settings.gamelistBackgroundStyle.blurred>Desfocado</string.settings.gamelistBackgroundStyle.blurred>
@@ -51,6 +53,13 @@
 
     <!-- Interface Texts -->
     <string.view.detailed.description>Descrição</string.view.detailed.description>
+
+    <string.settings.imageSource>Imagem para item da grade</string.settings.imageSource>
+    <string.settings.videoSource>Instantâneo de vídeo</string.settings.videoSource>
+
+    <string.imageSource.thumbnail>Arte da caixa</string.imageSource.thumbnail>
+    <string.imageSource.image>Captura de tela</string.imageSource.image>
+    <string.imageSource.marquee>Logo do jogo</string.imageSource.marquee>
 
   </variables>
 

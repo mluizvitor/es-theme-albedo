@@ -28,9 +28,11 @@
     <string.settings.battery>Batería</string.settings.battery>
     <string.settings.hidden>Oculta</string.settings.hidden>
 
-    <string.settings.backgroundEntry>Fondo del tema</string.settings.backgroundEntry>
-    <string.settings.backgroundEntry.defaultBg>Por defecto</string.settings.backgroundEntry.defaultBg>
+    <string.settings.backgroundEntry>fuente de fondo de pantalla</string.settings.backgroundEntry>
+    <string.settings.backgroundEntry.defaultBg>Definido por tema</string.settings.backgroundEntry.defaultBg>
     <string.settings.backgroundEntry.customBg>Personalizado</string.settings.backgroundEntry.customBg>
+    <string.settings.backgroundEntry.videoBg>Video aleatorio</string.settings.backgroundEntry.videoBg>
+    <string.settings.backgroundEntry.randomBg>Captura de pantalla aleatoria</string.settings.backgroundEntry.randomBg>
 
     <string.settings.gamelistBackgroundStyle>Estilo de fondo de la lista de juegos</string.settings.gamelistBackgroundStyle>
     <string.settings.gamelistBackgroundStyle.blurred>Borroso</string.settings.gamelistBackgroundStyle.blurred>
@@ -51,6 +53,13 @@
 
     <!-- Interface Texts -->
     <string.view.detailed.description>Descripción</string.view.detailed.description>
+
+    <string.settings.imageSource>Imagen para ítem de cuadrícula</string.settings.imageSource>
+    <string.settings.videoSource>Instantánea de vídeo</string.settings.videoSource>
+
+    <string.imageSource.thumbnail>Arte de la caja</string.imageSource.thumbnail>
+    <string.imageSource.image>Captura de pantalla</string.imageSource.image>
+    <string.imageSource.marquee>Logotipo del juego</string.imageSource.marquee>
 
   </variables>
 
