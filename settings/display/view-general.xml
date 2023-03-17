@@ -7,7 +7,7 @@
   <formatVersion>7</formatVersion>
 
   <!--Configurações de ajuda-->
-  <view name="system, basic, detailed, grid">
+  <view name="system, basic, detailed, grid, video">
     <text name="logoText, md_name">
       <color>${primaryColorLightVariant}</color>
     </text>
@@ -65,7 +65,7 @@
     </image>
   </view>
 
-  <view name="basic, detailed">
+  <view name="basic, detailed, video">
     <textlist name="gamelist">
       <origin>0 0</origin>
       <pos>0 0.15</pos>      <!-- 480x320 / 0x 48y -->
@@ -93,7 +93,7 @@
   </view>
 
   <!--Configurações comuns de views-->
-  <view name="basic, detailed, grid">
+  <view name="basic, detailed, grid, video">
     <text name="logoText">
       <origin>0 0.5</origin>      <!--vertical center-->
       <size>0.7 ${fontSizeH2}</size>
@@ -127,7 +127,7 @@
       </storyboard>
     </image>
 
-    <image name="background" ifSubset="Custom Backgrounds:customBg">
+    <image name="background" ifSubset="Background Source:customBg">
       <!-- Select primary background -->
       <path ifSubset='GameListBGStyle:bgNormal'>./customBackground/${system.theme}.png</path>
       <path ifSubset='GameListBGStyle:bgNormal'>./customBackground/${system.theme}.jpg</path>
@@ -156,13 +156,13 @@
     </rating>
   </view>
 
-  <view name="detailed, grid">
+  <view name="detailed, grid, video">
     <datetime name="md_releasedate">
       <origin>0 0.5</origin>
       <size>0.125 ${fontSizeTiny}</size>
       <size ifSubset="Ratio:4-3">0.140625 ${fontSizeTiny}</size>
       <size ifSubset="Ratio:5-3">0.1 ${fontSizeTiny}</size>
-      
+
       <color>${primaryColorLightVariant}</color>
       <fontSize>${fontSizeTiny}</fontSize>
       <fontPath>${typefaceRegular}</fontPath>
@@ -193,13 +193,13 @@
       <pos ifSubset="StatusBar:statusClock">0.85 0</pos>
 
       <size>0.14 0.1</size>
-      
+
       <fontPath>${typefaceRegular}</fontPath>
       <fontSize>${fontSizeBody}</fontSize>
       <lineSpacing>1</lineSpacing>
       <alignment>center</alignment>
       <padding>0 0.015 0 0</padding>
-      
+
       <color>ffffff</color>
     </text>
 
@@ -213,7 +213,7 @@
       <size>0.14 0.083333333</size>
       <fontSize>${fontSizeSmall}</fontSize>
     </text>
-    
+
     <text name="clock" ifSubset="Ratio:5-3">
       <pos>0.785 0</pos>
       <pos ifSubset="StatusBar:statusClock">0.8875 0</pos>

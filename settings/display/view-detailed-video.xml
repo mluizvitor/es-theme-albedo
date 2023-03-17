@@ -6,8 +6,13 @@
 <theme>
   <formatVersion>7</formatVersion>
 
-  <!--Configurações da view "detailed"-->
-  <view name="detailed">
+  <subset name="VideoSnapshot" displayName="${string.settings.videoSource}" appliesTo="video">
+    <include name="videoThumbnail" displayName="${string.imageSource.thumbnail}"/>
+    <include name="videoScreenshot" displayName="${string.imageSource.image}"/>
+    <include name="videoMarquee" displayName="${string.imageSource.marquee}"/>
+  </subset>
+
+  <view name="detailed, video">
     <image name="detailed_background" extra="true">
       <path>./assets/ratio32/gamelist-detailed-bg.png</path>
       <pos>0 0</pos>
@@ -48,8 +53,8 @@
     </datetime>
 
     <image name="md_image">
-      <origin>0.5 0</origin>
-      <pos>0.716666667 0.175</pos>      <!-- 480x320 / 344x 56y -->
+      <origin>0.5 0.5</origin>
+      <pos>0.716666667 0.425</pos>      <!-- 480x320 / 344x 136y -->
       <maxSize>0.5 0.5</maxSize>      <!-- 480x320 / 240x 160y -->
       <zIndex>4</zIndex>
       <roundCorners>0.02</roundCorners>
@@ -130,4 +135,30 @@
       </storyboard>
     </rating>
   </view>
+
+  <feature supported="video">
+    <view name="video">
+      <video name="md_video">
+        <origin>0.5 0.5</origin>
+        <pos>0.716666667 0.425</pos>        <!-- 480x320 / 344x 136y -->
+        <maxSize>0.5 0.5</maxSize>        <!-- 480x320 / 240x 160y -->
+        <zIndex>4</zIndex>
+        <roundCorners>0.02</roundCorners>
+        <delay>1</delay>
+        <showSnapshotNoVideo>true</showSnapshotNoVideo>
+        <showSnapshotDelay>true</showSnapshotDelay>
+
+        <snapshotSource ifSubset="VideoSnapshot:videoThumbnail">thumbnail</snapshotSource>
+        <snapshotSource ifSubset="VideoSnapshot:videoScreenshot">image</snapshotSource>
+        <snapshotSource ifSubset="VideoSnapshot:videoMarquee">marquee</snapshotSource>
+      </video>
+
+      <image name="md_marquee">
+        <visible>false</visible>
+      </image>
+      <image name="md_image">
+        <visible>false</visible>
+      </image>
+    </view>
+  </feature>
 </theme>

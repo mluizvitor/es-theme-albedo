@@ -120,7 +120,6 @@
     <!-- System Background -->
     <image name="cover" extra="true">
       <path>./assets/systems/unknown.webp</path>
-      <path>./assets/systems/${system.theme}.webp</path>
       <size>0 1</size>
       <origin>0.5 0.5</origin>
       <pos>0.716666667 0.5</pos>      <!-- 480x320 / 344x (center of the remaining space) · center y-->
@@ -132,13 +131,37 @@
       </storyboard>
     </image>
 
-    <image name="cover" extra="true" ifSubset="Custom Backgrounds:customBg">
+    <image name="cover" extra="true">
+      <path>./assets/systems/${system.theme}.webp</path>
+    </image>
+
+    <image name="cover" extra="true"  ifSubset="Background Source:randomBg">
+      <path>{random:image}</path>
+    </image>
+
+    <image name="cover" extra="true" ifSubset="Background Source:customBg">
       <!-- Select primary background -->
       <path>./customBackground/${system.theme}.png</path>
       <path>./customBackground/${system.theme}.jpg</path>
       <path>./customBackground/${system.theme}.jpeg</path>
       <path>./customBackground/${system.theme}.webp</path>
     </image>
+
+    <video name="coverVid" extra="true" ifSubset="Background Source:videoBg">
+      <path>{random}</path>
+      <minSize>1 1</minSize>
+      <origin>0.5 0.5</origin>
+      <pos>0.716666667 0.5</pos>      <!-- 480x320 / 344x (center of the remaining space) · center y-->
+      <delay>1</delay>
+      <zIndex>-9</zIndex>
+
+      <showSnapshotNoVideo>false</showSnapshotNoVideo>
+
+      <storyboard>
+        <animation property="x" from="0.683333334" to="0.716666667" duration="500" mode="EaseOut"/>
+        <animation property="opacity" from="0" to="1" duration="500" mode="EaseOut"/>
+      </storyboard>
+    </video>
 
     <image name="carouselBackground" extra="true">
       <path>./assets/ratio32/carousel-bg.png</path>

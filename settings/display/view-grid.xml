@@ -6,9 +6,9 @@
 <theme>
   <formatVersion>7</formatVersion>
 
-  <subset name="GridImage" displayName="Image type" appliesTo="grid">
-    <include name="gridscreenshot" displayName="Screenshot"/>
-    <include name="gridthumbnail" displayName="Thumbnail"/>
+  <subset name="GridImage" displayName="${string.settings.imageSource}" appliesTo="grid">
+    <include name="gridscreenshot" displayName="${string.imageSource.image}"/>
+    <include name="gridthumbnail" displayName="${string.imageSource.thumbnail}"/>
   </subset>
 
   <!--Confugurações da view "grid"-->

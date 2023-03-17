@@ -23,18 +23,20 @@
     <include name="brown" displayName="${string.settings.color.beige}">./settings/colors/brown.xml</include>
   </subset>
   
-  <subset name="Background" displayName="${string.settings.backgroundStyle}">
-    <include name="bgScanlines" displayName="${string.settings.backgroundStyle.scanlines}"/>
-    <include name="bgClean" displayName="${string.settings.backgroundStyle.clean}"/>
-  </subset>
-
   <subset name="GameListBGStyle" displayName="${string.settings.gamelistBackgroundStyle}">
     <include name="bgBlurred" displayName="${string.settings.gamelistBackgroundStyle.blurred}"/>
     <include name="bgNormal" displayName="${string.settings.gamelistBackgroundStyle.normal}"/>
     <include name="bgNone" displayName="${string.settings.gamelistBackgroundStyle.none}"/>
   </subset>
 
-  <subset name="Custom Backgrounds" displayName="${string.settings.backgroundEntry}">
+  <subset name="Background" displayName="${string.settings.backgroundStyle}">
+    <include name="bgScanlines" displayName="${string.settings.backgroundStyle.scanlines}"/>
+    <include name="bgClean" displayName="${string.settings.backgroundStyle.clean}"/>
+  </subset>  
+
+  <subset name="Background Source" displayName="${string.settings.backgroundEntry}">
+    <include name="videoBg" displayName="${string.settings.backgroundEntry.videoBg}"/>
+    <include name="randomBg" displayName="${string.settings.backgroundEntry.randomBg}"/>
     <include name="defaultBg" displayName="${string.settings.backgroundEntry.defaultBg}"/>
     <include name="customBg" displayName="${string.settings.backgroundEntry.customBg}"/>
   </subset>
@@ -78,7 +80,7 @@
   <include>./settings/display/view-system.xml</include>
   <include>./settings/display/view-menu.xml</include>
   <include>./settings/display/view-basic.xml</include>
-  <include>./settings/display/view-detailed.xml</include>
+  <include>./settings/display/view-detailed-video.xml</include>
   <include>./settings/display/view-grid.xml</include>
 
 </theme>
