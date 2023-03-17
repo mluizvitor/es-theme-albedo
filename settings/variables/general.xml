@@ -7,7 +7,7 @@
   <formatVersion>7</formatVersion>
 
   <variables>
-    <typefaceCondensed>./assets/fonts/BarlowCondensed/BarlowCondensed-Regular.ttf</typefaceCondensed>
+    <typefaceCondensed>./assets/fonts/BarlowCondensed/BarlowCondensed-Medium.ttf</typefaceCondensed>
     <typefaceLight>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Regular.ttf</typefaceLight>
     <typefaceRegular>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Medium.ttf</typefaceRegular>
     <typefaceBold>./assets/fonts/FiraSansCondensed/FiraSansCondensed-Bold.ttf</typefaceBold>
