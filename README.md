@@ -1,6 +1,6 @@
 # About
 
-![Version 1.230220](https://img.shields.io/badge/Version_1.230220-ad5f00?style=for-the-badge)
+![Version 1.230317](https://img.shields.io/badge/Version_1.230317-ad5f00?style=for-the-badge)
 
 Albedo is a theme for EmulationStation. It's a fork of [Elementerial](https://github.com/mluizvitor/es-theme-elementerial), another ES theme built by me.
 It has flat surfaces, plays with transparency and sharp edges.
@@ -25,18 +25,14 @@ Albedo was made for [AmberELEC](https://amberelec.org) supported devices, as RG3
 
 <br>
 
-# Screenshots
-|  ![](./.github/0001.png)  |                   ![](./.github/0002.png)                   |
-| :-----------------------: | :---------------------------------------------------------: |
-| Colored Logos + Scanlines | Monochromatic Logos + Green accent color. Removed scanlines |
-
-|     ![](./.github/0003.png)     |                   ![](./.github/0004.png)                    |
-| :-----------------------------: | :----------------------------------------------------------: |
-| Grid view + Purple accent color | Detailed view + Yellow accent color + Background not blurred |
-
-|                ![](./.github/0005.png)                 |     ![](./.github/0006.png)     |
-| :----------------------------------------------------: | :-----------------------------: |
-| Basic view + Blue accent color + No console background | System Menu + Pink accent color |
+# Features
+- Supported views: Basic, Detailed, Video and Grid
+- 10 accent colors
+- Scanline overlay
+- Game list background: none, blurred, normal
+- Carousel background: Video, screenshots defined by theme, random game screenshots and custom background
+- Game logos: colored and monochromatic
+- Statusbar: Clock and battery, just clock, just battery and hidden.
 
 <br>
 
@@ -80,6 +76,21 @@ Load your own custom backgrounds:
 |               Default background                |               Custom Background               |
 
 And many more.
+
+<br>
+
+# Screenshots
+|  ![](./.github/0001.png)  |                   ![](./.github/0002.png)                   |
+| :-----------------------: | :---------------------------------------------------------: |
+| Colored Logos + Scanlines | Monochromatic Logos + Green accent color. Removed scanlines |
+
+|     ![](./.github/0003.png)     |                   ![](./.github/0004.png)                    |
+| :-----------------------------: | :----------------------------------------------------------: |
+| Grid view + Purple accent color | Detailed view + Yellow accent color + Background not blurred |
+
+|                ![](./.github/0005.png)                 |     ![](./.github/0006.png)     |
+| :----------------------------------------------------: | :-----------------------------: |
+| Basic view + Blue accent color + No console background | System Menu + Pink accent color |
 
 <br>
 
