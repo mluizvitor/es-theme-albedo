@@ -51,16 +51,16 @@
 
     <image name="backgroundScanlines" extra="true" ifSubset="Background:bgScanlines">
       <path>./assets/ratio32/scanlines.png</path>
-      <path ifSubset="Ratio:4-3">./assets/ratio43/scanlines.png</path>
       <path ifSubset="Ratio:5-3">./assets/ratio53/scanlines.png</path>
       <opacity>0.2</opacity>
       <size>1 1</size>
-      <origin>0.5 0.5</origin>
-      <pos>0.5 0.5</pos>
+      <tile>true</tile>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
       <zIndex>0</zIndex>
 
       <storyboard>
-        <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut"/>
+        <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut" />
       </storyboard>
     </image>
   </view>
@@ -86,8 +86,8 @@
       <lineSpacing>1.6</lineSpacing>
 
       <storyboard>
-        <animation property="y" from="0.175" to="0.15" duration="300" mode="EaseOut"/>
-        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
+        <animation property="y" from="0.175" to="0.15" duration="300" mode="EaseOut" />
+        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut" />
       </storyboard>
     </textlist>
   </view>
@@ -95,9 +95,9 @@
   <!--Configurações comuns de views-->
   <view name="basic, detailed, grid, video">
     <text name="logoText">
-      <origin>0 0.5</origin>      <!--vertical center-->
+      <origin>0 0.5</origin>      <!-- vertical center-->
       <size>0.7 ${fontSizeH2}</size>
-      <pos>0.033333333 0.075</pos>      <!--480x320 / 16x 28y-->
+      <pos>0.033333333 0.075</pos>      <!-- 480x320 / 16x 28y-->
 
       <fontPath>${typefaceTitleBold}</fontPath>
       <fontSize>${fontSizeH2}</fontSize>
@@ -106,8 +106,8 @@
       <zIndex>10</zIndex>
 
       <storyboard>
-        <animation property="y" from="0.1" to="0.074" duration="300" mode="EaseOut"/>
-        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
+        <animation property="y" from="0.1" to="0.074" duration="300" mode="EaseOut" />
+        <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut" />
       </storyboard>
     </text>
 
@@ -123,7 +123,7 @@
       <zIndex>-5</zIndex>
 
       <storyboard>
-        <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut"/>
+        <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut" />
       </storyboard>
     </image>
 
@@ -141,7 +141,7 @@
       <path ifSubset='GameListBGStyle:bgBlurred'>./customBackground/blurred/${system.theme}.blurred.webp</path>
 
       <storyboard>
-        <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut"/>
+        <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut" />
       </storyboard>
     </image>
 
@@ -177,11 +177,20 @@
 
     <image name="md_releasedate_icon" extra="true">
       <origin>0 0.5</origin>
-      <path>./assets/icons/calendar.png</path>
-      <size>0.033333333 0</size>
-      <size ifSubset="Ratio:5-3">0.025 0</size>
+      <path>./assets/icons/16x16/calendar=default.png</path>
+      <size>0.033333333 0</size>      <!-- 16x16 -->
       <color>${primaryColor}</color>
       <zIndex>10</zIndex>
+    </image>
+
+    <image name="md_releasedate_icon" extra="true" ifSubset="Ratio:4-3">
+      <size>0.0375 0</size>
+      <path>./assets/icons/24x24/calendar=default.png</path>
+    </image>
+
+    <image name="md_releasedate_icon" extra="true" ifSubset="Ratio:5-3">
+      <size>0.025 0</size>
+      <path>./assets/icons/72x72/calendar=default.png</path>
     </image>
   </view>
 
@@ -215,31 +224,52 @@
     </text>
 
     <text name="clock" ifSubset="Ratio:5-3">
-      <pos>0.785 0</pos>
+      <pos>0.76 0</pos>
       <pos ifSubset="StatusBar:statusClock">0.8875 0</pos>
       <size>0.1 0.083333333</size>
       <fontSize>${fontSizeBody}</fontSize>
     </text>
 
     <batteryIndicator name="batteryIndicator">
-      <pos>0.933333333 0.025</pos>
-      <pos ifSubset="StatusBar:statusBattery">0.92 0.025</pos>
-
-      <pos ifSubset="Ratio:4-3">0.93 0.016</pos>
-      <pos ifSubset="Ratio:5-3">0.94 0.0175</pos>
-
+      <pos>0.94 0.025</pos>
+      <pos ifSubset="StatusBar:statusBattery">0.935 0.025</pos>
       <size>0.05</size>      <!-- 480x320 / 16x 16y -->
-
-      <color>ffffff</color>
+      <itemSpacing>0.008333333</itemSpacing>
+      <color>FFFFFF</color>
 
       <!-- Assets -->
-      <full>./assets/icons/battery-full.png</full>
-      <at75>./assets/icons/battery-75.png</at75>
-      <at50>./assets/icons/battery-50.png</at50>
-      <at25>./assets/icons/battery-25.png</at25>
-      <empty>./assets/icons/battery-empty.png</empty>
-      <incharge>./assets/icons/battery-charging.png</incharge>
-      <networkIcon>./assets/icons/wifi.png</networkIcon>
+      <full>./assets/icons/16x16/battery=full.png</full>
+      <at75>./assets/icons/16x16/battery=75.png</at75>
+      <at50>./assets/icons/16x16/battery=50.png</at50>
+      <at25>./assets/icons/16x16/battery=25.png</at25>
+      <empty>./assets/icons/16x16/battery=empty.png</empty>
+      <incharge>./assets/icons/16x16/battery=charging.png</incharge>
+      <networkIcon>./assets/icons/16x16/wifi=on.png</networkIcon>
+    </batteryIndicator>
+
+    <batteryIndicator name="batteryIndicator" ifSubset="Ratio:4-3">
+      <pos>0.93 0.016</pos>
+      <size>0.05</size>      <!-- 24x 24y-->
+
+      <full>./assets/icons/24x24/battery=full.png</full>
+      <at75>./assets/icons/24x24/battery=75.png</at75>
+      <at50>./assets/icons/24x24/battery=50.png</at50>
+      <at25>./assets/icons/24x24/battery=25.png</at25>
+      <empty>./assets/icons/24x24/battery=empty.png</empty>
+      <incharge>./assets/icons/24x24/battery=charging.png</incharge>
+      <networkIcon>./assets/icons/24x24/wifi=on.png</networkIcon>
+    </batteryIndicator>
+
+    <batteryIndicator name="batteryIndicator" ifSubset="Ratio:5-3">
+      <pos>0.94 0.01</pos>
+      <size>0.0625</size>      <!-- 72x 72y-->
+      <full>./assets/icons/72x72/battery=full.png</full>
+      <at75>./assets/icons/72x72/battery=75.png</at75>
+      <at50>./assets/icons/72x72/battery=50.png</at50>
+      <at25>./assets/icons/72x72/battery=25.png</at25>
+      <empty>./assets/icons/72x72/battery=empty.png</empty>
+      <incharge>./assets/icons/72x72/battery=charging.png</incharge>
+      <networkIcon>./assets/icons/72x72/wifi=on.png</networkIcon>
     </batteryIndicator>
 
     <batteryIndicator name="batteryIndicator" ifSubset="StatusBar:statusClock|statusHidden">

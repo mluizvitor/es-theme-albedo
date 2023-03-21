@@ -65,10 +65,25 @@
       <path>./assets/button-normal.png</path>
       <filledPath>./assets/button-hover.png</filledPath>
     </menuButton>
-
+    
     <menuSwitch name="menuswitch">
-      <pathOn>./assets/switch-on.png</pathOn>
-      <pathOff>./assets/switch-off.png</pathOff>
+      <pathOn>./assets/toggle_on=@3.png</pathOn>
+      <pathOff>./assets/toggle_off=@3.png</pathOff>
+    </menuSwitch>
+
+    <menuSwitch name="menuswitch" ifSubset="Ratio:3-2">
+      <pathOn>./assets/toggle_on=@1.png</pathOn>
+      <pathOff>./assets/toggle_off=@1.png</pathOff>
+    </menuSwitch>
+    
+    <menuSwitch name="menuswitch" ifSubset="Ratio:3-2" ifArch="rg351p,amberelec-rg351p">
+      <pathOn>./assets/toggle_on=@0.5.png</pathOn>
+      <pathOff>./assets/toggle_off=@0.5.png</pathOff>
+    </menuSwitch>
+
+    <menuSwitch name="menuswitch" ifSubset="Ratio:4-3">
+      <pathOn>./assets/toggle_on=@2.png</pathOn>
+      <pathOff>./assets/toggle_off=@2.png</pathOff>
     </menuSwitch>
 
     <menuTextEdit name="menutextedit">
