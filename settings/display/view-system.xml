@@ -118,9 +118,11 @@
     </text>
 
     <image name="cover-fallback" extra="true">
-      <path>./assets/systems/unknown.webp</path>
+      <path>./assets/background.png</path>
+      <color>121212</color>
       <size>1 1</size>
       <origin>0 0</origin>
+      <tile>true</tile>
       <pos>0 0</pos>      <!-- 480x320 / 344x (center of the remaining space) · center y-->
       <zIndex>-11</zIndex>
     </image>
@@ -129,7 +131,7 @@
     <image name="cover" extra="true">
       <path>{random:image}</path>
       <path>./assets/systems/${system.theme}.webp</path>
-      <minSize>0.7 1</minSize>
+      <size>0 1</size>
       <origin>0.5 0.5</origin>
       <pos>0.716666667 0.5</pos>      <!-- 480x320 / 344x (center of the remaining space) · center y-->
       <zIndex>-10</zIndex>
