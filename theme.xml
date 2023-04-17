@@ -36,8 +36,8 @@
 
   <subset name="Background Source" displayName="${string.settings.backgroundEntry}">
     <include name="videoBg" displayName="${string.settings.backgroundEntry.videoBg}"/>
-    <include name="randomBg" displayName="${string.settings.backgroundEntry.randomBg}"/>
     <include name="defaultBg" displayName="${string.settings.backgroundEntry.defaultBg}"/>
+    <include name="randomBg" displayName="${string.settings.backgroundEntry.randomBg}"/>
     <include name="customBg" displayName="${string.settings.backgroundEntry.customBg}"/>
   </subset>
 
@@ -82,5 +82,6 @@
   <include>./settings/display/view-basic.xml</include>
   <include>./settings/display/view-detailed-video.xml</include>
   <include>./settings/display/view-grid.xml</include>
+  <include>./settings/sound.xml</include>
 
 </theme>
