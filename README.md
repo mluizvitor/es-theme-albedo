@@ -1,6 +1,19 @@
+- [About](#about)
+- [Last changes](#last-changes)
+- [Compatibility](#compatibility)
+- [Features](#features)
+- [Tweaks](#tweaks)
+- [Screenshots](#screenshots)
+- [About Auto Collection Logos](#about-auto-collection-logos)
+  - [What are collections?](#what-are-collections)
+  - [Currently supported franchises](#currently-supported-franchises)
+- [Supported Platforms](#supported-platforms)
+- [License](#license)
+- [Made With](#made-with)
+
 # About
 
-![Version 1.230317](https://img.shields.io/badge/Version_1.230317-ad5f00?style=for-the-badge)
+![Version 1.230417](https://img.shields.io/badge/Version_1.230417-ad5f00?style=for-the-badge)
 
 Albedo is a theme for EmulationStation. It's a fork of [Elementerial](https://github.com/mluizvitor/es-theme-elementerial), another ES theme built by me.
 It has flat surfaces, plays with transparency and sharp edges.
@@ -13,6 +26,18 @@ It has flat surfaces, plays with transparency and sharp edges.
 > Access [Albedo Wallpaper Cropper](https://albedo-wallpaper-cropper.vercel.app).
 > 
 >  If you're concerned about privacy, this web app will never collect or send any information anywhere. The images loaded are saved locally on the browser database. As an web app, it can be used offline after the first load.
+
+<br>
+
+# Last changes
+```
+- Added Capcom PlaySystem 1, 2 & 3 logos
+- Added auto collection logos
+- Updated Vertical Arcade logo
+- Updated carousel background to use random images when there is no background provided by theme
+```
+
+<br>
 
 # Compatibility
 
@@ -28,7 +53,7 @@ Albedo was made for [AmberELEC](https://amberelec.org) supported devices, as RG3
 # Features
 - Supported views: Basic, Detailed, Video and Grid
 - 10 accent colors
-- Scanline overlay
+- Scanlines overlay
 - Game list background: none, blurred, normal
 - Carousel background: Video, screenshots defined by theme, random game screenshots and custom background
 - Game logos: colored and monochromatic
@@ -94,9 +119,41 @@ And many more.
 
 <br>
 
+# About Auto Collection Logos
+
+Elementerial now show logo for some auto/custom collections.
+
+## What are collections?
+Collections are a way to arrange your games.
+You can create editable or dynamic collections.
+Editable collections are those you manually add games,
+while Dynamic collections are those you can set filters or search texts. 
+
+To create a new collection on EmulationStarion and enable them to be displayed on main screen/carousel:
+
+On EmulationStation → Start → Game Collection Settings
+1. Group unthemed custom collections (disabled)
+2. Create new editable/dynamic collection
+   1. Insert the name of the collection 
+   2. See the list below for collection names that have a logo
+
+## Currently supported franchises
+
+There is a couple of logos for the following franchises:
+- `Final Fantasy`
+- `Mario`
+- `Metroid`
+- `Persona`
+  - I like to create Persona collection as a dynamic collection and use the text `persona, megami tensei` as **Find Games** content, so the collection gathers all games with *Persona* and *Megami Tensei* in its titles (which includes Shin Megami Tensei as well).
+- `Pokemon`
+
+The names listed are case sensitive and with white spaces (like in `Final Fantasy`). If you use any variation like `MariO` or `final-fantasy` your collection will not display the logo.
+
+<br>
+
 # Supported Platforms
 
-![Platforms: 108](https://img.shields.io/badge/Platforms:_108-3a9104?style=for-the-badge) ![plus](https://img.shields.io/badge/+-007367?style=for-the-badge) ![Special Hack variants: 8](https://img.shields.io/badge/Special_Hack_variants:_8-0d52bf?style=for-the-badge)
+![Platforms: 111](https://img.shields.io/badge/Platforms:_111-3a9104?style=for-the-badge) ![plus](https://img.shields.io/badge/+-007367?style=for-the-badge) ![Special Hack variants: 8](https://img.shields.io/badge/Special_Hack_variants:_8-0d52bf?style=for-the-badge)
 
 3DO,
 Adventure Vision,
@@ -114,6 +171,9 @@ Atari ST,
 Atomiswave,
 Build Engine,
 Casio PV-1000,
+Capcom PlaySystem 1,
+Capcom PlaySystem 2,
+Capcom PlaySystem 3,
 Channel F,
 CHIP-8,
 ColecoVision,
