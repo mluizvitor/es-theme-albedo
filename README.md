@@ -65,16 +65,17 @@ Albedo was made for [AmberELEC](https://amberelec.org) supported devices, as RG3
 
 You can choose between 10 accent colors:
 
-![Blue](./.github/col-blue.png)
-![Purple](./.github/col-purple.png)
-![Pink](./.github/col-pink.png)
-![Red](./.github/col-red.png)
-![Orange](./.github/col-orange.png)
-![Yellow](./.github/col-yellow.png)
-![Green](./.github/col-green.png)
-![Teal](./.github/col-teal.png)
-![Beige](./.github/col-beige.png)
-![Gray](./.github/col-gray.png)
+![Blue](https://i.imgur.com/cIEaQNR.png)
+![Purple](https://i.imgur.com/ZRQtKlT.png)
+![Pink](https://i.imgur.com/ceCTdo3.png)
+![Red](https://i.imgur.com/rmMdfRY.png)
+![Orange](https://i.imgur.com/YUhdtVZ.png)
+![Yellow](https://i.imgur.com/4FmZudb.png)
+![Green](https://i.imgur.com/3bFXwCC.png)
+![Teal](https://i.imgur.com/QY7dtDb.png)
+![Beige](https://i.imgur.com/kDmQIJm.png)
+![Gray](https://i.imgur.com/jRyr9ly.png)
+
 
 Set background style for game list:
 
@@ -86,9 +87,9 @@ Set background style for game list:
 
 Set background overlay:
 
-| ![Scanlines](./.github/scanlines-on.png) | ![Clean](./.github/scanlines-off.png) |
-| :--------------------------------------: | :-----------------------------------: |
-|                Scanlines                 |                 Clean                 |
+| ![Scanlines](https://i.imgur.com/1ppaJlC.png) | ![Clean](https://i.imgur.com/O6JBfeL.png) |
+| :-------------------------------------------: | :---------------------------------------: |
+|                   Scanlines                   |                   Clean                   |
 
 <br>
 
@@ -96,26 +97,26 @@ Load your own custom backgrounds:
 
 > Please, read [CUSTOMBG.md](CUSTOMBG.md) for more details.
 
-| ![Default background](./.github/bg-default.png) | ![Custom background](./.github/bg-custom.png) |
-| :---------------------------------------------: | :-------------------------------------------: |
-|               Default background                |               Custom Background               |
+| ![Default background](https://i.imgur.com/v70hcvF.png) | ![Custom background](https://i.imgur.com/JGEwg2Q.png) |
+| :----------------------------------------------------: | :---------------------------------------------------: |
+|                   Default background                   |                   Custom Background                   |
 
 And many more.
 
 <br>
 
 # Screenshots
-|  ![](./.github/0001.png)  |                   ![](./.github/0002.png)                   |
-| :-----------------------: | :---------------------------------------------------------: |
-| Colored Logos + Scanlines | Monochromatic Logos + Green accent color. Removed scanlines |
+| ![](https://i.imgur.com/mkGiWv9.png) |            ![](https://i.imgur.com/K506TyI.png)             |
+| :----------------------------------: | :---------------------------------------------------------: |
+|      Colored Logos + Scanlines       | Monochromatic Logos + Green accent color. Removed scanlines |
 
-|     ![](./.github/0003.png)     |                   ![](./.github/0004.png)                    |
-| :-----------------------------: | :----------------------------------------------------------: |
-| Grid view + Purple accent color | Detailed view + Yellow accent color + Background not blurred |
+| ![](https://i.imgur.com/M4kzFE8.png) |             ![](https://i.imgur.com/1TNAfUG.png)             |
+| :----------------------------------: | :----------------------------------------------------------: |
+|   Grid view + Purple accent color    | Detailed view + Yellow accent color + Background not blurred |
 
-|                ![](./.github/0005.png)                 |     ![](./.github/0006.png)     |
-| :----------------------------------------------------: | :-----------------------------: |
-| Basic view + Blue accent color + No console background | System Menu + Pink accent color |
+|          ![](https://i.imgur.com/cZMtZzc.png)          | ![](https://i.imgur.com/bTMwPvR.png) |
+| :----------------------------------------------------: | :----------------------------------: |
+| Basic view + Blue accent color + No console background |   System Menu + Pink accent color    |
 
 <br>
 
