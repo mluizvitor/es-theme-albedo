@@ -52,7 +52,10 @@
 
       <text>${system.fullName}</text>
       <fontPath>${typefaceTitleBold}</fontPath>
-      <fontSize>${fontSizeH1}</fontSize>
+      <fontSize>${fontSizeH1-medium}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeH1-small}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeH1-large}</fontSize>
+
       <lineSpacing>1</lineSpacing>
       <alignment>left</alignment>
       <forceUppercase>1</forceUppercase>
@@ -82,7 +85,9 @@
 
       <color>ffffffcc</color>
 
-      <fontSize>${fontSizeBody}</fontSize>
+      <fontSize>${fontSizeBody-medium}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeBody-small}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeBody-large}</fontSize>
       <alignment>left</alignment>
       <forceUppercase>1</forceUppercase>
       <fontPath>${typefaceTitleRegular}</fontPath>
@@ -111,7 +116,9 @@
     <text name="logoText">
       <origin>0 0</origin>
       <fontPath>${typefaceRegular}</fontPath>
-      <fontSize>${fontSizeH2}</fontSize>
+      <fontSize>${fontSizeH2-medium}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeH2-small}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeH2-large}</fontSize>
       <lineSpacing>0.7</lineSpacing>,
 
       <color>${primaryColorAlt}</color>

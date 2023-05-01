@@ -23,6 +23,12 @@
     <include name="brown" displayName="${string.settings.color.beige}">./settings/colors/brown.xml</include>
   </subset>
   
+  <subset name="FontSize" displayName="${string.settings.fontSize}">
+  	<include name="medium" displayName="${string.settings.fontSize.medium}"/>
+  	<include name="large" displayName="${string.settings.fontSize.large}"/>
+  	<include name="small" displayName="${string.settings.fontSize.small}"/>
+  </subset>
+  
   <subset name="GameListBGStyle" displayName="${string.settings.gamelistBackgroundStyle}">
     <include name="bgBlurred" displayName="${string.settings.gamelistBackgroundStyle.blurred}"/>
     <include name="bgNormal" displayName="${string.settings.gamelistBackgroundStyle.normal}"/>
@@ -62,7 +68,7 @@
   <subset name="Ratio" displayName="${string.settings.screenRatio}">
     <include ifArch="rg351p,amberelec-rg351p" name="3-2" displayName="3:2" />
     <include ifArch="rg353p,rg351mp,rg351v,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="4-3" displayName="4:3" />
-    <include ifArch="rg552,amberelec-rg552" name="5-3" displayName="5:3" />
+    <include ifArch="rg503,rg552,amberelec-rg503,amberelec-rg552" name="5-3" displayName="5:3" />
 
     <include ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="3-2" displayName="3:2" />
     <include ifNotArch="handheld,rg503,rg552,rg351p,rg353p,rg351mp,rg351v,amberelec-rg503,amberelec-rg552,amberelec-rg351p,amberelec-rg353p,amberelec-rg351mp,amberelec-rg351v" name="4-3" displayName="4:3" />

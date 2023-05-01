@@ -26,16 +26,6 @@
     <textlist name="gamelist">
       <size>1 0.85</size>      <!-- 480x320 / 480x 272y-->
       <size ifHelpPrompts="true">1 0.775</size>      <!-- 480x320 / 208x 248y-->
-      <horizontalMargin>0.033333333</horizontalMargin>
-
-      <lineSpacing>1.5</lineSpacing>
-      <lineSpacing ifHelpPrompts="true">1.6</lineSpacing>
-
-      <lineSpacing ifSubset="Ratio:4-3">1.475</lineSpacing>
-      <lineSpacing ifSubset="Ratio:4-3" ifHelpPrompts="true">1.55</lineSpacing>
-
-      <lineSpacing ifSubset="Ratio:5-3">1.5</lineSpacing>
-      <lineSpacing ifSubset="Ratio:5-3" ifHelpPrompts="true">1.575</lineSpacing>
     </textlist>
   </view>
 </theme>

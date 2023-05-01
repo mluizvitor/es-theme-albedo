@@ -32,16 +32,6 @@
     <textlist name="gamelist">
       <size>0.433333333 0.85</size>      <!-- 480x320 / 208x 272y-->
       <size ifHelpPrompts="true">0.433333333 0.775</size>      <!-- 480x320 / 208x 248y-->
-      <horizontalMargin>0.033333333</horizontalMargin>      <!-- 24px -->
-
-      <lineSpacing>1.5</lineSpacing>
-      <lineSpacing ifHelpPrompts="true">1.6</lineSpacing>
-
-      <lineSpacing ifSubset="Ratio:4-3">1.475</lineSpacing>
-      <lineSpacing ifSubset="Ratio:4-3" ifHelpPrompts="true">1.55</lineSpacing>
-
-      <lineSpacing ifSubset="Ratio:5-3">1.5</lineSpacing>
-      <lineSpacing ifSubset="Ratio:5-3" ifHelpPrompts="true">1.575</lineSpacing>
     </textlist>
 
     <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre md_players, md_lastplayed, md_playcount, md_name">
@@ -98,7 +88,9 @@
 
       <color>ffffff</color>
       <fontPath>${typefaceRegular}</fontPath>
-      <fontSize>${fontSizeSmall}</fontSize>
+      <fontSize>${fontSizeBody2-medium}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeBody2-small}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeBody2-large}</fontSize>
       <lineSpacing>0.9</lineSpacing>
     </text>
 
@@ -108,9 +100,11 @@
       <color>${primaryColorLightVariant}</color>
       <origin>0 0.5</origin>
       <pos>0.466666667 0.7375</pos>
-      <size>0.3 ${fontSizeTiny}</size>
+      <size>0.3 ${fontSizeCaption-medium}</size>
 
-      <fontSize>${fontSizeTiny}</fontSize>
+      <fontSize>${fontSizeCaption-medium}</fontSize>
+      <fontSize ifSubset="FontSize:small">${fontSizeCaption-small}</fontSize>
+      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
       <fontPath>${typefaceTitleBold}</fontPath>
       <forceUppercase>1</forceUppercase>
 

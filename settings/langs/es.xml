@@ -15,6 +15,11 @@
     <string.settings.screenRatio>Formato de pantalla</string.settings.screenRatio>
     <string.settings.statusBar>Barra de estado</string.settings.statusBar>
     <string.settings.dateFormat>Formato de fecha</string.settings.dateFormat>
+    
+    <string.settings.fontSize>Tamaño de fuente</string.settings.fontSize>
+    <string.settings.fontSize.medium>Medio</string.settings.fontSize.medium>
+    <string.settings.fontSize.small>Pequeño</string.settings.fontSize.small>
+    <string.settings.fontSize.large>Grande</string.settings.fontSize.large>
 
     <string.settings.backgroundStyle>Superposición de fondo</string.settings.backgroundStyle>
     <string.settings.backgroundStyle.scanlines>Líneas de exploración</string.settings.backgroundStyle.scanlines>
