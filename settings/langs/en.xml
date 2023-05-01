@@ -15,7 +15,7 @@
     <string.settings.screenRatio>Screen ratio</string.settings.screenRatio>
     <string.settings.statusBar>Status bar</string.settings.statusBar>
     <string.settings.dateFormat>Date format</string.settings.dateFormat>
-    
+
     <string.settings.fontSize>Font size</string.settings.fontSize>
     <string.settings.fontSize.medium>Medium</string.settings.fontSize.medium>
     <string.settings.fontSize.small>Small</string.settings.fontSize.small>
@@ -28,11 +28,11 @@
     <string.settings.logoStyle>Logos style</string.settings.logoStyle>
     <string.settings.logoStyle.color>Colored</string.settings.logoStyle.color>
     <string.settings.logoStyle.mono>Monochrome</string.settings.logoStyle.mono>
-    
+
     <string.settings.clock>Clock</string.settings.clock>
     <string.settings.battery>Battery</string.settings.battery>
     <string.settings.hidden>Hidden</string.settings.hidden>
-    
+
     <string.settings.backgroundEntry>Background Source</string.settings.backgroundEntry>
     <string.settings.backgroundEntry.defaultBg>Defined by theme</string.settings.backgroundEntry.defaultBg>
     <string.settings.backgroundEntry.customBg>Custom</string.settings.backgroundEntry.customBg>
@@ -65,6 +65,8 @@
     <string.imageSource.thumbnail>Box Art</string.imageSource.thumbnail>
     <string.imageSource.image>Screenshot</string.imageSource.image>
     <string.imageSource.marquee>Game Logo</string.imageSource.marquee>
+
+    <string.default>Default</string.default>
   </variables>
 
 </theme>
