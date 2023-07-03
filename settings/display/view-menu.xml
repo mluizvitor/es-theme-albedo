@@ -59,9 +59,8 @@
 
     <menuBackground name="menubg">
       <path>./assets/menu.png</path>
+      <fadePath>./assets/fade.png</fadePath>
       <size>1 1</size>
-
-      <color>1a1a1a</color>
     </menuBackground>
 
     <menuButton name="menubutton">

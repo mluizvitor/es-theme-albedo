@@ -33,7 +33,7 @@
     <string.settings.battery>Batería</string.settings.battery>
     <string.settings.hidden>Oculta</string.settings.hidden>
 
-    <string.settings.backgroundEntry>fuente de fondo de pantalla</string.settings.backgroundEntry>
+    <string.settings.backgroundEntry>Fuente de fondo de pantalla</string.settings.backgroundEntry>
     <string.settings.backgroundEntry.defaultBg>Definido por tema</string.settings.backgroundEntry.defaultBg>
     <string.settings.backgroundEntry.customBg>Personalizado</string.settings.backgroundEntry.customBg>
     <string.settings.backgroundEntry.videoBg>Video aleatorio</string.settings.backgroundEntry.videoBg>
@@ -59,12 +59,23 @@
     <!-- Interface Texts -->
     <string.view.detailed.description>Descripción</string.view.detailed.description>
 
+    <!-- Grid Icon Aspect -->
+    <string.settings.gridIconRatio>Proporción de iconos predeterminados</string.settings.gridIconRatio>
+    <string.settings.gridIconRatio.square>Cuadrado</string.settings.gridIconRatio.square>
+    <string.settings.gridIconRatio.tip>Se aplica a los íconos de carpetas y cartuchos (no seleccione este)</string.settings.gridIconRatio.tip>
+
+
     <string.settings.imageSource>Imagen para ítem de cuadrícula</string.settings.imageSource>
     <string.settings.videoSource>Instantánea de vídeo</string.settings.videoSource>
 
     <string.imageSource.thumbnail>Arte de la caja</string.imageSource.thumbnail>
     <string.imageSource.image>Captura de pantalla</string.imageSource.image>
     <string.imageSource.marquee>Logotipo del juego</string.imageSource.marquee>
+
+    <string.gridImageStyle>Estilo de imagen de cuadrícula</string.gridImageStyle>
+    <string.gridImageStyle.cover>Cubrir</string.gridImageStyle.cover>
+    <string.gridImageStyle.fit>Adaptar</string.gridImageStyle.fit>
+    <string.gridImageStyle.stretch>Estirar</string.gridImageStyle.stretch>
 
     <string.default>Por defecto</string.default>
   </variables>

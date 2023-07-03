@@ -22,13 +22,20 @@
     <include name="gray" displayName="${string.settings.color.gray}">./settings/colors/gray.xml</include>
     <include name="brown" displayName="${string.settings.color.beige}">./settings/colors/brown.xml</include>
   </subset>
-  
+
   <subset name="FontSize" displayName="${string.settings.fontSize}">
-  	<include name="medium" displayName="${string.settings.fontSize.medium}"/>
-  	<include name="large" displayName="${string.settings.fontSize.large}"/>
-  	<include name="small" displayName="${string.settings.fontSize.small}"/>
+    <include name="medium" displayName="${string.settings.fontSize.medium}" />
+    <include name="large" displayName="${string.settings.fontSize.large}" />
+    <include name="small" displayName="${string.settings.fontSize.small}" />
   </subset>
-  
+
+  <subset name="Background Source" displayName="${string.settings.backgroundEntry}">
+    <include name="videoBg" displayName="${string.settings.backgroundEntry.videoBg}" />
+    <include name="defaultBg" displayName="${string.settings.backgroundEntry.defaultBg}" />
+    <include name="randomBg" displayName="${string.settings.backgroundEntry.randomBg}" />
+    <include name="customBg" displayName="${string.settings.backgroundEntry.customBg}" />
+  </subset>
+
   <subset name="GameListBGStyle" displayName="${string.settings.gamelistBackgroundStyle}">
     <include name="bgBlurred" displayName="${string.settings.gamelistBackgroundStyle.blurred}"/>
     <include name="bgNormal" displayName="${string.settings.gamelistBackgroundStyle.normal}"/>
@@ -36,33 +43,40 @@
   </subset>
 
   <subset name="Background" displayName="${string.settings.backgroundStyle}">
-    <include name="bgScanlines" displayName="${string.settings.backgroundStyle.scanlines}"/>
-    <include name="bgClean" displayName="${string.settings.backgroundStyle.clean}"/>
-  </subset>  
-
-  <subset name="Background Source" displayName="${string.settings.backgroundEntry}">
-    <include name="videoBg" displayName="${string.settings.backgroundEntry.videoBg}"/>
-    <include name="defaultBg" displayName="${string.settings.backgroundEntry.defaultBg}"/>
-    <include name="randomBg" displayName="${string.settings.backgroundEntry.randomBg}"/>
-    <include name="customBg" displayName="${string.settings.backgroundEntry.customBg}"/>
-  </subset>
-
-  <subset name="Logos" displayName="${string.settings.logoStyle}">
-    <include name="styleColor" displayName="${string.settings.logoStyle.color}"/>
-    <include name="styleMono" displayName="${string.settings.logoStyle.mono}"/>
+    <include name="bgScanlines" displayName="${string.settings.backgroundStyle.scanlines}" />
+    <include name="bgClean" displayName="${string.settings.backgroundStyle.clean}" />
   </subset>
 
   <subset name="StatusBar" displayName="${string.settings.statusBar}">
-    <include name="statusComplete" displayName="${string.settings.clock} + ${string.settings.battery}"/>
-    <include name="statusClock" displayName="${string.settings.clock}"/>
-    <include name="statusBattery" displayName="${string.settings.battery}"/>
-    <include name="statusHidden" displayName="${string.settings.hidden}"/>
+    <include name="statusComplete"
+      displayName="${string.settings.clock} + ${string.settings.battery}" />
+    <include name="statusClock" displayName="${string.settings.clock}" />
+    <include name="statusBattery" displayName="${string.settings.battery}" />
+    <include name="statusHidden" displayName="${string.settings.hidden}" />
   </subset>
 
-  <subset name="Date Format" displayName="${string.settings.dateFormat}" appliesTo="grid">
-    <include name="y-m-d" displayName="YYYY/MM/DD"/>
-    <include name="m-d-y" displayName="MM/DD/YYYY"/>
-    <include name="d-m-y" displayName="DD/MM/YYYY"/>
+  <subset name="Date Format" displayName="${string.settings.dateFormat}" appliesTo="detailed, grid">
+    <include name="y-m-d" displayName="YYYY/MM/DD" />
+    <include name="m-d-y" displayName="MM/DD/YYYY" />
+    <include name="d-m-y" displayName="DD/MM/YYYY" />
+  </subset>
+
+  <subset name="DefaultGridIconsRatio" displayName="${string.settings.gridIconRatio}"
+    appliesTo="grid">
+    <include name="1-1" displayName="${string.settings.gridIconRatio.square}" />
+    <include name="2-3" displayName="2:3 (Steam)" />
+    <include name="tip" displayName="${string.settings.gridIconRatio.tip}" />
+  </subset>
+
+  <subset name="GridImage" displayName="${string.settings.imageSource}" appliesTo="grid">
+    <include name="gridscreenshot" displayName="${string.imageSource.image}" />
+    <include name="gridthumbnail" displayName="${string.imageSource.thumbnail}" />
+  </subset>
+
+  <subset name="gridImageStyle" displayName="${string.gridImageStyle}" appliesTo="grid">
+    <include name="cover" displayName="${string.gridImageStyle.cover}" />
+    <include name="fit" displayName="${string.gridImageStyle.fit}" />
+    <include name="stretch" displayName="${string.gridImageStyle.stretch}" />
   </subset>
 
   <subset name="Ratio" displayName="${string.settings.screenRatio}">
@@ -77,6 +91,7 @@
     <include name="3-2" displayName="3:2" />
     <include name="4-3" displayName="4:3" />
     <include name="5-3" displayName="5:3" />
+    <!-- <include name="16-9" displayName="16:9" /> -->
   </subset>
 
   <include>./settings/variables/general.xml</include>

@@ -59,12 +59,23 @@
     <!-- Interface Texts -->
     <string.view.detailed.description>Descrição</string.view.detailed.description>
 
+    <!-- Grid Icon Aspect -->
+    <string.settings.gridIconRatio>Proporção do ícones padrões</string.settings.gridIconRatio>
+    <string.settings.gridIconRatio.square>Quadrado</string.settings.gridIconRatio.square>
+    <string.settings.gridIconRatio.tip>Aplica-se ao ícone de pasta e cartucho (Não selecionar este)</string.settings.gridIconRatio.tip>
+
+
     <string.settings.imageSource>Imagem para item da grade</string.settings.imageSource>
     <string.settings.videoSource>Instantâneo de vídeo</string.settings.videoSource>
 
     <string.imageSource.thumbnail>Arte da caixa</string.imageSource.thumbnail>
     <string.imageSource.image>Captura de tela</string.imageSource.image>
     <string.imageSource.marquee>Logo do jogo</string.imageSource.marquee>
+
+    <string.gridImageStyle>Estilo da imagem na grade</string.gridImageStyle>
+    <string.gridImageStyle.cover>Cobrir</string.gridImageStyle.cover>
+    <string.gridImageStyle.fit>Adaptar</string.gridImageStyle.fit>
+    <string.gridImageStyle.stretch>Esticar</string.gridImageStyle.stretch>
 
     <string.default>Padrão</string.default>
   </variables>

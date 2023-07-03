@@ -29,6 +29,10 @@
       <path>./assets/ratio53/gamelist-detailed-bg.png</path>
     </image>
 
+    <image name="detailed_background" extra="true" ifSubset="Ratio:16-9">
+      <path>./assets/ratio169/gamelist-detailed-bg.png</path>
+    </image>
+
     <textlist name="gamelist">
       <size>0.433333333 0.85</size>      <!-- 480x320 / 208x 272y-->
       <size ifHelpPrompts="true">0.433333333 0.775</size>      <!-- 480x320 / 208x 248y-->
@@ -48,7 +52,7 @@
       <maxSize>0.5 0.5</maxSize>      <!-- 480x320 / 240x 160y -->
       <zIndex>4</zIndex>
       <roundCorners>0.02</roundCorners>
-      <path>./assets/icons/cartridge-dark.png</path>
+      <path>./assets/icons/cartridge=1-1.png</path>
     </image>
 
     <image name="md_marquee">
@@ -60,6 +64,7 @@
 
     <datetime name="md_releasedate">
       <pos>0.841666667 0.7375</pos>
+      <pos ifSubset="Ratio:16-9">0.841666667 0.71851852</pos>
       <visible ifHelpPrompts="true">0</visible>
 
       <storyboard>
@@ -70,6 +75,7 @@
 
     <image name="md_releasedate_icon">
       <pos>0.8 0.7375</pos>
+      <pos ifSubset="Ratio:16-9">0.80833333 0.71851852</pos>
       <visible ifHelpPrompts="true">0</visible>
 
       <storyboard>
@@ -94,12 +100,21 @@
       <lineSpacing>0.9</lineSpacing>
     </text>
 
+    <text name="md_description" ifSubset="Ratio:16-9">
+      <pos>0.46666667 0.75555556</pos>      <!-- 480x320 / 224x 240y-->
+      <pos ifHelpPrompts="true">0.46666667 0.6962963</pos>      <!-- 480x320 / 224x 232y-->
+
+      <size>0.5 0.20740741</size>      <!-- 480x320 / 240x 64y-->
+      <size ifHelpPrompts="true">0.5 0.20740741</size>      <!-- 480x320 / 240x 64y-->
+    </text>
+
     <text name="md_description_label" extra="true">
       <text>${string.view.detailed.description}</text>
 
       <color>${primaryColorLightVariant}</color>
       <origin>0 0.5</origin>
       <pos>0.466666667 0.7375</pos>
+      <pos ifSubset="Ratio:16-9">0.46666667 0.71851852</pos>
       <size>0.3 ${fontSizeCaption-medium}</size>
 
       <fontSize>${fontSizeCaption-medium}</fontSize>
@@ -122,6 +137,7 @@
     <rating name="md_rating">
       <origin>0 0.5</origin>
       <pos>0.816666667 0.6625</pos>
+      <pos ifSubset="Ratio:16-9">0.81666667 0.65185185</pos>
 
       <storyboard>
         <animation property="x" from="0.85" to="0.816666667" duration="300" mode="EaseOut"/>

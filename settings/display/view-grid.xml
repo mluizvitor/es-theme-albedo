@@ -6,11 +6,6 @@
 <theme>
   <formatVersion>7</formatVersion>
 
-  <subset name="GridImage" displayName="${string.settings.imageSource}" appliesTo="grid">
-    <include name="gridscreenshot" displayName="${string.imageSource.image}"/>
-    <include name="gridthumbnail" displayName="${string.imageSource.thumbnail}"/>
-  </subset>
-
   <!--Confugurações da view "grid"-->
   <view name="grid">
     <imagegrid name="gamegrid">
@@ -30,8 +25,11 @@
 
       <autoLayoutSelectedZoom>1.075</autoLayoutSelectedZoom>
 
-      <gameImage>./assets/icons/cartridge-dark.png</gameImage>
-      <folderImage>./assets/icons/folder-dark.png</folderImage>
+      <gameImage>./assets/icons/cartridge=1-1.png</gameImage>
+      <gameImage ifSubset="DefaultGridIconsRatio:2-3">./assets/icons/cartridge=2-3.png</gameImage>
+
+      <folderImage>./assets/icons/folder=1-1.png</folderImage>
+      <folderImage ifSubset="DefaultGridIconsRatio:2-3">./assets/icons/folder=2-3.png</folderImage>
 
       <storyboard>
         <animation property="opacity" from="0" to="1" duration="300" mode="EaseOut"/>
@@ -60,10 +58,11 @@
       <padding ifSubset="Ratio:4-3">4 4</padding>
       <padding ifSubset="Ratio:5-3">6 6</padding>
 
-      <selectionMode>full</selectionMode>
+      <selectionMode>image</selectionMode>
 
-      <imageSizeMode ifSubset="GridImage:gridscreenshot|gridthumbnail">minSize</imageSizeMode>
-      <imageSizeMode ifSubset="GridImage:gridlogo">maxSize</imageSizeMode>
+      <imageSizeMode ifSubset="gridImageStyle:cover">minSize</imageSizeMode>
+      <imageSizeMode ifSubset="gridImageStyle:fit">maxSize</imageSizeMode>
+      <imageSizeMode ifSubset="gridImageStyle:stretch">size</imageSizeMode>
     </gridtile>
 
     <gridtile name="default">
@@ -84,16 +83,16 @@
     </image>
 
     <ninepatch name="gridtile.background">
-      <path>./assets/ratio32/menu.png</path>
+      <path>./assets/ratio32/grid-selector.png</path>
       <cornerSize>16 16</cornerSize>
     </ninepatch>
 
     <ninepatch name="gridtile.background" ifSubset="Ratio:4-3">
-      <path>./assets/ratio43/menu.png</path>
+      <path>./assets/ratio43/grid-selector.png</path>
     </ninepatch>
 
     <ninepatch name="gridtile.background" ifSubset="Ratio:5-3">
-      <path>./assets/ratio53/menu.png</path>
+      <path>./assets/ratio53/grid-selector.png</path>
     </ninepatch>
 
     <image name="gridtile.marquee">
@@ -101,6 +100,7 @@
       <pos>0.5 0.5</pos>
       <origin>0.5 0.5</origin>
       <maxSize>0.7 0.7</maxSize>
+      <visible ifSubset="GridImage:gridthumbnail">false</visible>
     </image>
 
     <image name="gridtile.marquee:selected">
@@ -119,9 +119,9 @@
       <lineSpacing>0.9</lineSpacing>
       <backgroundColor>00000099</backgroundColor>
 
-      <size>1 0.3</size>
+      <size>1 0.25</size>
       <pos>0 0.7</pos>
-      <padding>0.066666667 0.0125 0.066666667 0.0125</padding>
+      <padding>0.066666667 0 0.066666667 0</padding>
 
       <color>${primaryColorLightVariant}</color>
     </text>

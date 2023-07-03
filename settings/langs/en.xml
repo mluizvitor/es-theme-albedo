@@ -59,12 +59,22 @@
     <!-- Interface Texts -->
     <string.view.detailed.description>Description</string.view.detailed.description>
 
+    <!-- Grid Icon Aspect -->
+    <string.settings.gridIconRatio>Default icons aspect ratio</string.settings.gridIconRatio>
+    <string.settings.gridIconRatio.square>Square</string.settings.gridIconRatio.square>
+    <string.settings.gridIconRatio.tip>Applies to folder and cartridge icons (Don't select this one)</string.settings.gridIconRatio.tip>
+
     <string.settings.imageSource>Image for grid item</string.settings.imageSource>
     <string.settings.videoSource>Video Snapshot</string.settings.videoSource>
 
     <string.imageSource.thumbnail>Box Art</string.imageSource.thumbnail>
     <string.imageSource.image>Screenshot</string.imageSource.image>
     <string.imageSource.marquee>Game Logo</string.imageSource.marquee>
+
+    <string.gridImageStyle>Grid image style</string.gridImageStyle>
+    <string.gridImageStyle.cover>Cover</string.gridImageStyle.cover>
+    <string.gridImageStyle.fit>Fit</string.gridImageStyle.fit>
+    <string.gridImageStyle.stretch>Stretch</string.gridImageStyle.stretch>
 
     <string.default>Default</string.default>
   </variables>

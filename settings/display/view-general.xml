@@ -42,10 +42,15 @@
       <path>./assets/ratio53/borders.png</path>
     </image>
 
+    <image name="borderOverlay" extra="true" ifSubset="Ratio:16-9">
+      <path>./assets/ratio169/borders.png</path>
+    </image>
+
     <image name="help_system_background" extra="true" ifHelpPrompts="true">
       <path>./assets/ratio32/help-system-bg.png</path>
       <path ifSubset="Ratio:4-3">./assets/ratio43/help-system-bg.png</path>
       <path ifSubset="Ratio:5-3">./assets/ratio53/help-system-bg.png</path>
+      <path ifSubset="Ratio:16-9">./assets/ratio169/help-system-bg.png</path>
 
       <pos>0 0</pos>
       <size>1 1</size>
@@ -54,7 +59,7 @@
 
     <image name="backgroundScanlines" extra="true" ifSubset="Background:bgScanlines">
       <path>./assets/ratio32/scanlines.png</path>
-      <path ifSubset="Ratio:5-3">./assets/ratio53/scanlines.png</path>
+      <path ifSubset="Ratio:5-3 | 16-9">./assets/ratio53/scanlines.png</path>
       <opacity>0.2</opacity>
       <size>1 1</size>
       <tile>true</tile>
@@ -165,11 +170,23 @@
       <path ifSubset='GameListBGStyle:bgNormal'>./customBackground/${system.theme}.jpeg</path>
       <path ifSubset='GameListBGStyle:bgNormal'>./customBackground/${system.theme}.webp</path>
 
+      <!-- Select from roms folder -->
+      <path ifSubset='GameListBGStyle:bgNormal'>~/roms/custom_backgrounds/${system.theme}.png</path>
+      <path ifSubset='GameListBGStyle:bgNormal'>~/roms/custom_backgrounds/${system.theme}.jpg</path>
+      <path ifSubset='GameListBGStyle:bgNormal'>~/roms/custom_backgrounds/${system.theme}.jpeg</path>
+      <path ifSubset='GameListBGStyle:bgNormal'>~/roms/custom_backgrounds/${system.theme}.webp</path>
+
       <!-- Select alternative background - Intended to use a blurred image -->
       <path ifSubset='GameListBGStyle:bgBlurred'>./customBackground/blurred/${system.theme}.blurred.png</path>
       <path ifSubset='GameListBGStyle:bgBlurred'>./customBackground/blurred/${system.theme}.blurred.jpg</path>
       <path ifSubset='GameListBGStyle:bgBlurred'>./customBackground/blurred/${system.theme}.blurred.jpeg</path>
       <path ifSubset='GameListBGStyle:bgBlurred'>./customBackground/blurred/${system.theme}.blurred.webp</path>
+
+      <!-- Select from roms folder -->
+      <path ifSubset='GameListBGStyle:bgNormal'>~/roms/custom_backgrounds/blurred/${system.theme}.blurred.png</path>
+      <path ifSubset='GameListBGStyle:bgNormal'>~/roms/custom_backgrounds/blurred/${system.theme}.blurred.jpg</path>
+      <path ifSubset='GameListBGStyle:bgNormal'>~/roms/custom_backgrounds/blurred/${system.theme}.blurred.jpeg</path>
+      <path ifSubset='GameListBGStyle:bgNormal'>~/roms/custom_backgrounds/blurred/${system.theme}.blurred.webp</path>
 
       <storyboard>
         <animation property="scale" from="1.1" to="1" duration="300" mode="EaseOut" />
@@ -190,7 +207,7 @@
   <view name="detailed, grid, video">
     <datetime name="md_releasedate">
       <origin>0 0.5</origin>
-      <size>0.125 ${fontSizeCaption}</size>
+      <size>0.1375 ${fontSizeCaption}</size>
       <size ifSubset="Ratio:4-3">0.140625 ${fontSizeCaption}</size>
       <size ifSubset="Ratio:5-3">0.1 ${fontSizeCaption}</size>
 
@@ -201,6 +218,7 @@
       <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
 
       <alignment>left</alignment>
+      <lineSpacing>0.7</lineSpacing>
       <zIndex>10</zIndex>
 
       <format>%Y/%m/%d</format>
@@ -224,6 +242,11 @@
     <image name="md_releasedate_icon" extra="true" ifSubset="Ratio:5-3">
       <size>0.025 0</size>
       <path>./assets/icons/72x72/calendar=default.png</path>
+    </image>
+
+    <image name="md_releasedate_icon" extra="true" ifSubset="Ratio:16-9">
+      <size>0.025 0.04444444</size>
+      <path>./assets/icons/24x24/calendar=default.png</path>
     </image>
   </view>
 

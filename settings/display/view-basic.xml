@@ -23,6 +23,10 @@
       <path>./assets/ratio53/gamelist-simple-bg.png</path>
     </image>
 
+    <image name="simple_background" ifSubset="Ratio:16-9">
+      <path>./assets/ratio169/gamelist-simple-bg.png</path>
+    </image>
+
     <textlist name="gamelist">
       <size>1 0.85</size>      <!-- 480x320 / 480x 272y-->
       <size ifHelpPrompts="true">1 0.775</size>      <!-- 480x320 / 208x 248y-->

@@ -19,12 +19,12 @@ Albedo is a theme for EmulationStation. It's a fork of [Elementerial](https://gi
 It has flat surfaces, plays with transparency and sharp edges.
 
 > This theme supports custom backgrounds. Read [CUSTOMBG.md](CUSTOMBG.md) for more details.
-> 
+>
 > I made an web app to load, crop and save images named as the designated system.
 > It's not powerful as Photoshop or GIMP, but help collect a lot of images and download them in one go.
-> 
+>
 > Access [Albedo Wallpaper Cropper](https://albedo-wallpaper-cropper.vercel.app).
-> 
+>
 >  If you're concerned about privacy, this web app will never collect or send any information anywhere. The images loaded are saved locally on the browser database. As an web app, it can be used offline after the first load.
 
 <br>
@@ -54,7 +54,7 @@ Albedo was made for [AmberELEC](https://amberelec.org) supported devices, as RG3
 - Supported views: Basic, Detailed, Video and Grid
 - 10 accent colors
 - Scanlines overlay
-- Game list background: none, blurred, normal
+- Game list background: none, blurred, default, custom
 - Carousel background: Video, screenshots defined by theme, random game screenshots and custom background
 - Game logos: colored and monochromatic
 - Statusbar: Clock and battery, just clock, just battery and hidden.
@@ -128,14 +128,14 @@ Elementerial now show logo for some auto/custom collections.
 Collections are a way to arrange your games.
 You can create editable or dynamic collections.
 Editable collections are those you manually add games,
-while Dynamic collections are those you can set filters or search texts. 
+while Dynamic collections are those you can set filters or search texts.
 
 To create a new collection on EmulationStarion and enable them to be displayed on main screen/carousel:
 
 On EmulationStation → Start → Game Collection Settings
 1. Group unthemed custom collections (disabled)
 2. Create new editable/dynamic collection
-   1. Insert the name of the collection 
+   1. Insert the name of the collection
    2. See the list below for collection names that have a logo
 
 ## Currently supported franchises
@@ -147,7 +147,9 @@ There is a couple of logos for the following franchises:
 - `Persona`
   - I like to create Persona collection as a dynamic collection and use the text `persona, megami tensei` as **Find Games** content, so the collection gathers all games with *Persona* and *Megami Tensei* in its titles (which includes Shin Megami Tensei as well).
 - `Pokemon`
-- 
+- `SaGa`
+- `Zelda`
+-
 Miscellaneous Collections:
 - `Grouvee Playing`
 
@@ -250,7 +252,7 @@ Sharp X1,
 Sharp x68000,
 Sinclair ZX81,
 Sinclari ZX Spectrum,
-Super Nintendo and Hacks, 
+Super Nintendo and Hacks,
 Super Nintendo MSU-1,
 Solarus,
 SuFami Turbo,
